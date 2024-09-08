@@ -1,3 +1,0 @@
-{"model_id":"gemini-pro","provider_id":"googlecloud","price_per_input_token":0.00003,"price_per_output_token":0.00006,"throughput":100,"latency":0.5,"updated_at":"2023-06-01"}
-{"model_id":"gemini-pro-vision","provider_id":"googlecloud","price_per_input_token":0.00002,"price_per_output_token":0.00004,"throughput":150,"latency":0.3,"updated_at":"2023-05-15"}
-{"model_id":"gemini-pro-vision","provider_id":"googlecloud","price_per_input_token":0.000028,"price_per_output_token":0.000056,"throughput":130,"latency":0.38,"updated_at":"2023-06-20"}
