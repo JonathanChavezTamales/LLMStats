@@ -26,8 +26,8 @@ We encourage developers to build tools and applications using our data. The raw 
 ## Community
 
 - 🌟 Star us on GitHub to show your support
-- 🐛 [Report issues](https://github.com/yourusername/llm-stats/issues) or suggest features
-- 🤝 Join our [Discord community](https://discord.gg/llmstats) for discussions
+- 🐛 [Report issues](https://github.com/JonathanChavezTamales/llm-stats/issues) or suggest features
+<!-- - 🤝 Join our [Discord community](https://discord.gg/llmstats) for discussions -->
 
 ## License
 
