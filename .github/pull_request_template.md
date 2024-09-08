@@ -2,12 +2,16 @@
 
 <!-- Briefly describe your changes and add links to the relevant resources -->
 
+References:
+
+<!-- Add links to the relevant resources -->
+
 ## Type of Change
 
 <!-- Mark the appropriate option with an [x] -->
 
 - [ ] Model Update/Addition
-- [ ] Benchmark Results Update/Addition
+- [ ] Qualitative Metrics (Benchmark Results) Update/Addition
 - [ ] Provider Update/Addition
 - [ ] Other (please specify)
 
