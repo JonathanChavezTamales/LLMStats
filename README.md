@@ -1,4 +1,4 @@
-# LLM Stats
+# LLM-Stats
 
 LLM Stats is a community-driven repository of raw data on Large Language Models. This shared database aims to provide comprehensive, up-to-date information on a wide range of models, providers, and benchmarks.
 
@@ -21,12 +21,10 @@ We strive to maintain the highest level of accuracy in our data. All contributio
 
 We welcome contributions! Whether you're adding a new model, updating existing information, or improving our tools, check out our [CONTRIBUTING.md](CONTRIBUTING.md) guide to get started.
 
+If you want to report an issue or suggest a feature on llm-stats.com, please [create an issue](https://github.com/JonathanChavezTamales/llm-stats/issues).
+
 We encourage developers to build tools and applications using our data. The raw data in this repository is regularly updated and can be easily integrated into your projects.
 
-## Community
-
-- 🌟 Star us on GitHub to show your support
-- 🐛 [Report issues](https://github.com/JonathanChavezTamales/llm-stats/issues) or suggest features
 <!-- - 🤝 Join our [Discord community](https://discord.gg/llmstats) for discussions -->
 
 ## License
