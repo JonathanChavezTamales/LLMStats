@@ -1,7 +1,0 @@
-{"model_id":"gpt-4","dataset_name":"MMLU","score":0.86,"is_self_reported":false,"analysis_method":"Multiple choice accuracy","date_recorded":"2023-03-15","source_link":"https://example.com/gpt4-mmlu-results"}
-{"model_id":"gpt-4","dataset_name":"TriviaQA","score":0.78,"is_self_reported":false,"analysis_method":"Exact match","date_recorded":"2023-04-10","source_link":"https://example.com/gpt4-triviaqa-results"}
-{"model_id":"gpt-4","dataset_name":"BoolQ","score":0.81,"is_self_reported":true,"analysis_method":"Accuracy","date_recorded":"2023-05-20","source_link":"https://example.com/gpt4-boolq-results"}
-{"model_id":"gpt-4","dataset_name":"GSM8K","score":0.92,"is_self_reported":false,"analysis_method":"Accuracy","date_recorded":"2023-06-05","source_link":"https://example.com/gpt4-gsm8k-results"}
-{"model_id":"gpt-4","dataset_name":"SQuAD","score":0.89,"is_self_reported":true,"analysis_method":"F1 score","date_recorded":"2023-06-15","source_link":"https://example.com/gpt4-squad-results"}
-{"model_id":"gpt-4","dataset_name":"ARC-Easy","score":0.87,"is_self_reported":false,"analysis_method":"Accuracy","date_recorded":"2023-06-25","source_link":"https://example.com/gpt4-arc-easy-results"}
-{"model_id":"gpt-4","dataset_name":"HellaSwag","score":0.84,"is_self_reported":true,"analysis_method":"Accuracy","date_recorded":"2023-07-05","source_link":"https://example.com/gpt4-hellaswag-results"}
