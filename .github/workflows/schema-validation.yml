@@ -20,8 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: data
 
       - name: Run schema validation
         run: node schemas/validator.js
-        working-directory: data
