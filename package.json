@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "validate-schemas": "node scripts/validate-schemas.js"
+  },
+  "devDependencies": {
+    "tv4": "^1.3.0",
+    "glob": "^7.1.6"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "OpenAI",
+  "website": "https://openai.com",
+  "providermodels": [
+    {
+      "model_id": "gpt-4-0613",
+      "price_per_input_token": 0.00003,
+      "price_per_output_token": 0.00006,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-09-09"
+    },
+    {
+      "model_id": "gpt-4-turbo-2024-04-09",
+      "price_per_input_token": 0.00001,
+      "price_per_output_token": 0.00003,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-09-09"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "Schema for AI model provider information",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the AI model provider"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official website URL of the provider"
+    },
+    "providermodels": {
+      "type": "array",
+      "description": "List of AI models offered by the provider",
+      "items": {
+        "type": "object",
+        "description": "Details of a specific AI model",
+        "properties": {
+          "model_id": {
+            "type": "string",
+            "description": "Unique identifier for the model"
+          },
+          "price_per_input_token": {
+            "type": "number",
+            "description": "Cost per input token in USD"
+          },
+          "price_per_output_token": {
+            "type": "number",
+            "description": "Cost per output token in USD"
+          },
+          "throughput": {
+            "type": "number",
+            "description": "Model's processing speed in tokens per second"
+          },
+          "latency": {
+            "type": "number",
+            "description": "Average response time in milliseconds"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date",
+            "description": "Date when the model information was last updated"
+          }
+        },
+        "required": [
+          "model_id",
+          "price_per_input_token",
+          "price_per_output_token",
+          "throughput",
+          "latency",
+          "updated_at"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["name", "website", "providermodels"],
+  "additionalProperties": false
+}

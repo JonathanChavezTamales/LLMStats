@@ -1,0 +1,87 @@
+{
+  "name": "Jamba 1.5 Large",
+  "description": "State-of-the-art hybrid SSM-Transformer instruction following foundation model, offering superior long context handling, speed, and quality.",
+  "fine_tuned_from_model_id": null,
+  "canonical_model_id": null,
+  "release_date": "2024-08-22",
+  "input_context_size": 256000,
+  "output_context_size": 256000,
+  "license": "Jamba Open Model License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-03-05",
+  "api_ref_link": "https://docs.ai21.com/reference/jamba-15-api-ref",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://www.ai21.com/blog/announcing-jamba-model-family",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large",
+  "param_count": 398000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.654,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+    },
+    {
+      "dataset_name": "Wild Bench",
+      "score": 0.485,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.812,
+      "is_self_reported": true,
+      "analysis_method": "Chain-of-Thought accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+    },
+    {
+      "dataset_name": "MMLU Pro",
+      "score": 0.535,
+      "is_self_reported": true,
+      "analysis_method": "Chain-of-Thought accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.369,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+    },
+    {
+      "dataset_name": "ARC Challenge",
+      "score": 0.93,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+    },
+    {
+      "dataset_name": "GSM-8K",
+      "score": 0.87,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+    },
+    {
+      "dataset_name": "TruthfulQA",
+      "score": 0.583,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+    }
+  ]
+}

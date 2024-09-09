@@ -1,0 +1,149 @@
+{
+  "name": "Qwen2 7B Instruct",
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "description": "Qwen2-7B-Instruct is an instruction-tuned language model with 7 billion parameters, supporting a context length of up to 131,072 tokens.",
+  "release_date": "2024",
+  "input_context_size": 131072,
+  "output_context_size": 131072,
+  "license": "apache-2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct",
+  "playground_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct",
+  "paper_link": "https://arxiv.org/abs/2309.00071",
+  "scorecard_blog_link": null,
+  "repo_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct",
+  "weights_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct",
+  "param_count": 7620000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "MMLU",
+      "score": 0.705,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "MMLU-Pro",
+      "score": 0.441,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "GPQA",
+      "score": 0.253,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "TheroemQA",
+      "score": 0.253,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "MT-Bench",
+      "score": 0.841,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "Humaneval",
+      "score": 0.799,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "MBPP",
+      "score": 0.672,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "MultiPL-E",
+      "score": 0.591,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "Evalplus",
+      "score": 0.703,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "LiveCodeBench",
+      "score": 0.266,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "GSM8K",
+      "score": 0.823,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "MATH",
+      "score": 0.496,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "C-Eval",
+      "score": 0.772,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "model_id": "qwen2-7b-instruct",
+      "dataset_name": "AlignBench",
+      "score": 0.721,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Anthropic",
+  "website": "https://anthropic.com",
+  "providermodels": [
+    {
+      "model_id": "claude-3-5-sonnet-20240620",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.00015,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-09-09"
+    }
+  ]
+}

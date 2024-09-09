@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Claude 3.5 Sonnet",
+  "description": "Claude 3.5 Sonnet is a powerful AI model that outperforms competitor models and Claude 3 Opus on various evaluations. It excels in graduate-level reasoning, undergraduate-level knowledge, and coding proficiency, with improved understanding of nuance, humor, and complex instructions.",
+  "release_date": "2024-06-21",
+  "input_context_size": 200000,
+  "output_context_size": 200000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.anthropic.com/en/docs/intro-to-claude#claude-3-5-family",
+  "playground_link": "https://claude.ai",
+  "paper_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+  "scorecard_blog_link": "https://www.anthropic.com/news/claude-3-5-sonnet",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.594,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.904,
+      "is_self_reported": true,
+      "analysis_method": "5-shot CoT",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.92,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.711,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.916,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.871,
+      "is_self_reported": true,
+      "analysis_method": "3-shot F1 Score",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "dataset_name": "BIG-Bench Hard",
+      "score": 0.931,
+      "is_self_reported": true,
+      "analysis_method": "3-shot CoT",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.964,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    }
+  ]
+}

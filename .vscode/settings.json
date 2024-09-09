@@ -1,0 +1,20 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/models/*/model.json"],
+      "url": "../schemas/models-schema.json"
+    },
+    {
+      "fileMatch": ["/models/*/qualitativemetrics.json"],
+      "url": "../schemas/qualitativemetrics-schema.json"
+    },
+    {
+      "fileMatch": ["/providers/*/provider.json"],
+      "url": "../schemas/providers-schema.json"
+    },
+    {
+      "fileMatch": ["/providers/*/providermodels.json"],
+      "url": "../schemas/providermodels-schema.json"
+    }
+  ]
+}

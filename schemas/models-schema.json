@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "Schema for AI model metadata and benchmark results",
+  "properties": {
+    "canonical_model_id": {
+      "type": ["string", "null"],
+      "description": "ID of the main version of this model, if this is a variant, otherwise null"
+    },
+    "fine_tuned_from_model_id": {
+      "type": ["string", "null"],
+      "description": "ID of the base model if this is a fine-tuned version"
+    },
+    "name": {
+      "type": "string",
+      "description": "Short, human-readable name of the model (e.g., 'GPT-4')"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the model's capabilities and use cases"
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date when the model was officially released"
+    },
+    "input_context_size": {
+      "type": "integer",
+      "description": "Maximum number of tokens the model can process as input"
+    },
+    "output_context_size": {
+      "type": "integer",
+      "description": "Maximum number of tokens the model can generate as output"
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which the model is distributed"
+    },
+    "multimodal": {
+      "type": "boolean",
+      "description": "Indicates whether the model can process multiple types of input (e.g., text and images)"
+    },
+    "web_hydrated": {
+      "type": "boolean",
+      "description": "Indicates whether the model has real time access to the web"
+    },
+    "knowledge_cutoff": {
+      "type": ["string", "null"],
+      "description": "Date of the most recent data included in the model's training set, if applicable"
+    },
+    "api_ref_link": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the API reference documentation for the model"
+    },
+    "playground_link": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "URL to an interactive playground for testing the model, if available"
+    },
+    "paper_link": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "URL to the research paper describing the model, if available"
+    },
+    "scorecard_blog_link": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "URL to a blog post or scorecard of the announcement of the model"
+    },
+    "repo_link": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "URL to the source code repository for the model in GitHub"
+    },
+    "weights_link": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "URL to the model repository in Hugging Face"
+    },
+    "param_count": {
+      "type": ["number", "null"],
+      "description": "Number of parameters in the model, if known"
+    },
+    "training_tokens": {
+      "type": ["number", "null"],
+      "description": "Number of tokens used to train the model, if known"
+    },
+    "qualitative_metrics": {
+      "type": "array",
+      "description": "Array of benchmark results for the model",
+      "items": {
+        "type": "object",
+        "properties": {
+          "model_id": {
+            "type": "string",
+            "description": "ID of the model being benchmarked"
+          },
+          "dataset_name": {
+            "type": "string",
+            "description": "Name of the benchmark dataset used"
+          },
+          "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Benchmark score, normalized between 0 and 1"
+          },
+          "is_self_reported": {
+            "type": "boolean",
+            "description": "Indicates whether the score was reported by the model's creators"
+          },
+          "analysis_method": {
+            "type": "string",
+            "description": "Method used to calculate the benchmark score"
+          },
+          "date_recorded": {
+            "type": "string",
+            "format": "date",
+            "description": "Date when the benchmark was performed"
+          },
+          "source_link": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the source of the benchmark results"
+          }
+        },
+        "required": [
+          "dataset_name",
+          "score",
+          "is_self_reported",
+          "analysis_method",
+          "date_recorded",
+          "source_link"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "release_date",
+    "input_context_size",
+    "output_context_size",
+    "license",
+    "multimodal",
+    "web_hydrated",
+    "api_ref_link",
+    "repo_link"
+  ],
+  "additionalProperties": false
+}

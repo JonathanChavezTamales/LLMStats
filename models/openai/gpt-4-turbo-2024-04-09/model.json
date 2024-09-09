@@ -1,0 +1,71 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "GPT-4 Turbo",
+  "description": "The latest GPT-4 model with improved performance, updated knowledge, and enhanced capabilities. It offers faster response times and more affordable pricing compared to previous versions.",
+  "release_date": "2024-04-09",
+  "input_context_size": 128000,
+  "output_context_size": 4096,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": true,
+  "knowledge_cutoff": "2023-12-31",
+  "api_ref_link": "https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4",
+  "playground_link": "https://platform.openai.com/playground",
+  "paper_link": null,
+  "scorecard_blog_link": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.865,
+      "is_self_reported": false,
+      "analysis_method": "Multiple-choice questions in 57 subjects (professional & academic)",
+      "date_recorded": "2024-04-09",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.48,
+      "is_self_reported": false,
+      "analysis_method": "General-Purpose Question Answering",
+      "date_recorded": "2024-04-09",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.726,
+      "is_self_reported": false,
+      "analysis_method": "Mathematics problem-solving",
+      "date_recorded": "2024-04-09",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.871,
+      "is_self_reported": false,
+      "analysis_method": "Python coding tasks",
+      "date_recorded": "2024-04-09",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.885,
+      "is_self_reported": false,
+      "analysis_method": "Grade School Math Word Problems",
+      "date_recorded": "2024-04-09",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.86,
+      "is_self_reported": false,
+      "analysis_method": "Reading comprehension & arithmetic (f1 score)",
+      "date_recorded": "2024-04-09",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    }
+  ]
+}

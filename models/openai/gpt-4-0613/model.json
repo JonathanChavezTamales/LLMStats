@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "GPT-4",
+  "description": "GPT-4 is a large multimodal model capable of processing both image and text inputs and generating human-like text outputs. It demonstrates human-level performance on various professional and academic benchmarks.",
+  "release_date": "2023-03-14",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "knowledge_cutoff": "2022-12-31",
+  "api_ref_link": "https://platform.openai.com/docs/api-reference/chat",
+  "playground_link": "https://platform.openai.com/playground",
+  "paper_link": "https://arxiv.org/abs/2303.08774",
+  "scorecard_blog_link": "https://openai.com/research/gpt-4",
+  "repo_link": "https://github.com/openai/gpt-4",
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Uniform Bar Exam",
+      "score": 0.9,
+      "is_self_reported": true,
+      "analysis_method": "Percentage score",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "LSAT",
+      "score": 0.88,
+      "is_self_reported": true,
+      "analysis_method": "Percentile score",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "SAT Math",
+      "score": 0.89,
+      "is_self_reported": true,
+      "analysis_method": "Estimated from reported score of 710 out of 800",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.864,
+      "is_self_reported": true,
+      "analysis_method": "5-shot, Multiple-choice questions in 57 subjects (professional & academic)",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.953,
+      "is_self_reported": true,
+      "analysis_method": "10-shot, Commonsense reasoning around everyday events",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "AI2 Reasoning Challenge (ARC)",
+      "score": 0.963,
+      "is_self_reported": true,
+      "analysis_method": "25-shot, Grade-school multiple choice science questions (Challenge-set)",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "WinoGrande",
+      "score": 0.875,
+      "is_self_reported": true,
+      "analysis_method": "5-shot, Commonsense reasoning around pronoun resolution",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.67,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, Python coding tasks",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.809,
+      "is_self_reported": true,
+      "analysis_method": "3-shot, Reading comprehension & arithmetic (f1 score)",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/research/gpt-4"
+    }
+  ]
+}
