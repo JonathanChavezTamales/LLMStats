@@ -1,0 +1,119 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini 1.5 Pro",
+  "description": "Gemini 1.5 Pro is a mid-size multimodal model optimized for a wide range of reasoning tasks. It can process large amounts of data at once, including 2 hours of video, 19 hours of audio, codebases with 60,000 lines of code, or 2,000 pages of text.",
+  "release_date": "2024-05-01",
+  "input_context_size": 2097152,
+  "output_context_size": 8192,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-11-01",
+  "api_ref_link": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-pro",
+  "playground_link": "https://ai.google.dev/studio",
+  "paper_link": "https://arxiv.org/pdf/2403.05530",
+  "scorecard_blog_link": "https://deepmind.google/technologies/gemini/pro/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.859,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "Natural2Code",
+      "score": 0.826,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.677,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.462,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "Big-Bench-Hard",
+      "score": 0.892,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "WMT23",
+      "score": 0.753,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.622,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.639,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "FLEURS",
+      "score": 0.065,
+      "is_self_reported": true,
+      "analysis_method": "Word Error Rate",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "EgoSchema",
+      "score": 0.722,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.749,
+      "is_self_reported": true,
+      "analysis_method": "Variable shots",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://arxiv.org/pdf/2403.05530"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.841,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-05-01",
+      "source_link": "https://arxiv.org/pdf/2403.05530"
+    }
+  ]
+}

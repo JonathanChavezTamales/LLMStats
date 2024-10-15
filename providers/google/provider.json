@@ -1,0 +1,30 @@
+{
+  "name": "Google",
+  "website": "https://ai.google.dev",
+  "providermodels": [
+    {
+      "model_id": "gemini-1.5-pro",
+      "price_per_input_token": 0.000007,
+      "price_per_output_token": 0.000021,
+      "throughput": 85,
+      "latency": 0.7,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "gemini-1.0-pro",
+      "price_per_input_token": 0.0000005,
+      "price_per_output_token": 0.0000015,
+      "throughput": 120,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "gemini-1.5-flash",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.0000006,
+      "throughput": 150,
+      "latency": 0.3,
+      "updated_at": "2024-03-20"
+    }
+  ]
+}

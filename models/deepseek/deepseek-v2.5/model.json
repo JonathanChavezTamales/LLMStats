@@ -1,0 +1,158 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "DeepSeek-V2.5",
+  "description": "DeepSeek-V2.5 is an upgraded version that combines DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct, integrating general and coding abilities. It better aligns with human preferences and has been optimized in various aspects, including writing and instruction following.",
+  "release_date": "2024-05-08",
+  "input_context_size": 8192,
+  "output_context_size": 8192,
+  "license": "deepseek",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://www.deepseek.com/",
+  "playground_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+  "paper_link": "https://arxiv.org/abs/2405.04434",
+  "scorecard_blog_link": null,
+  "repo_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+  "weights_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+  "param_count": 236000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "AlpacaEval 2.0",
+      "score": 0.505,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "ArenaHard",
+      "score": 0.762,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "AlignBench",
+      "score": 0.804,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://www.deepseek.com/"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "MT-Bench",
+      "score": 0.902,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://www.deepseek.com/"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "HumanEval",
+      "score": 0.89,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://www.deepseek.com/"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "HumanEval Multi",
+      "score": 0.738,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "LiveCodeBench(01-09)",
+      "score": 0.418,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "Aider",
+      "score": 0.722,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "SWE-verified",
+      "score": 0.168,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "DS-FIM-Eval",
+      "score": 0.783,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "DS-Arena-Code",
+      "score": 0.631,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "MMLU",
+      "score": 0.804,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://www.deepseek.com/"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "GSM8K",
+      "score": 0.951,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://www.deepseek.com/"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "MATH",
+      "score": 0.747,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://www.deepseek.com/"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "dataset_name": "BBH",
+      "score": 0.843,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-03-18",
+      "source_link": "https://www.deepseek.com/"
+    }
+  ]
+}

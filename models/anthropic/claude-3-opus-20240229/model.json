@@ -1,0 +1,103 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Claude 3 Opus",
+  "description": "Claude 3 Opus is Anthropic's most intelligent model, with best-in-market performance on highly complex tasks. It can navigate open-ended prompts and sight-unseen scenarios with remarkable fluency and human-like understanding, showing the outer limits of what's possible with generative AI.",
+  "release_date": "2024-03-04",
+  "input_context_size": 200000,
+  "output_context_size": 200000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://www.anthropic.com/claude",
+  "playground_link": "https://claude.ai",
+  "paper_link": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+  "scorecard_blog_link": "https://www.anthropic.com/news/claude-3-family",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.868,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "GPQA, Diamond",
+      "score": 0.504,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.95,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.601,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.907,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.849,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.831,
+      "is_self_reported": true,
+      "analysis_method": "3-shot, F1 Score",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "BIG-Bench-Hard",
+      "score": 0.868,
+      "is_self_reported": true,
+      "analysis_method": "3-shot CoT",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "ARC-Challenge",
+      "score": 0.964,
+      "is_self_reported": true,
+      "analysis_method": "25-shot",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.954,
+      "is_self_reported": true,
+      "analysis_method": "10-shot",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://www.anthropic.com/news/claude-3-family"
+    }
+  ]
+}

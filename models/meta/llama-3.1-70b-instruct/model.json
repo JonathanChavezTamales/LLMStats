@@ -1,0 +1,184 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Llama 3.1 70B Instruct",
+  "description": "Llama 3.1 70B Instruct is a large language model optimized for multilingual dialogue use cases. It outperforms many available open source and closed chat models on common industry benchmarks.",
+  "release_date": "2024-07-23",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Llama 3.1 Community License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-12",
+  "api_ref_link": "https://ai.meta.com/llama/",
+  "playground_link": null,
+  "paper_link": "https://ai.meta.com/research/publications/llama-3-open-foundation-and-fine-tuned-chat-models/",
+  "scorecard_blog_link": "https://ai.meta.com/blog/meta-llama-3-1/",
+  "repo_link": "https://github.com/meta-llama/llama-models",
+  "weights_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct",
+  "param_count": 70000000000,
+  "training_tokens": 15000000000000,
+  "qualitative_metrics": [
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "MMLU",
+      "score": 0.836,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "MMLU (CoT)",
+      "score": 0.86,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain-of-Thought",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "MMLU-Pro (CoT)",
+      "score": 0.664,
+      "is_self_reported": true,
+      "analysis_method": "5-shot Chain-of-Thought",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "IFEval",
+      "score": 0.875,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "ARC Challenge",
+      "score": 0.948,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "GPQA",
+      "score": 0.417,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "HumanEval",
+      "score": 0.805,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "MBPP ++ base version",
+      "score": 0.86,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "Multipl-E HumanEval",
+      "score": 0.655,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "Multipl-E MBPP",
+      "score": 0.62,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "GSM-8K (CoT)",
+      "score": 0.951,
+      "is_self_reported": true,
+      "analysis_method": "8-shot Chain-of-Thought",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "MATH (CoT)",
+      "score": 0.68,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain-of-Thought",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "API-Bank",
+      "score": 0.9,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "BFCL",
+      "score": 0.848,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "Gorilla Benchmark API Bench",
+      "score": 0.297,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "Nexus",
+      "score": 0.567,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "dataset_name": "Multilingual MGSM (CoT)",
+      "score": 0.869,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain-of-Thought",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.796,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-07-23",
+      "source_link": "https://arxiv.org/pdf/2407.21783"
+    }
+  ]
+}
