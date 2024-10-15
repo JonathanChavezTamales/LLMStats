@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "GPT-3.5 Turbo",
+  "description": "The latest GPT-3.5 Turbo model with higher accuracy at responding in requested formats and a fix for a bug which caused a text encoding issue for non-English language function calls.",
+  "release_date": "2024-01-25",
+  "input_context_size": 16385,
+  "output_context_size": 4096,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2021-09-30",
+  "api_ref_link": "https://platform.openai.com/docs/models/gpt-3-5-turbo",
+  "playground_link": "https://platform.openai.com/playground",
+  "paper_link": null,
+  "scorecard_blog_link": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.698,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.308,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.702,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.563,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.431,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.68,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.0,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.0,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    }
+  ]
+}

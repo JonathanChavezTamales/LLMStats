@@ -1,0 +1,103 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Claude 3 Haiku",
+  "description": "Claude 3 Haiku is the fastest and most compact model in the Claude 3 family, designed for near-instant responsiveness. It excels at answering simple queries and requests with unmatched speed, making it ideal for seamless AI experiences that mimic human interactions.",
+  "release_date": "2024-03-13",
+  "input_context_size": 200000,
+  "output_context_size": 200000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://www.anthropic.com/claude",
+  "playground_link": "https://claude.ai",
+  "paper_link": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+  "scorecard_blog_link": "https://www.anthropic.com/news/claude-3-haiku",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.752,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "GPQA, Diamond",
+      "score": 0.333,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.889,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.389,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.751,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.759,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.784,
+      "is_self_reported": true,
+      "analysis_method": "3-shot, F1 score",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "BIG-Bench-Hard",
+      "score": 0.737,
+      "is_self_reported": true,
+      "analysis_method": "3-shot CoT",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "ARC-Challenge",
+      "score": 0.892,
+      "is_self_reported": true,
+      "analysis_method": "25-shot",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.859,
+      "is_self_reported": true,
+      "analysis_method": "10-shot",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.anthropic.com/news/claude-3-haiku"
+    }
+  ]
+}

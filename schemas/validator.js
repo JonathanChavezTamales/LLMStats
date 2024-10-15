@@ -7,7 +7,15 @@ function validateSchema(schemaName, filePattern) {
   console.log(`Validating ${schemaName}...`);
   const schemaPath = path.join(__dirname, `${schemaName}-schema.json`);
 
-  const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
+  let schema;
+  try {
+    schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
+  } catch (error) {
+    console.error(`Error reading schema file: ${schemaPath}`);
+    console.error(error);
+    return false;
+  }
+
   const files = glob.sync(path.join(__dirname, "..", filePattern));
 
   if (files.length === 0) {
@@ -17,20 +25,26 @@ function validateSchema(schemaName, filePattern) {
 
   let isValid = true;
 
-  files.forEach((file) => {
-    const data = JSON.parse(fs.readFileSync(file, "utf8"));
-    const result = tv4.validateMultiple(data, schema);
+  for (const file of files) {
+    try {
+      const data = JSON.parse(fs.readFileSync(file, "utf8"));
+      const result = tv4.validateMultiple(data, schema);
 
-    if (result.valid) {
-      console.log(`✅ Valid: ${file}`);
-    } else {
-      console.error(`❌ Invalid: ${file}`);
-      result.errors.forEach((error) =>
-        console.error(`  - ${error.message} at ${error.dataPath}`)
-      );
+      if (result.valid) {
+        console.log(`✅ Valid: ${file}`);
+      } else {
+        console.error(`❌ Invalid: ${file}`);
+        result.errors.forEach((error) =>
+          console.error(`  - ${error.message} at ${error.dataPath}`)
+        );
+        isValid = false;
+      }
+    } catch (error) {
+      console.error(`Error processing file: ${file}`);
+      console.error(error);
       isValid = false;
     }
-  });
+  }
 
   return isValid;
 }

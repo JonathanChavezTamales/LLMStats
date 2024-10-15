@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "GPT-4o mini",
+  "description": "Our affordable and intelligent small model for fast, lightweight tasks. GPT-4o mini is cheaper and more capable than GPT-3.5 Turbo.",
+  "release_date": "2024-07-18",
+  "input_context_size": 128000,
+  "output_context_size": 16384,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-10-01",
+  "api_ref_link": "https://platform.openai.com/docs/api-reference",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.82,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.872,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.594,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.402,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.797,
+      "is_self_reported": true,
+      "analysis_method": "F1 Score",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.87,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.702,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.567,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    }
+  ]
+}

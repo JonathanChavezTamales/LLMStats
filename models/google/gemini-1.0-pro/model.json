@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini 1.0 Pro",
+  "description": "Gemini 1.0 Pro is a Natural Language Processing (NLP) model designed for tasks such as multi-turn text and code chat, and code generation. It supports text input and output, making it ideal for natural language tasks. The model is optimized for handling complex conversations and generating code snippets. It offers adjustable safety settings and supports function calling, but does not support JSON mode, JSON schema, or system instructions. The latest stable version is gemini-1.0-pro-001, and it was last updated in February 2024.",
+  "release_date": "2024-02-15",
+  "input_context_size": 32760,
+  "output_context_size": 8192,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-02-01",
+  "api_ref_link": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.0-pro",
+  "playground_link": "https://gemini.google/advanced/",
+  "paper_link": "https://arxiv.org/pdf/2312.11805",
+  "scorecard_blog_link": "https://blog.google/technology/ai/google-gemini-ai/#scalable-efficient",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.718,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.326,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.279,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "BigBench",
+      "score": 0.75,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "WMT23",
+      "score": 0.717,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.479,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.466,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "Fleurs",
+      "score": 0.064,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://example.com/benchmark-image"
+    },
+    {
+      "dataset_name": "EgoSchema",
+      "score": 0.557,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-03-14",
+      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+    }
+  ]
+}
