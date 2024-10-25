@@ -1,0 +1,14 @@
+{
+  "name": "Together",
+  "website": "https://together.ai/",
+  "providermodels": [
+    {
+      "model_id": "llama-3.1-70b-instruct",
+      "price_per_input_token": 0.00000078,
+      "price_per_output_token": 0.00000125,
+      "throughput": 109,
+      "latency": 0.5,
+      "updated_at": "2024-03-15"
+    }
+  ]
+}

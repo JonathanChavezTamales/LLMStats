@@ -1,0 +1,14 @@
+{
+  "name": "Groq",
+  "website": "https://groq.com/",
+  "providermodels": [
+    {
+      "model_id": "llama-3.1-70b-instruct",
+      "price_per_input_token": 0.00000095,
+      "price_per_output_token": 0.00000125,
+      "throughput": 982,
+      "latency": 0.5,
+      "updated_at": "2024-03-15"
+    }
+  ]
+}
