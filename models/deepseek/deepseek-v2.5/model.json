@@ -20,7 +20,6 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "AlpacaEval 2.0",
       "score": 0.505,
       "is_self_reported": true,
@@ -29,7 +28,6 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "ArenaHard",
       "score": 0.762,
       "is_self_reported": true,
@@ -38,7 +36,6 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "AlignBench",
       "score": 0.804,
       "is_self_reported": true,
@@ -47,7 +44,6 @@
       "source_link": "https://www.deepseek.com/"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "MT-Bench",
       "score": 0.902,
       "is_self_reported": true,
@@ -56,7 +52,6 @@
       "source_link": "https://www.deepseek.com/"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "HumanEval",
       "score": 0.89,
       "is_self_reported": true,
@@ -65,7 +60,6 @@
       "source_link": "https://www.deepseek.com/"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "HumanEval Multi",
       "score": 0.738,
       "is_self_reported": true,
@@ -74,7 +68,6 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "LiveCodeBench(01-09)",
       "score": 0.418,
       "is_self_reported": true,
@@ -83,7 +76,6 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "Aider",
       "score": 0.722,
       "is_self_reported": true,
@@ -92,7 +84,6 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "SWE-verified",
       "score": 0.168,
       "is_self_reported": true,
@@ -101,7 +92,6 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "DS-FIM-Eval",
       "score": 0.783,
       "is_self_reported": true,
@@ -110,7 +100,6 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "DS-Arena-Code",
       "score": 0.631,
       "is_self_reported": true,
@@ -119,7 +108,6 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "MMLU",
       "score": 0.804,
       "is_self_reported": true,
@@ -128,7 +116,6 @@
       "source_link": "https://www.deepseek.com/"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "GSM8K",
       "score": 0.951,
       "is_self_reported": true,
@@ -137,7 +124,6 @@
       "source_link": "https://www.deepseek.com/"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "MATH",
       "score": 0.747,
       "is_self_reported": true,
@@ -146,7 +132,6 @@
       "source_link": "https://www.deepseek.com/"
     },
     {
-      "model_id": "deepseek-v2.5",
       "dataset_name": "BBH",
       "score": 0.843,
       "is_self_reported": true,

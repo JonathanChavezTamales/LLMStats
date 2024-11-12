@@ -1,0 +1,151 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemma 2 9B",
+  "description": "Gemma 2 9B IT is an instruction-tuned version of Google's Gemma 2 9B base model. It was trained on 8 trillion tokens of web data, code, and math content. The model features sliding window attention, logit soft-capping, and knowledge distillation techniques. It's optimized for dialogue applications through supervised fine-tuning, distillation, RLHF, and model merging using WARP.",
+  "release_date": "2024-06-27",
+  "input_context_size": 8192,
+  "output_context_size": 8192,
+  "license": "gemma",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://huggingface.co/google/gemma-2-9b-it",
+  "playground_link": "https://huggingface.co/chat/models/google/gemma-2-9b-it",
+  "paper_link": "https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf",
+  "scorecard_blog_link": "https://huggingface.co/blog/gemma2",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/google/gemma-2-9b-it",
+  "param_count": 9240000000,
+  "training_tokens": 8000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.713,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.819,
+      "is_self_reported": true,
+      "analysis_method": "10-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "PIQA",
+      "score": 0.817,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "SocialIQA",
+      "score": 0.534,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "BoolQ",
+      "score": 0.842,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "Winogrande",
+      "score": 0.806,
+      "is_self_reported": true,
+      "analysis_method": "partial score evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "ARC-e",
+      "score": 0.88,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "ARC-c",
+      "score": 0.684,
+      "is_self_reported": true,
+      "analysis_method": "25-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "TriviaQA",
+      "score": 0.766,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "Natural Questions",
+      "score": 0.292,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.402,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.524,
+      "is_self_reported": true,
+      "analysis_method": "3-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.686,
+      "is_self_reported": true,
+      "analysis_method": "5-shot majority@1",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.366,
+      "is_self_reported": true,
+      "analysis_method": "4-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "AGIEval",
+      "score": 0.528,
+      "is_self_reported": true,
+      "analysis_method": "3-5-shot evaluation",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    },
+    {
+      "dataset_name": "BIG-Bench",
+      "score": 0.682,
+      "is_self_reported": true,
+      "analysis_method": "3-shot Chain-of-Thought",
+      "date_recorded": "2024-06-27",
+      "source_link": "https://huggingface.co/blog/gemma2"
+    }
+  ]
+}

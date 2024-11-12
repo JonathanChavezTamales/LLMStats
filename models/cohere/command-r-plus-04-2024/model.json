@@ -1,0 +1,71 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Command R+",
+  "description": "C4AI Command R+ is a 104 billion parameter model with advanced capabilities, including Retrieval Augmented Generation (RAG) and multi-step tool use, optimized for multilingual tasks.",
+  "release_date": "2024-08-30",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "CC-BY-NC",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-02",
+  "api_ref_link": "https://docs.cohere.com/v2/docs/command-r-plus",
+  "playground_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus",
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus",
+  "weights_link": "",
+  "param_count": 104000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "ARC Challenge",
+      "score": 0.7099,
+      "is_self_reported": false,
+      "analysis_method": "Standardized Evaluation",
+      "date_recorded": "2024-08-30",
+      "source_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.886,
+      "is_self_reported": false,
+      "analysis_method": "Standardized Evaluation",
+      "date_recorded": "2024-08-30",
+      "source_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.757,
+      "is_self_reported": false,
+      "analysis_method": "Standardized Evaluation",
+      "date_recorded": "2024-08-30",
+      "source_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
+    },
+    {
+      "dataset_name": "Truthful QA",
+      "score": 0.563,
+      "is_self_reported": false,
+      "analysis_method": "Standardized Evaluation",
+      "date_recorded": "2024-08-30",
+      "source_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
+    },
+    {
+      "dataset_name": "Winogrande",
+      "score": 0.854,
+      "is_self_reported": false,
+      "analysis_method": "Standardized Evaluation",
+      "date_recorded": "2024-08-30",
+      "source_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
+    },
+    {
+      "dataset_name": "GSM8k",
+      "score": 0.707,
+      "is_self_reported": false,
+      "analysis_method": "Standardized Evaluation",
+      "date_recorded": "2024-08-30",
+      "source_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
+    }
+  ]
+}

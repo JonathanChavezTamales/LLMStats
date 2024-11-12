@@ -68,7 +68,7 @@
       "source_link": "https://openai.com/research/gpt-4"
     },
     {
-      "dataset_name": "WinoGrande",
+      "dataset_name": "Winogrande",
       "score": 0.875,
       "is_self_reported": true,
       "analysis_method": "5-shot, Commonsense reasoning around pronoun resolution",

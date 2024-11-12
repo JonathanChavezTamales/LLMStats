@@ -1,0 +1,111 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Ministral 8B",
+  "description": "The Ministral-8B-Instruct-2410 is an instruct fine-tuned model for local intelligence, on-device computing, and at-the-edge use cases, significantly outperforming existing models of similar size.",
+  "release_date": "2024-10-16",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Mistral Research License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/ministraux/",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410",
+  "param_count": 8019808256,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.65,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "AGI Eval",
+      "score": 0.483,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "Winogrande",
+      "score": 0.753,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.348,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.545,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "MT-Bench",
+      "score": 0.83,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "French MMLU",
+      "score": 0.575,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "MBPP pass@1",
+      "score": 0.7,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.709,
+      "is_self_reported": true,
+      "analysis_method": "",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "ARC Challenge",
+      "score": 0.719,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    },
+    {
+      "dataset_name": "TriviaQA",
+      "score": 0.655,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2024-10-16",
+      "source_link": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+    }
+  ]
+}

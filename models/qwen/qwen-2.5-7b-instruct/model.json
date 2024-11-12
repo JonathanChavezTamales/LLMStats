@@ -1,0 +1,135 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Qwen2.5 7B Instruct",
+  "description": "Qwen2.5-7B-Instruct is an instruction-tuned 7B parameter language model that excels at following instructions, generating long texts (over 8K tokens), understanding structured data, and generating structured outputs like JSON. The model features enhanced capabilities in mathematics, coding, and multilingual support across 29+ languages including Chinese, English, French, Spanish, and more.",
+  "release_date": "2024-09-19",
+  "input_context_size": 131072,
+  "output_context_size": 8192,
+  "license": "apache-2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/abs/2407.10671",
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen2.5-llm/",
+  "repo_link": "https://github.com/QwenLM/Qwen2.5",
+  "weights_link": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+  "param_count": 7610000000,
+  "training_tokens": 18000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.563,
+      "is_self_reported": true,
+      "analysis_method": "MMLU-Pro benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "MMLU-redux",
+      "score": 0.754,
+      "is_self_reported": true,
+      "analysis_method": "MMLU-redux benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.755,
+      "is_self_reported": true,
+      "analysis_method": "MATH benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.916,
+      "is_self_reported": true,
+      "analysis_method": "GSM8K benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.848,
+      "is_self_reported": true,
+      "analysis_method": "HumanEval benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.792,
+      "is_self_reported": true,
+      "analysis_method": "MBPP benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "MultiPL-E",
+      "score": 0.704,
+      "is_self_reported": true,
+      "analysis_method": "MultiPL-E benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.712,
+      "is_self_reported": true,
+      "analysis_method": "IFEval strict-prompt benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "Arena-Hard",
+      "score": 0.52,
+      "is_self_reported": true,
+      "analysis_method": "Arena-Hard benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "AlignBench",
+      "score": 0.733,
+      "is_self_reported": true,
+      "analysis_method": "AlignBench v1.1 benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "MT-bench",
+      "score": 0.875,
+      "is_self_reported": true,
+      "analysis_method": "MT-bench benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.364,
+      "is_self_reported": true,
+      "analysis_method": "GPQA benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.287,
+      "is_self_reported": true,
+      "analysis_method": "LiveCodeBench 2305-2409 benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    },
+    {
+      "dataset_name": "LiveBench",
+      "score": 0.359,
+      "is_self_reported": true,
+      "analysis_method": "LiveBench 0831 benchmark evaluation",
+      "date_recorded": "2024-09-19",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+    }
+  ]
+}

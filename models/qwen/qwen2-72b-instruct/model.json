@@ -20,7 +20,6 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "MMLU",
       "score": 0.823,
       "is_self_reported": true,
@@ -29,7 +28,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "MMLU-Pro",
       "score": 0.644,
       "is_self_reported": true,
@@ -38,7 +36,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "GPQA",
       "score": 0.424,
       "is_self_reported": true,
@@ -47,7 +44,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "TheroemQA",
       "score": 0.444,
       "is_self_reported": true,
@@ -56,7 +52,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "BBH",
       "score": 0.824,
       "is_self_reported": true,
@@ -65,7 +60,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "HellaSwag",
       "score": 0.876,
       "is_self_reported": true,
@@ -74,7 +68,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "Winogrande",
       "score": 0.851,
       "is_self_reported": true,
@@ -83,7 +76,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "TruthfulQA",
       "score": 0.548,
       "is_self_reported": true,
@@ -92,7 +84,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "ARC-C",
       "score": 0.689,
       "is_self_reported": true,
@@ -101,7 +92,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "HumanEval",
       "score": 0.86,
       "is_self_reported": true,
@@ -110,7 +100,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "MBPP",
       "score": 0.802,
       "is_self_reported": true,
@@ -119,7 +108,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "EvalPlus",
       "score": 0.79,
       "is_self_reported": true,
@@ -128,7 +116,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "MultiPL-E",
       "score": 0.692,
       "is_self_reported": true,
@@ -137,7 +124,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "GSM8K",
       "score": 0.911,
       "is_self_reported": true,
@@ -146,7 +132,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "MATH",
       "score": 0.597,
       "is_self_reported": true,
@@ -155,7 +140,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "C-Eval",
       "score": 0.838,
       "is_self_reported": true,
@@ -164,7 +148,6 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "model_id": "qwen2-72b-instruct",
       "dataset_name": "CMMLU",
       "score": 0.901,
       "is_self_reported": true,

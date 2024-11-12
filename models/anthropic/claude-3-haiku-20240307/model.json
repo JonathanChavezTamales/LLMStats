@@ -84,7 +84,7 @@
       "source_link": "https://www.anthropic.com/news/claude-3-haiku"
     },
     {
-      "dataset_name": "ARC-Challenge",
+      "dataset_name": "ARC Challenge",
       "score": 0.892,
       "is_self_reported": true,
       "analysis_method": "25-shot",

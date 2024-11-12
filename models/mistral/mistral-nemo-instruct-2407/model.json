@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Mistral NeMo",
+  "description": "A state-of-the-art 12B multilingual model with a 128k context window, designed for global applications and strong in multiple languages.",
+  "release_date": "2024-07-18",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Apache 2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.mistral.ai/getting-started/models/models_overview/",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/mistral-nemo/",
+  "repo_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407",
+  "weights_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407",
+  "param_count": 12000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.835,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    },
+    {
+      "dataset_name": "Winogrande",
+      "score": 0.768,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    },
+    {
+      "dataset_name": "OpenBookQA",
+      "score": 0.606,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    },
+    {
+      "dataset_name": "CommonSenseQA",
+      "score": 0.704,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    },
+    {
+      "dataset_name": "TruthfulQA",
+      "score": 0.503,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.68,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    },
+    {
+      "dataset_name": "TriviaQA",
+      "score": 0.738,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    },
+    {
+      "dataset_name": "NaturalQuestions",
+      "score": 0.312,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2024-07-18",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+    }
+  ]
+}

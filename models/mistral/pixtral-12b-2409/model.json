@@ -1,0 +1,119 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Pixtral-12B",
+  "description": "A 12B parameter multimodal model with a 400M parameter vision encoder, capable of understanding both natural images and documents. Excels at multimodal tasks while maintaining strong text-only performance. Supports variable image sizes and multiple images in context.",
+  "release_date": "2024-09-17",
+  "input_context_size": 128000,
+  "output_context_size": 8192,
+  "license": "apache-2.0",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.mistral.ai/platform/endpoints/",
+  "playground_link": "https://chat.mistral.ai",
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/pixtral-12b/",
+  "repo_link": "https://huggingface.co/mistralai/Pixtral-12B-2409",
+  "weights_link": "https://huggingface.co/mistralai/Pixtral-12B-2409",
+  "param_count": 12400000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMMU",
+      "score": 0.525,
+      "is_self_reported": true,
+      "analysis_method": "Chain of Thought (CoT)",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "Mathvista",
+      "score": 0.58,
+      "is_self_reported": true,
+      "analysis_method": "Chain of Thought (CoT)",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.818,
+      "is_self_reported": true,
+      "analysis_method": "Chain of Thought (CoT)",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.907,
+      "is_self_reported": true,
+      "analysis_method": "ANLS",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "VQAv2",
+      "score": 0.786,
+      "is_self_reported": true,
+      "analysis_method": "VQA Match",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "MM MT-Bench",
+      "score": 0.605,
+      "is_self_reported": true,
+      "analysis_method": "Multimodal MT-Bench Score",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "MT-Bench",
+      "score": 0.768,
+      "is_self_reported": true,
+      "analysis_method": "Text MT-Bench Score",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "MM IF-Eval",
+      "score": 0.527,
+      "is_self_reported": true,
+      "analysis_method": "Multimodal Instruction Following Score",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "Text IF-Eval",
+      "score": 0.613,
+      "is_self_reported": true,
+      "analysis_method": "Text Instruction Following Score",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.692,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "Math",
+      "score": 0.481,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.72,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-09-17",
+      "source_link": "https://mistral.ai/news/pixtral-12b/"
+    }
+  ]
+}

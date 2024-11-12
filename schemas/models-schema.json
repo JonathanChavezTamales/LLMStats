@@ -92,10 +92,6 @@
       "items": {
         "type": "object",
         "properties": {
-          "model_id": {
-            "type": "string",
-            "description": "ID of the model being benchmarked"
-          },
           "dataset_name": {
             "type": "string",
             "description": "Name of the benchmark dataset used"

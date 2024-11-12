@@ -1,0 +1,63 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Mistral Large 2",
+  "description": "A 123B parameter model with strong capabilities in code generation, mathematics, and reasoning. Features enhanced multilingual support across dozens of languages, 128k context window, and advanced function calling capabilities. Excels in instruction-following and maintains concise outputs.",
+  "release_date": "2024-07-24",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Mistral Research License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.mistral.ai/",
+  "playground_link": "https://chat.mistral.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/mistral-large-2407/",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407",
+  "param_count": 123000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.84,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-24",
+      "source_link": "https://mistral.ai/news/mistral-large-2407/"
+    },
+    {
+      "dataset_name": "MMLU French",
+      "score": 0.828,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-24",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+    },
+    {
+      "dataset_name": "MT-Bench",
+      "score": 0.863,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2024-07-24",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.92,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2024-07-24",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.93,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-07-24",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+    }
+  ]
+}
