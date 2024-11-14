@@ -1,5 +1,5 @@
 {
-  "canonical_model_id": null,
+  "canonical_model_id": "claude-3-5-sonnet-20241022",
   "fine_tuned_from_model_id": null,
   "name": "Claude 3.5 Sonnet",
   "description": "Claude 3.5 Sonnet is a powerful AI model. It excels in graduate-level reasoning, undergraduate-level knowledge, and coding proficiency, with improved understanding of nuance, humor, and complex instructions.",
@@ -12,7 +12,7 @@
   "knowledge_cutoff": null,
   "api_ref_link": "https://docs.anthropic.com/en/docs/intro-to-claude#claude-3-5-family",
   "playground_link": "https://claude.ai",
-  "paper_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+  "paper_link": null,
   "scorecard_blog_link": "https://www.anthropic.com/news/claude-3-5-sonnet",
   "repo_link": null,
   "weights_link": null,

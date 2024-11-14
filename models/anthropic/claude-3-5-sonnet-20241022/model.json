@@ -1,0 +1,135 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Claude 3.5 Sonnet",
+  "description": "Claude 3.5 Sonnet is a powerful AI model with industry-leading software engineering skills. It excels in coding, planning, and problem-solving, with significant improvements in agentic coding and tool use tasks. The model includes computer use capabilities in public beta, allowing it to interact with computer interfaces like a human user.",
+  "release_date": "2024-10-22",
+  "input_context_size": 200000,
+  "output_context_size": 200000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.anthropic.com/en/docs/intro-to-claude#claude-3-5-family",
+  "playground_link": "https://claude.ai",
+  "paper_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+  "scorecard_blog_link": "https://www.anthropic.com/news/claude-3-5-sonnet",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.49,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "TAU-bench Retail",
+      "score": 0.692,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "TAU-bench Airline",
+      "score": 0.46,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "OSWorld Screenshot-only",
+      "score": 0.149,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "OSWorld Extended",
+      "score": 0.22,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.65,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.904,
+      "is_self_reported": true,
+      "analysis_method": "5-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.345,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.937,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.783,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.916,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.871,
+      "is_self_reported": true,
+      "analysis_method": "3-shot F1 Score",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "BIG-Bench Hard",
+      "score": 0.931,
+      "is_self_reported": true,
+      "analysis_method": "3-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.964,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    }
+  ]
+}

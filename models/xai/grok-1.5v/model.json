@@ -1,0 +1,79 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Grok-1.5V",
+  "description": "A multimodal model capable of processing text and visual information, including documents, diagrams, charts, screenshots, and photographs. Notable for strong real-world spatial understanding capabilities.",
+  "release_date": "2024-04-12",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://x.ai/api",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://x.ai/blog/grok-1.5v",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMMU",
+      "score": 0.536,
+      "is_self_reported": true,
+      "analysis_method": "zero-shot evaluation",
+      "date_recorded": "2024-04-12",
+      "source_link": "https://x.ai/blog/grok-1.5v"
+    },
+    {
+      "dataset_name": "Mathvista",
+      "score": 0.528,
+      "is_self_reported": true,
+      "analysis_method": "zero-shot evaluation",
+      "date_recorded": "2024-04-12",
+      "source_link": "https://x.ai/blog/grok-1.5v"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.883,
+      "is_self_reported": true,
+      "analysis_method": "zero-shot evaluation",
+      "date_recorded": "2024-04-12",
+      "source_link": "https://x.ai/blog/grok-1.5v"
+    },
+    {
+      "dataset_name": "TextVQA",
+      "score": 0.781,
+      "is_self_reported": true,
+      "analysis_method": "zero-shot evaluation",
+      "date_recorded": "2024-04-12",
+      "source_link": "https://x.ai/blog/grok-1.5v"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.761,
+      "is_self_reported": true,
+      "analysis_method": "zero-shot evaluation",
+      "date_recorded": "2024-04-12",
+      "source_link": "https://x.ai/blog/grok-1.5v"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.856,
+      "is_self_reported": true,
+      "analysis_method": "zero-shot evaluation",
+      "date_recorded": "2024-04-12",
+      "source_link": "https://x.ai/blog/grok-1.5v"
+    },
+    {
+      "dataset_name": "RealWorldQA",
+      "score": 0.687,
+      "is_self_reported": true,
+      "analysis_method": "zero-shot evaluation",
+      "date_recorded": "2024-04-12",
+      "source_link": "https://x.ai/blog/grok-1.5v"
+    }
+  ]
+}

@@ -36,7 +36,7 @@
       "source_link": "https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct"
     },
     {
-      "dataset_name": "MMLU PRO",
+      "dataset_name": "MMLU-Pro",
       "score": 0.733,
       "is_self_reported": true,
       "analysis_method": "5-shot, CoT, micro_avg/acc_char",

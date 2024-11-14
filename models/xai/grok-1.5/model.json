@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "grok-1",
+  "name": "Grok-1.5",
+  "description": "An advanced language model with improved reasoning capabilities, particularly excelling in coding and mathematical tasks. Features a 128K token context window and enhanced problem-solving abilities compared to its predecessor.",
+  "release_date": "2024-03-28",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://x.ai/api",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://x.ai/blog/grok-1.5",
+  "repo_link": "https://github.com/xai-org/grok-1",
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.359,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.813,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-1.5"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.51,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.506,
+      "is_self_reported": true,
+      "analysis_method": "4-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-1.5"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.9,
+      "is_self_reported": true,
+      "analysis_method": "8-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-1.5"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.741,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-1.5"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.536,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.528,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.856,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-03-28",
+      "source_link": "https://x.ai/blog/grok-2"
+    }
+  ]
+}

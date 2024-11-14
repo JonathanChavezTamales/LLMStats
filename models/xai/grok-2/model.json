@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Grok-2",
+  "description": "Grok-2 is a frontier language model with state-of-the-art reasoning capabilities, featuring advanced abilities in chat, coding, and reasoning. It demonstrates superior performance in visual math reasoning, document-based question answering, and excels across various academic benchmarks including reasoning, reading comprehension, math, and science.",
+  "release_date": "2024-08-13",
+  "input_context_size": 128000,
+  "output_context_size": 8000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "knowledge_cutoff": "2024-08",
+  "api_ref_link": "https://x.ai/api",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://x.ai/blog/grok-2",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.56,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.875,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.755,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.761,
+      "is_self_reported": true,
+      "analysis_method": "maj@1",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.884,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.661,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.69,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.936,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    }
+  ]
+}

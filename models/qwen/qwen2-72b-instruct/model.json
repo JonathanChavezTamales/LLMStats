@@ -84,7 +84,7 @@
       "source_link": "https://huggingface.co/Qwen/Qwen2-72B"
     },
     {
-      "dataset_name": "ARC-C",
+      "dataset_name": "ARC Challenge",
       "score": 0.689,
       "is_self_reported": true,
       "analysis_method": "Accuracy",

@@ -44,7 +44,7 @@
       "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Mini"
     },
     {
-      "dataset_name": "MMLU Pro",
+      "dataset_name": "MMLU-Pro",
       "score": 0.425,
       "is_self_reported": true,
       "analysis_method": "Chain-of-Thought accuracy",

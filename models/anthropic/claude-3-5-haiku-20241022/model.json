@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Claude 3.5 Haiku",
+  "description": "Claude 3.5 Haiku is Anthropic's fastest model, delivering advanced coding, tool use, and reasoning capabilities at an accessible price. It excels at user-facing products, specialized sub-agent tasks, and generating personalized experiences from large data volumes. The model is particularly well-suited for code completions, interactive chatbots, data extraction, and real-time content moderation.",
+  "release_date": "2024-10-22",
+  "input_context_size": 200000,
+  "output_context_size": 200000,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.anthropic.com/en/docs/intro-to-claude#claude-3-5-family",
+  "playground_link": "https://claude.ai",
+  "paper_link": null,
+  "scorecard_blog_link": "https://www.anthropic.com/news/claude-3-5-haiku",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.416,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.65,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    },
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.406,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.881,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.694,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.856,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.831,
+      "is_self_reported": true,
+      "analysis_method": "3-shot F1 Score",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    },
+    {
+      "dataset_name": "TAU-bench Retail",
+      "score": 0.51,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    },
+    {
+      "dataset_name": "TAU-bench Airline",
+      "score": 0.228,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www.anthropic.com/news/claude-3-5-haiku"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Grok-2 mini",
+  "description": "Grok-2 mini is a smaller, faster variant of Grok-2 that offers a balance between speed and answer quality. While more compact than its larger sibling, it maintains strong capabilities across various tasks including reasoning, coding, and chat interactions.",
+  "release_date": "2024-08-13",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "knowledge_cutoff": "2024-08",
+  "api_ref_link": "https://x.ai/api",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://x.ai/blog/grok-2",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.51,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.862,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.72,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.73,
+      "is_self_reported": true,
+      "analysis_method": "maj@1",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.857,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.632,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.681,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.932,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-08-13",
+      "source_link": "https://x.ai/blog/grok-2"
+    }
+  ]
+}
