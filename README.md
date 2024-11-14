@@ -10,9 +10,7 @@ A community-driven repository of LLM data and benchmarks. Compare and explore la
 
 Our repository contains detailed information on hundreds of LLMs:
 
-- Model parameters and architectures
-- Context window sizes
-- Licensing details
+- Model parameters, context window sizes, licensing details, capabilities, and more
 - Provider pricing
 - Performance metrics (throughput, latency)
 - Standardized benchmark results
@@ -28,8 +26,7 @@ We welcome community contributions to keep our data accurate and up-to-date:
    - Check [`schemas/`](schemas/) for data formats
 
 2. **Report Issues with llm-stats.com**
-   - Found incorrect data? [Open an issue](https://github.com/JonathanChavezTamales/LLMStats/issues)
-   - Have a feature request? [Let us know](https://github.com/JonathanChavezTamales/LLMStats/issues)
+   - Have a feature request or found a bug? [Open an issue](https://github.com/JonathanChavezTamales/LLMStats/issues)
 
 ## 📈 Data Quality
 
