@@ -28,10 +28,10 @@
       "source_link": "https://www.anthropic.com/news/claude-3-family"
     },
     {
-      "dataset_name": "GPQA, Diamond",
+      "dataset_name": "GPQA",
       "score": 0.504,
       "is_self_reported": true,
-      "analysis_method": "0-shot CoT",
+      "analysis_method": "0-shot CoT - Diamond",
       "date_recorded": "2024-03-04",
       "source_link": "https://www.anthropic.com/news/claude-3-family"
     },

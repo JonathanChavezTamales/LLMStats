@@ -1,0 +1,79 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "o1-mini",
+  "description": "o1-mini is a cost-efficient language model developed by OpenAI, designed for advanced reasoning tasks while minimizing computational resources.",
+  "release_date": "2024-09-12",
+  "input_context_size": 2048,
+  "output_context_size": 1024,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-09",
+  "api_ref_link": "https://openai.com/api/o1-mini",
+  "playground_link": "https://platform.openai.com/playground",
+  "paper_link": "https://cdn.openai.com/o1-system-card-20240917.pdf",
+  "scorecard_blog_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": 1300000000,
+  "training_tokens": 300000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "SuperGLUE",
+      "score": 0.75,
+      "is_self_reported": true,
+      "analysis_method": "Evaluation on validation set",
+      "date_recorded": "2023-10-10",
+      "source_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+    },
+    {
+      "dataset_name": "Codeforces",
+      "score": 0.917,
+      "is_self_reported": true,
+      "analysis_method": "Elo rating system",
+      "date_recorded": "2023-10-10",
+      "source_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.924,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1 accuracy",
+      "date_recorded": "2023-10-10",
+      "source_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+    },
+    {
+      "dataset_name": "Cybersecurity CTFs",
+      "score": 0.287,
+      "is_self_reported": true,
+      "analysis_method": "Pass@12 accuracy",
+      "date_recorded": "2023-10-10",
+      "source_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.852,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain of Thought",
+      "date_recorded": "2023-10-10",
+      "source_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.6,
+      "is_self_reported": true,
+      "analysis_method": "Diamond, 0-shot Chain of Thought",
+      "date_recorded": "2023-10-10",
+      "source_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.9,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain of Thought",
+      "date_recorded": "2023-10-10",
+      "source_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+    }
+  ]
+}

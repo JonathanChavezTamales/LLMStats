@@ -1,36 +1,54 @@
-# LLM-Stats
+# LLM-Stats 📊
 
-LLM Stats is a community-driven repository of raw data on Large Language Models. This shared database aims to provide comprehensive, up-to-date information on a wide range of models, providers, and benchmarks.
+[![GitHub stars](https://img.shields.io/github/stars/JonathanChavezTamales/LLMStats?style=social)](https://github.com/JonathanChavezTamales/LLMStats/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Issues](https://img.shields.io/github/issues/JonathanChavezTamales/LLMStats)](https://github.com/JonathanChavezTamales/llm-stats/issues)
 
-You can explore this data through [llm-stats.com](https://llm-stats.com).
+A community-driven repository of LLM data and benchmarks. Compare and explore language models through our interactive dashboard at [llm-stats.com](https://llm-stats.com).
 
-## What's Inside
+## 🔍 What's Inside
 
-Raw data on hundreds of open source LLMs and commercial providers.
+Our repository contains detailed information on hundreds of LLMs:
 
-- 🛠️ Detailed stats on model parameters, context sizes, licenses, etc.
-- 💰 Pricing information from various providers
-- 📈 Performance metrics including throughput and latency
-- 📊 Qualitative metrics from standardized benchmarks
+- Model parameters and architectures
+- Context window sizes
+- Licensing details
+- Provider pricing
+- Performance metrics (throughput, latency)
+- Standardized benchmark results
 
-## Data Accuracy
+## 🤝 How to Contribute
 
-We strive to maintain the highest level of accuracy in our data. All contributions are required to include references to authoritative sources to ensure the reliability of the information provided.
+We welcome community contributions to keep our data accurate and up-to-date:
 
-## Contributing
+1. **Update Model Data**
 
-We welcome contributions! Whether you're adding a new model, updating existing information, or improving our tools, check out our [CONTRIBUTING.md](CONTRIBUTING.md) guide to get started.
+   - Browse [`models/`](models/) and [`providers/`](providers/) directories
+   - Submit a PR following our [contribution guidelines](CONTRIBUTING.md)
+   - Check [`schemas/`](schemas/) for data formats
 
-If you want to report an issue or suggest a feature on llm-stats.com, please [create an issue](https://github.com/JonathanChavezTamales/llm-stats/issues).
+2. **Report Issues with llm-stats.com**
+   - Found incorrect data? [Open an issue](https://github.com/JonathanChavezTamales/LLMStats/issues)
+   - Have a feature request? [Let us know](https://github.com/JonathanChavezTamales/LLMStats/issues)
 
-We encourage developers to build tools and applications using our data. The raw data in this repository is regularly updated and can be easily integrated into your projects.
+## 📈 Data Quality
 
-<!-- - 🤝 Join our [Discord community](https://discord.gg/llmstats) for discussions -->
+Accuracy is our priority. To ensure reliable information:
 
-## License
+- All benchmark data requires verifiable source links
+- Community review process for all changes
+- Multiple source citations encouraged
+- Regular validation of submitted data
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+There's no guarantee that the data is 100% accurate, but we do our best to ensure it's as accurate as possible.
+
+<!-- ## 🌟 Community
+- Join our [Discord](https://discord.gg/llmstats) for discussions
+-->
 
 ---
 
-Built with 💙 by the AI community, for the AI community. Updated frequently to keep you at the forefront of LLM developments.
+<div align="center">
+Built with 💙 by the AI community, for the AI community.<br>
+Star this repo if you find it useful!
+</div>

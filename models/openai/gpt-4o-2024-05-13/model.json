@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "GPT-4o",
+  "name": "GPT-4o (2024-05-13)",
   "description": "GPT-4o ('o' for 'omni') is a multimodal AI model that accepts text, audio, image, and video inputs, and generates text, audio, and image outputs. It matches GPT-4 Turbo performance on text and code, with improvements in non-English languages, vision, and audio understanding.",
   "release_date": "2024-05-08",
   "input_context_size": 128000,

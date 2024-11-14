@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Claude 3.5 Sonnet",
+  "name": "Claude 3.5 Sonnet (2024-10-22)",
   "description": "Claude 3.5 Sonnet is a powerful AI model with industry-leading software engineering skills. It excels in coding, planning, and problem-solving, with significant improvements in agentic coding and tool use tasks. The model includes computer use capabilities in public beta, allowing it to interact with computer interfaces like a human user.",
   "release_date": "2024-10-22",
   "input_context_size": 200000,

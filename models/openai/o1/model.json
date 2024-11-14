@@ -1,0 +1,119 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "o1",
+  "description": "A research preview model focused on mathematical and logical reasoning capabilities, demonstrating improved performance on tasks requiring step-by-step reasoning, mathematical problem-solving, and code generation. The model shows enhanced capabilities in formal reasoning while maintaining strong general capabilities.",
+  "release_date": "2024-09-12",
+  "input_context_size": 128000,
+  "output_context_size": 4096,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-12",
+  "api_ref_link": "https://platform.openai.com/docs/models",
+  "playground_link": null,
+  "paper_link": "https://cdn.openai.com/o1-system-card-20240917.pdf",
+  "scorecard_blog_link": "https://openai.com/index/learning-to-reason-with-llms",
+  "repo_link": "https://github.com/openai",
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MATH",
+      "score": 0.948,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.923,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.971,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.881,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.833,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "Codeforces",
+      "score": 0.89,
+      "is_self_reported": true,
+      "analysis_method": "percentile",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.78,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.782,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.739,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "GPQA Biology",
+      "score": 0.692,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "GPQA Chemistry",
+      "score": 0.647,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "GPQA Physics",
+      "score": 0.928,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    }
+  ]
+}

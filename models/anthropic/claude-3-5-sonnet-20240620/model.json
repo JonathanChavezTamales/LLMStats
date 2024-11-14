@@ -1,7 +1,7 @@
 {
-  "canonical_model_id": "claude-3-5-sonnet-20241022",
+  "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Claude 3.5 Sonnet",
+  "name": "Claude 3.5 Sonnet (2024-06-20)",
   "description": "Claude 3.5 Sonnet is a powerful AI model. It excels in graduate-level reasoning, undergraduate-level knowledge, and coding proficiency, with improved understanding of nuance, humor, and complex instructions.",
   "release_date": "2024-06-21",
   "input_context_size": 200000,

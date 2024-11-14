@@ -1,7 +1,7 @@
 {
-  "canonical_model_id": "gpt-4o-2024-05-13",
+  "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "GPT-4o",
+  "name": "GPT-4o (2024-08-06)",
   "description": "GPT-4o variant that supports structured outputs.",
   "release_date": "2024-05-08",
   "input_context_size": 128000,
@@ -18,5 +18,54 @@
   "weights_link": null,
   "param_count": null,
   "training_tokens": null,
-  "qualitative_metrics": []
+  "qualitative_metrics": [
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.134,
+      "is_self_reported": true,
+      "analysis_method": "consistency at 64 samples",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "Codeforces",
+      "score": 0.11,
+      "is_self_reported": true,
+      "analysis_method": "percentile ranking",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "GPQA, Diamond",
+      "score": 0.506,
+      "is_self_reported": true,
+      "analysis_method": "pass at 1 attempt",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.88,
+      "is_self_reported": true,
+      "analysis_method": "pass at 1 attempt",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.691,
+      "is_self_reported": true,
+      "analysis_method": "pass at 1 attempt on validation set",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.638,
+      "is_self_reported": true,
+      "analysis_method": "pass at 1 attempt on testmini set",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    }
+  ]
 }

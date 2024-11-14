@@ -1,6 +1,6 @@
 {
   "canonical_model_id": null,
-  "fine_tuned_from_model_id": "grok-1",
+  "fine_tuned_from_model_id": null,
   "name": "Grok-1.5",
   "description": "An advanced language model with improved reasoning capabilities, particularly excelling in coding and mathematical tasks. Features a 128K token context window and enhanced problem-solving abilities compared to its predecessor.",
   "release_date": "2024-03-28",

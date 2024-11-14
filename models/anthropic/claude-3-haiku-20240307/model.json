@@ -28,7 +28,7 @@
       "source_link": "https://www.anthropic.com/news/claude-3-haiku"
     },
     {
-      "dataset_name": "GPQA, Diamond",
+      "dataset_name": "GPQA",
       "score": 0.333,
       "is_self_reported": true,
       "analysis_method": "0-shot CoT",
