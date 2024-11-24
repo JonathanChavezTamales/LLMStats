@@ -49,6 +49,22 @@
       "throughput": 92,
       "latency": 0.54,
       "updated_at": "2024-09-09"
+    },
+    {
+      "model_id": "o1-preview",
+      "price_per_input_token": 0.0000165,
+      "price_per_output_token": 0.000066,
+      "throughput": 16,
+      "latency": 0.54,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "o1-mini",
+      "price_per_input_token": 0.000033,
+      "price_per_output_token": 0.000132,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
     }
   ]
 }

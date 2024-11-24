@@ -49,6 +49,39 @@
       "throughput": 100,
       "latency": 0.5,
       "updated_at": "2024-09-09"
+    },
+
+    {
+      "model_id": "gpt-4o-mini-2024-07-18",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.0000006,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "gpt-4o-mini-2024-07-18",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.0000006,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "o1-preview",
+      "price_per_input_token": 0.000015,
+      "price_per_output_token": 0.00006,
+      "throughput": 10,
+      "latency": 8,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "o1-mini",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000012,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
     }
   ]
 }

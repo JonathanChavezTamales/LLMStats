@@ -1,0 +1,14 @@
+{
+  "name": "DeepSeek",
+  "website": "https://deepseek.com/",
+  "providermodels": [
+    {
+      "model_id": "deepseek-v2.5",
+      "price_per_input_token": 0.00000014,
+      "price_per_output_token": 0.00000028,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    }
+  ]
+}

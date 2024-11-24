@@ -3,6 +3,14 @@
   "website": "https://aws.amazon.com/bedrock/",
   "providermodels": [
     {
+      "model_id": "claude-3-5-sonnet-20241022",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000015,
+      "throughput": 101,
+      "latency": 0.5,
+      "updated_at": "2024-10-22"
+    },
+    {
       "model_id": "claude-3-5-sonnet-20240620",
       "price_per_input_token": 0.000003,
       "price_per_output_token": 0.000015,
@@ -10,6 +18,15 @@
       "latency": 0.5,
       "updated_at": "2024-09-09"
     },
+    {
+      "model_id": "claude-3-5-haiku-20241022",
+      "price_per_input_token": 0.000001,
+      "price_per_output_token": 0.000005,
+      "throughput": 104,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+
     {
       "model_id": "claude-3-opus-20240229",
       "price_per_input_token": 0.000015,
@@ -35,12 +52,60 @@
       "updated_at": "2024-03-15"
     },
     {
-      "model_id": "llama-3.1-70b-instruct",
-      "price_per_input_token": 0.00000045,
-      "price_per_output_token": 0.00000125,
+      "model_id": "jamba-1.5-mini",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000004,
       "throughput": 100,
       "latency": 0.5,
-      "updated_at": "2024-03-15"
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "jamba-1.5-large",
+      "price_per_input_token": 0.000002,
+      "price_per_output_token": 0.000008,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-70b-instruct",
+      "price_per_input_token": 0.00000099,
+      "price_per_output_token": 0.00000099,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-8b-instruct",
+      "price_per_input_token": 0.00000022,
+      "price_per_output_token": 0.00000022,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-11b-instruct",
+      "price_per_input_token": 0.00000016,
+      "price_per_output_token": 0.00000016,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-90b-instruct",
+      "price_per_input_token": 0.00000072,
+      "price_per_output_token": 0.00000072,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "command-r-plus-04-2024",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000015,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
     }
   ]
 }

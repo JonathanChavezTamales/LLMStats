@@ -1,0 +1,46 @@
+{
+  "name": "Sambanova",
+  "website": "https://sambanova.ai/",
+  "providermodels": [
+    {
+      "model_id": "llama-3.1-8b-instruct",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000002,
+      "throughput": 1050,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-70b-instruct",
+      "price_per_input_token": 0.0000006,
+      "price_per_output_token": 0.0000012,
+      "throughput": 296,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-70b-instruct",
+      "price_per_input_token": 0.000005,
+      "price_per_output_token": 0.00001,
+      "throughput": 74,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-11b-instruct",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.0000003,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-11b-instruct",
+      "price_per_input_token": 0.0000008,
+      "price_per_output_token": 0.0000016,
+      "throughput": 285,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    }
+  ]
+}

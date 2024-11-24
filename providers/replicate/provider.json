@@ -3,12 +3,12 @@
   "website": "https://replicate.com/",
   "providermodels": [
     {
-      "model_id": "llama-3.1-70b-instruct",
-      "price_per_input_token": 0.0000029,
-      "price_per_output_token": 0.00000125,
-      "throughput": 88,
+      "model_id": "llama-3.1-405b-instruct",
+      "price_per_input_token": 0.0000095,
+      "price_per_output_token": 0.0000095,
+      "throughput": 22,
       "latency": 0.5,
-      "updated_at": "2024-03-15"
+      "updated_at": "2024-11-24"
     }
   ]
 }

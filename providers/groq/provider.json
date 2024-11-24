@@ -4,11 +4,35 @@
   "providermodels": [
     {
       "model_id": "llama-3.1-70b-instruct",
-      "price_per_input_token": 0.00000095,
-      "price_per_output_token": 0.00000125,
-      "throughput": 982,
+      "price_per_input_token": 0.00000059,
+      "price_per_output_token": 0.00000079,
+      "throughput": 250,
       "latency": 0.5,
-      "updated_at": "2024-03-15"
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-8b-instruct",
+      "price_per_input_token": 0.00000005,
+      "price_per_output_token": 0.00000008,
+      "throughput": 750,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-11b-instruct",
+      "price_per_input_token": 0.00000018,
+      "price_per_output_token": 0.00000018,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-11b-instruct",
+      "price_per_input_token": 0.0000009,
+      "price_per_output_token": 0.0000009,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
     }
   ]
 }

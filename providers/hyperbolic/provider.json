@@ -1,0 +1,62 @@
+{
+  "name": "Hyperbolic",
+  "website": "https://hyperbolic.xyz",
+  "providermodels": [
+    {
+      "model_id": "llama-3.1-8b-instruct",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000001,
+      "throughput": 200,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-70b-instruct",
+      "price_per_input_token": 0.0000004,
+      "price_per_output_token": 0.0000004,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-405b-instruct",
+      "price_per_input_token": 0.000004,
+      "price_per_output_token": 0.000004,
+      "throughput": 40,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-90b-instruct",
+      "price_per_input_token": 0.000002,
+      "price_per_output_token": 0.000002,
+      "throughput": 42,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "qwen-2.5-72b-instruct",
+      "price_per_input_token": 0.0000004,
+      "price_per_output_token": 0.0000004,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "qwen-2.5-coder-32b-instruct",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000002,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "deepseek-v2.5",
+      "price_per_input_token": 0.000002,
+      "price_per_output_token": 0.000002,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    }
+  ]
+}

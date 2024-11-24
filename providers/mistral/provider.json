@@ -1,0 +1,55 @@
+{
+  "name": "Mistral AI",
+  "website": "https://mistral.ai",
+  "providermodels": [
+    {
+      "model_id": "mistral-large-2-2407",
+      "price_per_input_token": 0.000002,
+      "price_per_output_token": 0.000006,
+      "throughput": 0.1,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "pixtral-large",
+      "price_per_input_token": 0.000002,
+      "price_per_output_token": 0.000006,
+      "throughput": 0.1,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "mistral-small-2409",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000006,
+      "throughput": 0.1,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+
+    {
+      "model_id": "ministral-8b-instruct-2410",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000001,
+      "throughput": 0.1,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "pixtral-12b-2409",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.00000015,
+      "throughput": 0.1,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "mistral-nemo-instruct-2407",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.00000015,
+      "throughput": 0.1,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    }
+  ]
+}

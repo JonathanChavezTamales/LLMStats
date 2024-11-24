@@ -3,12 +3,20 @@
   "website": "https://anthropic.com",
   "providermodels": [
     {
-      "model_id": "claude-3-5-sonnet-20240620",
+      "model_id": "claude-3-5-sonnet-20241022",
       "price_per_input_token": 0.000003,
       "price_per_output_token": 0.000015,
       "throughput": 100,
       "latency": 0.5,
-      "updated_at": "2024-09-09"
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "claude-3-5-haiku-20241022",
+      "price_per_input_token": 0.000001,
+      "price_per_output_token": 0.000005,
+      "throughput": 100,
+      "latency": 0.3,
+      "updated_at": "2024-11-24"
     },
     {
       "model_id": "claude-3-opus-20240229",
@@ -16,7 +24,7 @@
       "price_per_output_token": 0.000075,
       "throughput": 100,
       "latency": 0.5,
-      "updated_at": "2024-03-15"
+      "updated_at": "2024-11-24"
     },
     {
       "model_id": "claude-3-sonnet-20240229",
@@ -24,7 +32,7 @@
       "price_per_output_token": 0.000015,
       "throughput": 100,
       "latency": 0.5,
-      "updated_at": "2024-03-15"
+      "updated_at": "2024-11-24"
     },
     {
       "model_id": "claude-3-haiku-20240307",
@@ -32,7 +40,7 @@
       "price_per_output_token": 0.00000125,
       "throughput": 100,
       "latency": 0.5,
-      "updated_at": "2024-03-15"
+      "updated_at": "2024-11-24"
     }
   ]
 }

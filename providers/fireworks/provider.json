@@ -3,12 +3,60 @@
   "website": "https://fireworks.ai/",
   "providermodels": [
     {
-      "model_id": "llama-3.1-70b-instruct",
-      "price_per_input_token": 0.00000135,
-      "price_per_output_token": 0.00000125,
-      "throughput": 207,
+      "model_id": "llama-3.1-405b-instruct",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000003,
+      "throughput": 78,
       "latency": 0.5,
-      "updated_at": "2024-03-15"
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-70b-instruct",
+      "price_per_input_token": 0.0000009,
+      "price_per_output_token": 0.0000009,
+      "throughput": 32,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.1-8b-instruct",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000002,
+      "throughput": 292,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-90b-instruct",
+      "price_per_input_token": 0.0000009,
+      "price_per_output_token": 0.0000009,
+      "throughput": 50,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "llama-3.2-11b-instruct",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000002,
+      "throughput": 125,
+      "latency": 0.2,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "qwen-2.5-coder-32b-instruct",
+      "price_per_input_token": 0.0000009,
+      "price_per_output_token": 0.0000009,
+      "throughput": 110,
+      "latency": 0.26,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "qwen-2.5-72b-instruct",
+      "price_per_input_token": 0.0000009,
+      "price_per_output_token": 0.0000009,
+      "throughput": 59,
+      "latency": 0.37,
+      "updated_at": "2024-11-24"
     }
   ]
 }
