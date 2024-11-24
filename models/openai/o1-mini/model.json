@@ -16,8 +16,8 @@
   "scorecard_blog_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
   "repo_link": null,
   "weights_link": null,
-  "param_count": 1300000000,
-  "training_tokens": 300000000000,
+  "param_count": null,
+  "training_tokens": null,
   "qualitative_metrics": [
     {
       "dataset_name": "SuperGLUE",

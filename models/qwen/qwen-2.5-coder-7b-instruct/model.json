@@ -1,0 +1,175 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "qwen-2.5-7b-instruct",
+  "name": "Qwen2.5-Coder 7B",
+  "description": "Qwen2.5-Coder is a specialized coding model trained on 5.5 trillion tokens of code data, supporting 92 programming languages with a 128K context window. It excels in code generation, completion, and repair while maintaining strong performance in math and general tasks. The model demonstrates exceptional capabilities in multi-programming language tasks and code reasoning.",
+  "release_date": "2024-09-19",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Apache 2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-03",
+  "api_ref_link": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/abs/2409.12186",
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen2.5-coder/",
+  "repo_link": "https://github.com/QwenLM/Qwen2",
+  "weights_link": "https://huggingface.co/Qwen/Qwen2.5-7B-Coder",
+  "param_count": 7000000000,
+  "training_tokens": 5500000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "CRUXEval-Input-CoT",
+      "score": 0.565,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "CRUXEval-Output-CoT",
+      "score": 0.56,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.466,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.839,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.676,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "STEM",
+      "score": 0.34,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "TheoremQA",
+      "score": 0.34,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "MMLU-Base",
+      "score": 0.68,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.401,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "MMLU-Redux",
+      "score": 0.666,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "ARC-Challenge",
+      "score": 0.609,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "TruthfulQA",
+      "score": 0.506,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "WinoGrande",
+      "score": 0.729,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.768,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.884,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.835,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "BigCodeBench",
+      "score": 0.41,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.182,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    },
+    {
+      "dataset_name": "Aider",
+      "score": 0.556,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-03-19",
+      "source_link": "https://arxiv.org/abs/2409.12186"
+    }
+  ]
+}

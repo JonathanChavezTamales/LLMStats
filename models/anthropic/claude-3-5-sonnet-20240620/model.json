@@ -1,7 +1,7 @@
 {
-  "canonical_model_id": null,
+  "canonical_model_id": "claude-3-5-sonnet-20241022",
   "fine_tuned_from_model_id": null,
-  "name": "Claude 3.5 Sonnet (2024-06-20)",
+  "name": "Claude 3.5 Sonnet",
   "description": "Claude 3.5 Sonnet is a powerful AI model. It excels in graduate-level reasoning, undergraduate-level knowledge, and coding proficiency, with improved understanding of nuance, humor, and complex instructions.",
   "release_date": "2024-06-21",
   "input_context_size": 200000,
@@ -82,6 +82,14 @@
       "analysis_method": "0-shot CoT",
       "date_recorded": "2024-06-21",
       "source_link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.761,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-06-21",
+      "source_link": "https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro"
     }
   ]
 }

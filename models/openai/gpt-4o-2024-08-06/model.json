@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "GPT-4o (2024-08-06)",
+  "name": "GPT-4o",
   "description": "GPT-4o variant that supports structured outputs.",
   "release_date": "2024-05-08",
   "input_context_size": 128000,
@@ -66,6 +66,14 @@
       "analysis_method": "pass at 1 attempt on testmini set",
       "date_recorded": "2024-05-08",
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.747,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-08-06",
+      "source_link": "https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro"
     }
   ]
 }

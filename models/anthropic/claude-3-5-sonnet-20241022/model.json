@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Claude 3.5 Sonnet (2024-10-22)",
+  "name": "Claude 3.5 Sonnet",
   "description": "Claude 3.5 Sonnet is a powerful AI model with industry-leading software engineering skills. It excels in coding, planning, and problem-solving, with significant improvements in agentic coding and tool use tasks. The model includes computer use capabilities in public beta, allowing it to interact with computer interfaces like a human user.",
   "release_date": "2024-10-22",
   "input_context_size": 200000,
@@ -77,11 +77,11 @@
     },
     {
       "dataset_name": "MMLU-Pro",
-      "score": 0.345,
+      "score": 0.776,
       "is_self_reported": true,
       "analysis_method": "5-shot",
       "date_recorded": "2024-10-22",
-      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      "source_link": "https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro"
     },
     {
       "dataset_name": "HumanEval",

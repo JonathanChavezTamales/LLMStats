@@ -1,0 +1,79 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "mistral-large-2-2407",
+  "name": "Pixtral Large",
+  "description": "A 124B parameter multimodal model built on top of Mistral Large 2, featuring frontier-level image understanding capabilities. Excels at understanding documents, charts, and natural images while maintaining strong text-only performance. Features a 123B multimodal decoder and 1B parameter vision encoder with a 128K context window supporting up to 30 high-resolution images.",
+  "release_date": "2024-11-18",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Mistral Research License (MRL) for research; Mistral Commercial License for commercial use",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://mistral.ai/",
+  "playground_link": "https://chat.mistral.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/pixtral-large/",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411",
+  "param_count": 124000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MathVista",
+      "score": 0.694,
+      "is_self_reported": true,
+      "analysis_method": "CoT",
+      "date_recorded": "2024-11-18",
+      "source_link": "https://mistral.ai/news/pixtral-large/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.64,
+      "is_self_reported": true,
+      "analysis_method": "CoT",
+      "date_recorded": "2024-11-18",
+      "source_link": "https://mistral.ai/news/pixtral-large/"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.881,
+      "is_self_reported": true,
+      "analysis_method": "CoT",
+      "date_recorded": "2024-11-18",
+      "source_link": "https://mistral.ai/news/pixtral-large/"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.933,
+      "is_self_reported": true,
+      "analysis_method": "ANLS",
+      "date_recorded": "2024-11-18",
+      "source_link": "https://mistral.ai/news/pixtral-large/"
+    },
+    {
+      "dataset_name": "VQAv2",
+      "score": 0.809,
+      "is_self_reported": true,
+      "analysis_method": "VQA Match",
+      "date_recorded": "2024-11-18",
+      "source_link": "https://mistral.ai/news/pixtral-large/"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.938,
+      "is_self_reported": true,
+      "analysis_method": "BBox",
+      "date_recorded": "2024-11-18",
+      "source_link": "https://mistral.ai/news/pixtral-large/"
+    },
+    {
+      "dataset_name": "MM-MT-Bench",
+      "score": 0.74,
+      "is_self_reported": true,
+      "analysis_method": "GPT-4o Judge",
+      "date_recorded": "2024-11-18",
+      "source_link": "https://mistral.ai/news/pixtral-large/"
+    }
+  ]
+}

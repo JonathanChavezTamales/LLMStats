@@ -1,8 +1,8 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Llama 3.2-90B Vision-Instruct",
-  "description": "Llama 3.2-90B Vision-Instruct is a large multimodal language model optimized for visual recognition, image reasoning, and captioning tasks. It supports a context length of 128,000 tokens and is designed for deployment on edge and mobile devices, offering state-of-the-art performance in image understanding and generative tasks.",
+  "name": "Llama 3.2 90B",
+  "description": "Llama 3.2 90B is a large multimodal language model optimized for visual recognition, image reasoning, and captioning tasks. It supports a context length of 128,000 tokens and is designed for deployment on edge and mobile devices, offering state-of-the-art performance in image understanding and generative tasks.",
   "release_date": "2024-09-25",
   "input_context_size": 128000,
   "output_context_size": 128000,
@@ -21,7 +21,7 @@
   "qualitative_metrics": [
     {
       "dataset_name": "VQAv2",
-      "score": 0.736,
+      "score": 0.781,
       "is_self_reported": true,
       "analysis_method": "Internal Evaluation",
       "date_recorded": "2024-09-25",
@@ -37,7 +37,7 @@
     },
     {
       "dataset_name": "DocVQA",
-      "score": 0.707,
+      "score": 0.901,
       "is_self_reported": true,
       "analysis_method": "Internal Evaluation",
       "date_recorded": "2024-09-25",
@@ -45,7 +45,7 @@
     },
     {
       "dataset_name": "MMMU",
-      "score": 0.493,
+      "score": 0.603,
       "is_self_reported": true,
       "analysis_method": "0-shot CoT",
       "date_recorded": "2024-09-25",
@@ -53,7 +53,7 @@
     },
     {
       "dataset_name": "ChartQA",
-      "score": 0.542,
+      "score": 0.855,
       "is_self_reported": true,
       "analysis_method": "Internal Evaluation",
       "date_recorded": "2024-09-25",
@@ -69,25 +69,9 @@
     },
     {
       "dataset_name": "AI2 Diagram",
-      "score": 0.753,
+      "score": 0.923,
       "is_self_reported": true,
       "analysis_method": "Internal Evaluation",
-      "date_recorded": "2024-09-25",
-      "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
-    },
-    {
-      "dataset_name": "VQAv2",
-      "score": 0.781,
-      "is_self_reported": true,
-      "analysis_method": "Internal Evaluation",
-      "date_recorded": "2024-09-25",
-      "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
-    },
-    {
-      "dataset_name": "MMMU",
-      "score": 0.603,
-      "is_self_reported": true,
-      "analysis_method": "0-shot CoT",
       "date_recorded": "2024-09-25",
       "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
     },
@@ -100,40 +84,8 @@
       "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
     },
     {
-      "dataset_name": "MMMU-Pro",
-      "score": 0.338,
-      "is_self_reported": true,
-      "analysis_method": "Internal Evaluation",
-      "date_recorded": "2024-09-25",
-      "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
-    },
-    {
       "dataset_name": "MathVista",
       "score": 0.573,
-      "is_self_reported": true,
-      "analysis_method": "Internal Evaluation",
-      "date_recorded": "2024-09-25",
-      "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
-    },
-    {
-      "dataset_name": "ChartQA",
-      "score": 0.855,
-      "is_self_reported": true,
-      "analysis_method": "Internal Evaluation",
-      "date_recorded": "2024-09-25",
-      "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
-    },
-    {
-      "dataset_name": "AI2 Diagram",
-      "score": 0.923,
-      "is_self_reported": true,
-      "analysis_method": "Internal Evaluation",
-      "date_recorded": "2024-09-25",
-      "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
-    },
-    {
-      "dataset_name": "DocVQA",
-      "score": 0.901,
       "is_self_reported": true,
       "analysis_method": "Internal Evaluation",
       "date_recorded": "2024-09-25",

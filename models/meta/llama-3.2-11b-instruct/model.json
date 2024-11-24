@@ -52,14 +52,6 @@
       "source_link": "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct"
     },
     {
-      "dataset_name": "MMMU-Pro",
-      "score": 0.237,
-      "is_self_reported": true,
-      "analysis_method": "Test accuracy",
-      "date_recorded": "2024-09-25",
-      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct"
-    },
-    {
       "dataset_name": "MathVista",
       "score": 0.515,
       "is_self_reported": true,

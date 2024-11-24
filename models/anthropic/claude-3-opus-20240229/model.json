@@ -98,6 +98,14 @@
       "analysis_method": "10-shot",
       "date_recorded": "2024-03-04",
       "source_link": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.685,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2024-03-04",
+      "source_link": "https://arxiv.org/pdf/2406.01574"
     }
   ]
 }
