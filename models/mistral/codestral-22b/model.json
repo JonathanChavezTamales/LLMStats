@@ -1,0 +1,79 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Codestral-22B",
+  "description": "A 22B parameter code generation model trained on 80+ programming languages including Python, Java, C, C++, JavaScript, and Bash. Supports both instruction-following and fill-in-the-middle (FIM) capabilities for code completion and generation tasks.",
+  "release_date": "2024-05-29",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "MNPL-0.1",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.mistral.ai/api/",
+  "playground_link": "https://chat.mistral.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/codestral/",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/mistralai/Codestral-22B-v0.1",
+  "param_count": 22200000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.811,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-05-29",
+      "source_link": "https://mistral.ai/news/codestral/"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.782,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-05-29",
+      "source_link": "https://mistral.ai/news/codestral/"
+    },
+    {
+      "dataset_name": "CruxEval-O",
+      "score": 0.513,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-05-29",
+      "source_link": "https://mistral.ai/news/codestral/"
+    },
+    {
+      "dataset_name": "RepoBench",
+      "score": 0.34,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-05-29",
+      "source_link": "https://mistral.ai/news/codestral/"
+    },
+    {
+      "dataset_name": "Spider",
+      "score": 0.635,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-05-29",
+      "source_link": "https://mistral.ai/news/codestral/"
+    },
+    {
+      "dataset_name": "HumanEvalFIM-Average",
+      "score": 0.916,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-05-29",
+      "source_link": "https://mistral.ai/news/codestral/"
+    },
+    {
+      "dataset_name": "HumanEval-Average",
+      "score": 0.615,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
+      "date_recorded": "2024-05-29",
+      "source_link": "https://mistral.ai/news/codestral/"
+    }
+  ]
+}
