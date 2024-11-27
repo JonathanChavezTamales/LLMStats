@@ -4,8 +4,8 @@
   "providermodels": [
     {
       "model_id": "gemini-1.5-pro",
-      "price_per_input_token": 0.000007,
-      "price_per_output_token": 0.000021,
+      "price_per_input_token": 0.0000025,
+      "price_per_output_token": 0.00001,
       "throughput": 85,
       "latency": 0.7,
       "updated_at": "2024-03-20"
@@ -24,6 +24,110 @@
       "price_per_output_token": 0.0000006,
       "throughput": 150,
       "latency": 0.3,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "gemini-1.5-flash-8b",
+      "price_per_input_token": 0.000000075,
+      "price_per_output_token": 0.0000003,
+      "throughput": 150,
+      "latency": 0.3,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "jamba-1.5-large",
+      "price_per_input_token": 0.000002,
+      "price_per_output_token": 0.000008,
+      "throughput": 42,
+      "latency": 0.3,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "jamba-1.5-mini",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000004,
+      "throughput": 100,
+      "latency": 0.3,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "claude-3-5-haiku-20241022",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000005,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "claude-3-5-sonnet-20241022",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000015,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "claude-3-5-sonnet-20240620",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000015,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "claude-3-sonnet-20240229",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000015,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "claude-3-opus-20240229",
+      "price_per_input_token": 0.000015,
+      "price_per_output_token": 0.000075,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "claude-3-opus-20240229",
+      "price_per_input_token": 0.00000025,
+      "price_per_output_token": 0.00000125,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "llama-3.1-405b-instruct",
+      "price_per_input_token": 0.000005,
+      "price_per_output_token": 0.000016,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "mistral-large-2-2407",
+      "price_per_input_token": 0.000002,
+      "price_per_output_token": 0.000006,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "mistral-nemo-instruct-2407",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.00000015,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2024-03-20"
+    },
+    {
+      "model_id": "codestral-22b",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000006,
+      "throughput": 42,
+      "latency": 0.4,
       "updated_at": "2024-03-20"
     }
   ]

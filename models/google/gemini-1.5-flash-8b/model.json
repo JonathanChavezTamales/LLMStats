@@ -1,0 +1,127 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini 1.5 Flash 8B",
+  "description": "A multimodal model capable of processing audio, images, video, and text with high efficiency. Features JSON mode, function calling, code execution, and system instructions support. Optimized for fast inference with 8B parameters.",
+  "release_date": "2024-03-15",
+  "input_context_size": 1048576,
+  "output_context_size": 8192,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-10-01",
+  "api_ref_link": "https://ai.google.dev/docs/gemini_1.5_flash",
+  "playground_link": "https://ai.google.dev/studio",
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": "https://github.com/google/generative-ai",
+  "weights_link": null,
+  "param_count": 8000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.587,
+      "is_self_reported": true,
+      "analysis_method": "Multiple choice accuracy across enhanced MMLU dataset with higher difficulty tasks",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "Natural2Code",
+      "score": 0.755,
+      "is_self_reported": true,
+      "analysis_method": "Pass rate on code generation tasks across multiple programming languages",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.587,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy on mathematical problem-solving tasks",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "HiddenMath",
+      "score": 0.328,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy on competition-level math problems",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.384,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy on expert-written science questions",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "WMT23",
+      "score": 0.726,
+      "is_self_reported": true,
+      "analysis_method": "Translation quality score",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "MRCR",
+      "score": 0.547,
+      "is_self_reported": true,
+      "analysis_method": "Long-context comprehension accuracy",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.537,
+      "is_self_reported": true,
+      "analysis_method": "Multimodal understanding accuracy",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "Vibe-Eval",
+      "score": 0.409,
+      "is_self_reported": true,
+      "analysis_method": "Visual understanding evaluation",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.547,
+      "is_self_reported": true,
+      "analysis_method": "Visual mathematical reasoning accuracy",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "FLEURS",
+      "score": 0.864,
+      "is_self_reported": true,
+      "analysis_method": "Speech recognition accuracy (1 - WER)",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "Video-MME",
+      "score": 0.662,
+      "is_self_reported": true,
+      "analysis_method": "Video analysis accuracy",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "XSTest",
+      "score": 0.926,
+      "is_self_reported": true,
+      "analysis_method": "Safe request fulfillment rate",
+      "date_recorded": "2024-03-15",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    }
+  ]
+}

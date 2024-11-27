@@ -20,108 +20,180 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.673,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
       "dataset_name": "MMLU",
       "score": 0.789,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://arxiv.org/abs/2403.05530"
     },
     {
       "dataset_name": "Natural2Code",
-      "score": 0.772,
+      "score": 0.798,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
       "dataset_name": "MATH",
-      "score": 0.549,
+      "score": 0.779,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "HiddenMath",
+      "score": 0.472,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.395,
+      "score": 0.51,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
-    },
-    {
-      "dataset_name": "Big-Bench-Hard",
-      "score": 0.855,
-      "is_self_reported": true,
-      "analysis_method": "Accuracy",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
       "dataset_name": "WMT23",
       "score": 0.741,
       "is_self_reported": true,
       "analysis_method": "Score",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "MRCR",
+      "score": 0.719,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
       "dataset_name": "MMMU",
-      "score": 0.561,
+      "score": 0.623,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "Vibe-Eval",
+      "score": 0.489,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
       "dataset_name": "MathVista",
-      "score": 0.584,
+      "score": 0.658,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
       "dataset_name": "FLEURS",
-      "score": 0.098,
+      "score": 0.096,
       "is_self_reported": true,
       "analysis_method": "Word Error Rate",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
-      "dataset_name": "EgoSchema",
-      "score": 0.657,
+      "dataset_name": "Video-MME",
+      "score": 0.761,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://deepmind.google/technologies/gemini/pro/"
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
-      "dataset_name": "DROP",
-      "score": 0.741,
+      "dataset_name": "XSTest",
+      "score": 0.97,
       "is_self_reported": true,
-      "analysis_method": "Variable shots",
-      "date_recorded": "2024-07-23",
-      "source_link": "https://arxiv.org/pdf/2403.05530"
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
+    },
+    {
+      "dataset_name": "PhysicsFinals",
+      "score": 0.574,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy (0-shot)",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://arxiv.org/abs/2303.16416"
+    },
+    {
+      "dataset_name": "Functional_MATH",
+      "score": 0.536,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy (0-shot)",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://arxiv.org/abs/2201.04723"
+    },
+    {
+      "dataset_name": "AMC_2022_23",
+      "score": 0.348,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy (4-shot)",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://www.maa.org/math-competitions/amc-1012"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.862,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy (11-shot)",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://arxiv.org/abs/2110.14168"
+    },
+    {
+      "dataset_name": "BigBench_Hard",
+      "score": 0.855,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy (3-shot)",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://arxiv.org/abs/2206.04615"
+    },
+    {
+      "dataset_name": "Hellaswag",
+      "score": 0.865,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy (10-shot)",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://arxiv.org/abs/1905.07830"
     },
     {
       "dataset_name": "HumanEval",
-      "score": 0.677,
+      "score": 0.743,
       "is_self_reported": true,
-      "analysis_method": "0-shot",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://arxiv.org/pdf/2403.05530"
+      "analysis_method": "Pass Rate",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://deepmind.google/technologies/gemini/flash/"
     },
     {
-      "dataset_name": "MMLU-Pro",
-      "score": 0.596,
+      "dataset_name": "MGSM",
+      "score": 0.826,
       "is_self_reported": true,
-      "analysis_method": "0-shot CoT",
-      "date_recorded": "2024-05-01",
-      "source_link": "https://arxiv.org/pdf/2403.05530"
+      "analysis_method": "Accuracy (8-shot)",
+      "date_recorded": "2024-09-01",
+      "source_link": "https://arxiv.org/abs/2305.08916"
     }
   ]
 }
