@@ -3,7 +3,7 @@
   "fine_tuned_from_model_id": null,
   "name": "GPT-4o",
   "description": "GPT-4o variant that supports structured outputs.",
-  "release_date": "2024-05-08",
+  "release_date": "2024-08-06",
   "input_context_size": 128000,
   "output_context_size": 16384,
   "license": "Proprietary",

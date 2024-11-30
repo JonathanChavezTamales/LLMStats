@@ -3,7 +3,7 @@
   "fine_tuned_from_model_id": null,
   "name": "GPT-4",
   "description": "GPT-4 is a large multimodal model capable of processing both image and text inputs and generating human-like text outputs. It demonstrates human-level performance on various professional and academic benchmarks.",
-  "release_date": "2023-03-14",
+  "release_date": "2023-06-13",
   "input_context_size": 32768,
   "output_context_size": 32768,
   "license": "Proprietary",
@@ -90,6 +90,30 @@
       "analysis_method": "3-shot, Reading comprehension & arithmetic (f1 score)",
       "date_recorded": "2023-03-14",
       "source_link": "https://openai.com/research/gpt-4"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.357,
+      "is_self_reported": true,
+      "analysis_method": "5-shot, Commonsense reasoning",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.42,
+      "is_self_reported": true,
+      "analysis_method": "Mathematics problem-solving",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.745,
+      "is_self_reported": true,
+      "analysis_method": "Mathematics problem-solving",
+      "date_recorded": "2023-03-14",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
     }
   ]
 }

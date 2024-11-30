@@ -1,0 +1,55 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "qwen-2.5-32b-instruct",
+  "name": "QwQ-32B-Preview",
+  "description": "An experimental research model focused on advancing AI reasoning capabilities, particularly excelling in mathematics and programming. Features deep introspection and self-questioning abilities while having some limitations in language mixing and recursive reasoning patterns.",
+  "release_date": "2024-11-28",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "apache-2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-11-28",
+  "api_ref_link": "https://huggingface.co/Qwen/QwQ-32B-Preview",
+  "playground_link": "https://huggingface.co/spaces/Qwen/QwQ-32B-Preview",
+  "paper_link": "https://arxiv.org/abs/2407.10671",
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwq-32b-preview/",
+  "repo_link": "https://github.com/QwenLM/Qwen2",
+  "weights_link": "https://huggingface.co/Qwen/QwQ-32B-Preview",
+  "param_count": 32500000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.652,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-28",
+      "source_link": "https://qwenlm.github.io/blog/qwq-32b-preview/"
+    },
+    {
+      "dataset_name": "AIME",
+      "score": 0.5,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-28",
+      "source_link": "https://qwenlm.github.io/blog/qwq-32b-preview/"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.906,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-28",
+      "source_link": "https://qwenlm.github.io/blog/qwq-32b-preview/"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.5,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-28",
+      "source_link": "https://qwenlm.github.io/blog/qwq-32b-preview/"
+    }
+  ]
+}

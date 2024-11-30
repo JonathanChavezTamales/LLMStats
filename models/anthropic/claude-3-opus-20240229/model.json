@@ -3,7 +3,7 @@
   "fine_tuned_from_model_id": null,
   "name": "Claude 3 Opus",
   "description": "Claude 3 Opus is Anthropic's most intelligent model, with best-in-market performance on highly complex tasks. It can navigate open-ended prompts and sight-unseen scenarios with remarkable fluency and human-like understanding, showing the outer limits of what's possible with generative AI.",
-  "release_date": "2024-03-04",
+  "release_date": "2024-02-29",
   "input_context_size": 200000,
   "output_context_size": 200000,
   "license": "Proprietary",

@@ -3,7 +3,7 @@
   "fine_tuned_from_model_id": null,
   "name": "Claude 3 Sonnet",
   "description": "Claude 3 Sonnet strikes the ideal balance between intelligence and speed—particularly for enterprise workloads. It delivers strong performance at a lower cost compared to its peers, and is engineered for high endurance in large-scale AI deployments.",
-  "release_date": "2024-03-04",
+  "release_date": "2024-02-29",
   "input_context_size": 200000,
   "output_context_size": 200000,
   "license": "Proprietary",

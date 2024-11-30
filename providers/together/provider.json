@@ -57,6 +57,14 @@
       "throughput": 47,
       "latency": 0.5,
       "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "qwq-32b-preview",
+      "price_per_input_token": 0.0000012,
+      "price_per_output_token": 0.0000012,
+      "throughput": 62.14,
+      "latency": 0.74,
+      "updated_at": "2024-11-24"
     }
   ]
 }

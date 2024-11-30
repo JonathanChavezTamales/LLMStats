@@ -3,7 +3,7 @@
   "fine_tuned_from_model_id": null,
   "name": "GPT-3.5 Turbo",
   "description": "The latest GPT-3.5 Turbo model with higher accuracy at responding in requested formats and a fix for a bug which caused a text encoding issue for non-English language function calls.",
-  "release_date": "2024-01-25",
+  "release_date": "2023-03-21",
   "input_context_size": 16385,
   "output_context_size": 4096,
   "license": "Proprietary",
