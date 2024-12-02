@@ -60,8 +60,8 @@
     },
     {
       "model_id": "o1-mini",
-      "price_per_input_token": 0.000033,
-      "price_per_output_token": 0.000132,
+      "price_per_input_token": 0.0000033,
+      "price_per_output_token": 0.0000132,
       "throughput": 100,
       "latency": 0.5,
       "updated_at": "2024-11-24"

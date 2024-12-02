@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Ministral 8B",
+  "name": "Ministral 8B Instruct",
   "description": "The Ministral-8B-Instruct-2410 is an instruct fine-tuned model for local intelligence, on-device computing, and at-the-edge use cases, significantly outperforming existing models of similar size.",
   "release_date": "2024-10-16",
   "input_context_size": 128000,

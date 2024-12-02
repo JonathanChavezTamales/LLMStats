@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Llama 3.2 90B",
+  "name": "Llama 3.2 90B Instruct",
   "description": "Llama 3.2 90B is a large multimodal language model optimized for visual recognition, image reasoning, and captioning tasks. It supports a context length of 128,000 tokens and is designed for deployment on edge and mobile devices, offering state-of-the-art performance in image understanding and generative tasks.",
   "release_date": "2024-09-25",
   "input_context_size": 128000,

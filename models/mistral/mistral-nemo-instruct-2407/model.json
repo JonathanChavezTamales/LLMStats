@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Mistral NeMo",
+  "name": "Mistral NeMo Instruct",
   "description": "A state-of-the-art 12B multilingual model with a 128k context window, designed for global applications and strong in multiple languages.",
   "release_date": "2024-07-18",
   "input_context_size": 128000,

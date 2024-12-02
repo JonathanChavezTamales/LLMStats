@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": "qwen-2.5-32b-instruct",
-  "name": "Qwen2.5-Coder 32B",
+  "name": "Qwen2.5-Coder 32B Instruct",
   "description": "Qwen2.5-Coder is a specialized coding model trained on 5.5 trillion tokens of code data, supporting 92 programming languages with a 128K context window. It excels in code generation, completion, repair, and multi-programming tasks while maintaining strong performance in mathematics and general capabilities.",
   "release_date": "2024-09-19",
   "input_context_size": 128000,

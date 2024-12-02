@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Llama 3.2 11B",
+  "name": "Llama 3.2 11B Instruct",
   "description": "Llama 3.2 11B Vision Instruct is an instruction-tuned multimodal large language model optimized for visual recognition, image reasoning, captioning, and answering general questions about an image. It accepts text and images as input and generates text as output.",
   "release_date": "2024-09-25",
   "input_context_size": 128000,
