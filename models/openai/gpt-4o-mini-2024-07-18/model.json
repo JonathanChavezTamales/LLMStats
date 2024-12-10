@@ -2,7 +2,7 @@
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
   "name": "GPT-4o mini",
-  "description": "Our affordable and intelligent small model for fast, lightweight tasks. GPT-4o mini is cheaper and more capable than GPT-3.5 Turbo.",
+  "description": "GPT-4o mini is OpenAI's latest cost-efficient small model, designed to make AI intelligence more accessible and affordable. It excels in textual intelligence and multimodal reasoning, outperforming previous models like GPT-3.5 Turbo. With a context window of 128K tokens and support for text and vision, it offers low-cost, real-time applications such as customer support chatbots. Priced at 15 cents per million input tokens and 60 cents per million output tokens, it is significantly cheaper than its predecessors. Safety is prioritized with built-in measures and improved resistance to security threats.",
   "release_date": "2024-07-18",
   "input_context_size": 128000,
   "output_context_size": 16384,
