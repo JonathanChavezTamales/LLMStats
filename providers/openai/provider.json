@@ -44,8 +44,8 @@
     },
     {
       "model_id": "gpt-4o-2024-05-13",
-      "price_per_input_token": 0.000005,
-      "price_per_output_token": 0.000015,
+      "price_per_input_token": 0.0000025,
+      "price_per_output_token": 0.00001,
       "throughput": 100,
       "latency": 0.5,
       "updated_at": "2024-09-09"
@@ -70,7 +70,15 @@
     {
       "model_id": "o1-preview",
       "price_per_input_token": 0.000015,
-      "price_per_output_token": 0.00006,
+      "price_per_output_token": 0.0000075,
+      "throughput": 66,
+      "latency": 16.2,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "o1-2024-12-17",
+      "price_per_input_token": 0.000015,
+      "price_per_output_token": 0.0000075,
       "throughput": 66,
       "latency": 16.2,
       "updated_at": "2024-11-24"

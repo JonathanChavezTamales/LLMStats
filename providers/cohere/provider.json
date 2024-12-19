@@ -1,0 +1,14 @@
+{
+  "name": "Cohere",
+  "website": "https://cohere.ai",
+  "providermodels": [
+    {
+      "model_id": "command-r-plus-04-2024",
+      "price_per_input_token": 0.00000025,
+      "price_per_output_token": 0.000001,
+      "throughput": 59,
+      "latency": 0.65,
+      "updated_at": "2024-12-18"
+    }
+  ]
+}

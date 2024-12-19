@@ -37,7 +37,7 @@
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.783,
+      "score": 0.733,
       "is_self_reported": true,
       "analysis_method": "pass@1",
       "date_recorded": "2024-03-13",
@@ -45,51 +45,43 @@
     },
     {
       "dataset_name": "AIME 2024",
-      "score": 0.567,
+      "score": 0.42,
       "is_self_reported": true,
       "analysis_method": "pass@1",
       "date_recorded": "2024-03-13",
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
     },
     {
-      "dataset_name": "Codeforces",
-      "score": 0.627,
+      "dataset_name": "MGSM",
+      "score": 0.908,
       "is_self_reported": true,
       "analysis_method": "pass@1",
       "date_recorded": "2024-03-13",
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
     },
     {
-      "dataset_name": "Biology",
-      "score": 0.659,
+      "dataset_name": "SWE-bench",
+      "score": 0.413,
       "is_self_reported": true,
-      "analysis_method": "pass@1",
+      "analysis_method": "Verified",
       "date_recorded": "2024-03-13",
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
     },
     {
-      "dataset_name": "Chemistry",
-      "score": 0.599,
+      "dataset_name": "LiveBench",
+      "score": 0.523,
       "is_self_reported": true,
-      "analysis_method": "pass@1",
+      "analysis_method": "Coding",
       "date_recorded": "2024-03-13",
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
     },
     {
-      "dataset_name": "Physics",
-      "score": 0.894,
+      "dataset_name": "SimpleQA",
+      "score": 0.424,
       "is_self_reported": true,
-      "analysis_method": "pass@1",
+      "analysis_method": "Factuality",
       "date_recorded": "2024-03-13",
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
-    },
-    {
-      "dataset_name": "MMLU-Pro",
-      "score": 0.9104,
-      "is_self_reported": true,
-      "analysis_method": "0-shot CoT",
-      "date_recorded": "2024-09-12",
-      "source_link": "https://twitter.com/WenhuChen/status/1834605218018754581"
     }
   ]
 }

@@ -14,7 +14,7 @@
   "playground_link": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
   "paper_link": null,
   "scorecard_blog_link": null,
-  "repo_link": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+  "repo_link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md",
   "weights_link": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
   "param_count": 70000000000,
   "training_tokens": 15000000000000,
@@ -44,7 +44,7 @@
       "source_link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md"
     },
     {
-      "dataset_name": "GPQA Diamond",
+      "dataset_name": "GPQA",
       "score": 0.505,
       "is_self_reported": true,
       "analysis_method": "0-shot CoT",
@@ -68,7 +68,7 @@
       "source_link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md"
     },
     {
-      "dataset_name": "MATH (CoT)",
+      "dataset_name": "MATH",
       "score": 0.77,
       "is_self_reported": true,
       "analysis_method": "0-shot CoT",

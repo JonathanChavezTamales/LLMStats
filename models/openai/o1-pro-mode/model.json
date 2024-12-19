@@ -1,0 +1,47 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "o1-pro",
+  "description": "o1-pro is OpenAI's advanced language model optimized for complex reasoning and specialized professional tasks, offering enhanced capabilities while maintaining high efficiency.",
+  "release_date": "2024-12-17",
+  "input_context_size": 4096,
+  "output_context_size": 2048,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-12",
+  "api_ref_link": "https://openai.com/api",
+  "playground_link": "https://platform.openai.com/playground",
+  "paper_link": "https://cdn.openai.com/o1-system-card-20240917.pdf",
+  "scorecard_blog_link": "https://openai.com/index/introducing-chatgpt-pro/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.86,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1 accuracy",
+      "date_recorded": "2024-03",
+      "source_link": "https://openai.com/index/introducing-chatgpt-pro/"
+    },
+    {
+      "dataset_name": "Codeforces",
+      "score": 0.9,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1 percentile",
+      "date_recorded": "2024-03",
+      "source_link": "https://openai.com/index/introducing-chatgpt-pro/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.79,
+      "is_self_reported": true,
+      "analysis_method": "Diamond, Pass@1 accuracy",
+      "date_recorded": "2024-03",
+      "source_link": "https://openai.com/index/introducing-chatgpt-pro/"
+    }
+  ]
+}

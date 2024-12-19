@@ -1,0 +1,54 @@
+{
+  "name": "Lambda",
+  "website": "https://lambdalabs.com",
+  "providermodels": [
+    {
+      "model_id": "llama-3.1-8b-instruct",
+      "price_per_input_token": 0.00000003,
+      "price_per_output_token": 0.00000003,
+      "throughput": 42,
+      "latency": 0.5,
+      "updated_at": "2024-12-18"
+    },
+    {
+      "model_id": "llama-3.1-70b-instruct",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000002,
+      "throughput": 42,
+      "latency": 0.5,
+      "updated_at": "2024-12-18"
+    },
+    {
+      "model_id": "llama-3.1-405b-instruct",
+      "price_per_input_token": 0.0000009,
+      "price_per_output_token": 0.0000009,
+      "throughput": 42,
+      "latency": 0.5,
+      "updated_at": "2024-12-18"
+    },
+    {
+      "model_id": "llama-3.3-70b-instruct",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000002,
+      "throughput": 42,
+      "latency": 0.65,
+      "updated_at": "2024-12-18"
+    },
+    {
+      "model_id": "lfm-40b",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.00000015,
+      "throughput": 42,
+      "latency": 0.5,
+      "updated_at": "2024-12-18"
+    },
+    {
+      "model_id": "qwen2.5-coder-32b-instruct",
+      "price_per_input_token": 0.00000009,
+      "price_per_output_token": 0.00000009,
+      "throughput": 42,
+      "latency": 0.5,
+      "updated_at": "2024-12-18"
+    }
+  ]
+}
