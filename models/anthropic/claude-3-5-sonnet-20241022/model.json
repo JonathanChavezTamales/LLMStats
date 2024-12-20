@@ -61,11 +61,11 @@
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.65,
+      "score": 0.672,
       "is_self_reported": true,
-      "analysis_method": "0-shot CoT",
+      "analysis_method": "Maj@32 5-shot CoT",
       "date_recorded": "2024-10-22",
-      "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      "source_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf"
     },
     {
       "dataset_name": "MMLU",
@@ -130,6 +130,46 @@
       "analysis_method": "0-shot CoT",
       "date_recorded": "2024-10-22",
       "source_link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.683,
+      "is_self_reported": true,
+      "analysis_method": "validation",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.677,
+      "is_self_reported": true,
+      "analysis_method": "testmini",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.947,
+      "is_self_reported": true,
+      "analysis_method": "test",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.908,
+      "is_self_reported": true,
+      "analysis_method": "test, relaxed accuracy",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.952,
+      "is_self_reported": true,
+      "analysis_method": "test, ANLS score",
+      "date_recorded": "2024-10-22",
+      "source_link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf"
     }
   ]
 }
