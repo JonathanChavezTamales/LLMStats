@@ -35,15 +35,7 @@
       "updated_at": "2024-12-18"
     },
     {
-      "model_id": "lfm-40b",
-      "price_per_input_token": 0.00000015,
-      "price_per_output_token": 0.00000015,
-      "throughput": 42,
-      "latency": 0.5,
-      "updated_at": "2024-12-18"
-    },
-    {
-      "model_id": "qwen2.5-coder-32b-instruct",
+      "model_id": "qwen-2.5-coder-32b-instruct",
       "price_per_input_token": 0.00000009,
       "price_per_output_token": 0.00000009,
       "throughput": 42,
