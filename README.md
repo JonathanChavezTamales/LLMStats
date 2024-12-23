@@ -1,4 +1,8 @@
-# LLM-Stats 📊
+<img width="1208" alt="image" src="https://github.com/user-attachments/assets/835f1e1b-73e6-405a-b7ad-096d5f5f567a" />
+
+
+# LLM Stats
+
 
 [![GitHub stars](https://img.shields.io/github/stars/JonathanChavezTamales/LLMStats?style=social)](https://github.com/JonathanChavezTamales/LLMStats/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
