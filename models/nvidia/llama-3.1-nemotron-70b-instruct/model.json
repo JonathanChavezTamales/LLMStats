@@ -1,0 +1,47 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "llama-3.1-70b-instruct",
+  "name": "Llama 3.1 Nemotron 70B Instruct",
+  "description": "A large language model customized by NVIDIA to improve the helpfulness of LLM generated responses. It is a fine-tuned version of Llama 3.1 70B Instruct. The model was trained using RLHF (REINFORCE) with HelpSteer2-Preference prompts.",
+  "release_date": "2024-10-01",
+  "input_context_size": 128000,
+  "output_context_size": 4000,
+  "license": "Llama 3.1 Community License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-12",
+  "api_ref_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct",
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/abs/2410.01257",
+  "scorecard_blog_link": null,
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct",
+  "param_count": 70000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.85,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2024-10-01",
+      "source_link": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct"
+    },
+    {
+      "dataset_name": "AlpacaEval",
+      "score": 0.576,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2024-10-01",
+      "source_link": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct"
+    },
+    {
+      "dataset_name": "MT-Bench",
+      "score": 0.898,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2024-10-01",
+      "source_link": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct"
+    }
+  ]
+}

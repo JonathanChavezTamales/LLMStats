@@ -26,7 +26,6 @@
       "latency": 0.5,
       "updated_at": "2024-11-24"
     },
-
     {
       "model_id": "llama-3.3-70b-instruct",
       "price_per_input_token": 0.00000059,
