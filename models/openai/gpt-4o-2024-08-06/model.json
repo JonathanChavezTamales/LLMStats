@@ -36,8 +36,8 @@
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
     },
     {
-      "dataset_name": "GPQA, Diamond",
-      "score": 0.506,
+      "dataset_name": "GPQA",
+      "score": 0.536,
       "is_self_reported": true,
       "analysis_method": "pass at 1 attempt",
       "date_recorded": "2024-05-08",
