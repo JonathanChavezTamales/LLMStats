@@ -61,11 +61,11 @@
     },
     {
       "dataset_name": "Codeforces",
-      "score": 0.89,
+      "score": 1891,
       "is_self_reported": true,
       "analysis_method": "percentile",
       "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
     },
     {
       "dataset_name": "GPQA",

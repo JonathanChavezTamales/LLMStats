@@ -1,0 +1,63 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "o3",
+  "description": "A research model focused on advanced reasoning and problem-solving capabilities, particularly in mathematics, coding, and scientific domains. O3 demonstrates significant improvements in complex reasoning tasks while maintaining strong general capabilities and showing enhanced performance in multi-step problem solving.",
+  "release_date": "2024-12-20",
+  "input_context_size": 128000,
+  "output_context_size": 4096,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-12",
+  "api_ref_link": "https://platform.openai.com/docs/models",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Codeforces",
+      "score": 2727,
+      "is_self_reported": true,
+      "analysis_method": "elo",
+      "date_recorded": "2024-12-20",
+      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.967,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.877,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
+    },
+    {
+      "dataset_name": "Frontier Math",
+      "score": 0.252,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
+    },
+    {
+      "dataset_name": "ARC-AGI",
+      "score": 0.88,
+      "is_self_reported": true,
+      "analysis_method": "test set evaluation",
+      "date_recorded": "2024-12-20",
+      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
+    }
+  ]
+}

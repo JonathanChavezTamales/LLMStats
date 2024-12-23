@@ -99,7 +99,6 @@
           "score": {
             "type": "number",
             "minimum": 0,
-            "maximum": 1,
             "description": "Benchmark score, normalized between 0 and 1"
           },
           "is_self_reported": {

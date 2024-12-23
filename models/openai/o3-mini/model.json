@@ -1,0 +1,39 @@
+{
+  "canonical_model_id": "o3",
+  "fine_tuned_from_model_id": null,
+  "name": "o3-mini",
+  "description": "A smaller variant of O3, expected to offer enhanced multimodal capabilities, improved reasoning, and more efficient resource utilization compared to previous models while maintaining strong performance on core tasks.",
+  "release_date": "2024-12-20",
+  "input_context_size": 128000,
+  "output_context_size": 4096,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-06",
+  "api_ref_link": "https://platform.openai.com/docs/models",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": "https://github.com/openai",
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Codeforces",
+      "score": 1697,
+      "is_self_reported": true,
+      "analysis_method": "elo",
+      "date_recorded": "2024-12-20",
+      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
+    },
+    {
+      "dataset_name": "Livebench",
+      "score": 0.697,
+      "is_self_reported": true,
+      "analysis_method": "test set evaluation",
+      "date_recorded": "2024-12-20",
+      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
+    }
+  ]
+}

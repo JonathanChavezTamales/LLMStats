@@ -74,6 +74,46 @@
       "analysis_method": "0-shot CoT",
       "date_recorded": "2024-08-06",
       "source_link": "https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.942,
+      "is_self_reported": true,
+      "analysis_method": "test set evaluation",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.857,
+      "is_self_reported": true,
+      "analysis_method": "test set evaluation",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.928,
+      "is_self_reported": true,
+      "analysis_method": "test set evaluation",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "ActivityNet",
+      "score": 0.619,
+      "is_self_reported": true,
+      "analysis_method": "test set evaluation",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "EgoSchema",
+      "score": 0.722,
+      "is_self_reported": true,
+      "analysis_method": "test set evaluation",
+      "date_recorded": "2024-05-08",
+      "source_link": "https://openai.com/index/hello-gpt-4o/"
     }
   ]
 }
