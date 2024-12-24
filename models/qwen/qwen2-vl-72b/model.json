@@ -1,0 +1,143 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Qwen2-VL-72B-Instruct",
+  "description": "An instruction-tuned, large multimodal model that excels at visual understanding and step-by-step reasoning. It supports image and video input, with dynamic resolution handling and improved positional embeddings (M-ROPE), enabling advanced capabilities such as complex problem solving, multilingual text recognition in images, and agent-like interactions in video contexts.",
+  "release_date": "2024-08-29",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "tongyi-qianwen",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-06-30",
+  "api_ref_link": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct",
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/abs/2409.12191",
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen2-vl/",
+  "repo_link": "https://github.com/QwenLM/Qwen2-VL",
+  "weights_link": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct",
+  "param_count": 7.34e10,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMMUval",
+      "score": 0.645,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "MMMU-Pro",
+      "score": 0.462,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "DocVQAtest",
+      "score": 0.965,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "InfoVQAtest",
+      "score": 0.845,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "ChartQAtest",
+      "score": 0.883,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "TextVQAval",
+      "score": 0.855,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "OCRBench",
+      "score": 0.877,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "MTVQA",
+      "score": 0.309,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "VCR_en_easy",
+      "score": 0.9193,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "RealWorldQA",
+      "score": 0.778,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "MMBench_test",
+      "score": 0.865,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "MMVetGPT4Turbo",
+      "score": 0.74,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "MathVista_test_mini",
+      "score": 0.705,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "MVBench",
+      "score": 0.736,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    },
+    {
+      "dataset_name": "EgoSchema_test",
+      "score": 0.779,
+      "is_self_reported": true,
+      "analysis_method": "score",
+      "date_recorded": "2024-08-29",
+      "source_link": "https://github.com/QwenLM/Qwen2"
+    }
+  ]
+}

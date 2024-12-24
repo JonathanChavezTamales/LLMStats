@@ -1,0 +1,55 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "qwen2-vl-72b",
+  "name": "QvQ-72B-Preview",
+  "description": "An experimental research model focusing on advanced visual reasoning and step-by-step cognitive capabilities. Achieves strong performance on multi-modal science and mathematics tasks, though exhibits some limitations such as potential language mixing and recursive reasoning loops.",
+  "release_date": "2024-12-25",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "qwen",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://huggingface.co/Qwen/QVQ-72B-Preview",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qvq-72b-preview/",
+  "repo_link": "https://github.com/QwenLM/Qwen2",
+  "weights_link": "https://huggingface.co/Qwen/QVQ-72B-Preview",
+  "param_count": 7.34e10,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMMU",
+      "score": 0.703,
+      "is_self_reported": true,
+      "analysis_method": "val",
+      "date_recorded": "2024-12-25",
+      "source_link": "https://huggingface.co/Qwen/QVQ-72B-Preview"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.714,
+      "is_self_reported": true,
+      "analysis_method": "mini",
+      "date_recorded": "2024-12-25",
+      "source_link": "https://huggingface.co/Qwen/QVQ-72B-Preview"
+    },
+    {
+      "dataset_name": "MathVision",
+      "score": 0.359,
+      "is_self_reported": true,
+      "analysis_method": "full",
+      "date_recorded": "2024-12-25",
+      "source_link": "https://huggingface.co/Qwen/QVQ-72B-Preview"
+    },
+    {
+      "dataset_name": "OlympiadBench",
+      "score": 0.204,
+      "is_self_reported": true,
+      "analysis_method": "full",
+      "date_recorded": "2024-12-25",
+      "source_link": "https://huggingface.co/Qwen/QVQ-72B-Preview"
+    }
+  ]
+}

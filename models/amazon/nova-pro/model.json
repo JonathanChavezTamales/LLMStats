@@ -1,0 +1,233 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Nova Pro",
+  "description": "Amazon Nova Pro is a highly-capable multimodal model with state-of-the-art performance across text, image, and video understanding. It excels at core capabilities like language understanding, mathematical reasoning, and multimodal tasks while offering industry-leading speed and cost efficiency.",
+  "release_date": "2024-11-20",
+  "input_context_size": 300000,
+  "output_context_size": 300000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "paper_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card",
+  "api_ref_link": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-nova.html",
+  "repo_link": "https://huggingface.co/amazon-agi",
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.859,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain-of-Thought",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.948,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain-of-Thought",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.617,
+      "is_self_reported": true,
+      "analysis_method": "Chain-of-Thought",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "ARC-C",
+      "score": 0.948,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain-of-Thought",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.854,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.469,
+      "is_self_reported": true,
+      "analysis_method": "6-shot Chain-of-Thought",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.766,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Chain-of-Thought",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.921,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "BBH",
+      "score": 0.869,
+      "is_self_reported": true,
+      "analysis_method": "3-shot Chain-of-Thought",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "Translation en→Set1 spBleu",
+      "score": 0.434,
+      "is_self_reported": true,
+      "analysis_method": "spBleu",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "Translation en→Set1 COMET22",
+      "score": 0.891,
+      "is_self_reported": true,
+      "analysis_method": "COMET22",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "Translation Set1→en spBleu",
+      "score": 0.444,
+      "is_self_reported": true,
+      "analysis_method": "spBleu",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "Translation Set1→en COMET22",
+      "score": 0.89,
+      "is_self_reported": true,
+      "analysis_method": "COMET22",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "Chart QA",
+      "score": 0.892,
+      "is_self_reported": true,
+      "analysis_method": "relaxed accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "Doc VQA",
+      "score": 0.935,
+      "is_self_reported": true,
+      "analysis_method": "ANLS",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "Text VQA",
+      "score": 0.815,
+      "is_self_reported": true,
+      "analysis_method": "weighted accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "VATEX",
+      "score": 0.778,
+      "is_self_reported": true,
+      "analysis_method": "CIDEr",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "Ego Schema",
+      "score": 0.721,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "BFCL",
+      "score": 0.684,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "VisualWebBench",
+      "score": 0.797,
+      "is_self_reported": true,
+      "analysis_method": "composite",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "MM-Mind2Web",
+      "score": 0.637,
+      "is_self_reported": true,
+      "analysis_method": "step accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "GroundUI-1K",
+      "score": 0.814,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "SQuALITY",
+      "score": 0.198,
+      "is_self_reported": true,
+      "analysis_method": "ROUGE-L",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "LVBench",
+      "score": 0.416,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.89,
+      "is_self_reported": true,
+      "analysis_method": "0-shot pass@1",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "FinQA",
+      "score": 0.772,
+      "is_self_reported": true,
+      "analysis_method": "0-shot accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    },
+    {
+      "dataset_name": "CRAG",
+      "score": 0.503,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-17",
+      "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
+    }
+  ]
+}
