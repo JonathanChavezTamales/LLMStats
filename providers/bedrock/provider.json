@@ -20,8 +20,8 @@
     },
     {
       "model_id": "claude-3-5-haiku-20241022",
-      "price_per_input_token": 0.000001,
-      "price_per_output_token": 0.000005,
+      "price_per_input_token": 0.0000008,
+      "price_per_output_token": 0.000004,
       "throughput": 104,
       "latency": 0.5,
       "updated_at": "2024-11-24"
@@ -69,16 +69,16 @@
     },
     {
       "model_id": "llama-3.1-70b-instruct",
-      "price_per_input_token": 0.00000099,
-      "price_per_output_token": 0.00000099,
+      "price_per_input_token": 0.0000009,
+      "price_per_output_token": 0.0000009,
       "throughput": 100,
       "latency": 0.5,
       "updated_at": "2024-11-24"
     },
     {
       "model_id": "llama-3.1-405b-instruct",
-      "price_per_input_token": 0.00000532,
-      "price_per_output_token": 0.000016,
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000003,
       "throughput": 100,
       "latency": 0.5,
       "updated_at": "2024-11-24"
@@ -108,9 +108,41 @@
       "updated_at": "2024-11-24"
     },
     {
+      "model_id": "llama-3.3-70b-instruct",
+      "price_per_input_token": 0.00000072,
+      "price_per_output_token": 0.00000072,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
       "model_id": "command-r-plus-04-2024",
       "price_per_input_token": 0.000003,
       "price_per_output_token": 0.000015,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "nova-micro",
+      "price_per_input_token": 0.000000035,
+      "price_per_output_token": 0.00000014,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "nova-lite",
+      "price_per_input_token": 0.00000006,
+      "price_per_output_token": 0.00000024,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "nova-pro",
+      "price_per_input_token": 0.0000008,
+      "price_per_output_token": 0.0000032,
       "throughput": 100,
       "latency": 0.5,
       "updated_at": "2024-11-24"
