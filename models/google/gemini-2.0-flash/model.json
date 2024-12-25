@@ -1,0 +1,127 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini 2.0 Flash",
+  "description": "Next-generation model featuring superior speed, native tool use, multimodal generation, and a 1M token context window. Supports audio, images, video, and text input with capabilities for structured outputs, function calling, code execution, search, and multimodal operations.",
+  "release_date": "2024-12-01",
+  "input_context_size": 1048576,
+  "output_context_size": 8192,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "knowledge_cutoff": "2024-08-01",
+  "api_ref_link": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-2.0-flash",
+  "playground_link": "https://ai.google.dev/studio",
+  "paper_link": null,
+  "scorecard_blog_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.764,
+      "is_self_reported": true,
+      "analysis_method": "Enhanced version of MMLU dataset evaluation",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "Natural2Code",
+      "score": 0.929,
+      "is_self_reported": true,
+      "analysis_method": "Code generation evaluation across multiple languages",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "Bird-SQL",
+      "score": 0.569,
+      "is_self_reported": true,
+      "analysis_method": "Natural language to SQL conversion evaluation",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.351,
+      "is_self_reported": true,
+      "analysis_method": "Code generation in Python. Code Generation subset covering more recent examples: 06/01/2024 - 10/05/2024",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "FACTS Grounding",
+      "score": 0.836,
+      "is_self_reported": true,
+      "analysis_method": "Ability to provide factuality correct responses given documents and diverse user requests",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.897,
+      "is_self_reported": true,
+      "analysis_method": "Challenging math problems including algebra, geometry, pre-calculus, and others",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "HiddenMath",
+      "score": 0.63,
+      "is_self_reported": true,
+      "analysis_method": "Competition-level math problems, Held out dataset AIME/AMC-like",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.621,
+      "is_self_reported": true,
+      "analysis_method": "Challenging dataset of questions written by domain experts in biology, physics, and chemistry",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "MRCR",
+      "score": 0.692,
+      "is_self_reported": true,
+      "analysis_method": "Novel, diagnostic long-context understanding evaluation",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.707,
+      "is_self_reported": true,
+      "analysis_method": "Multi-discipline college-level multimodal understanding and reasoning problems",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "Vibe-Eval",
+      "score": 0.563,
+      "is_self_reported": true,
+      "analysis_method": "Visual understanding in chat models with challenging everyday examples",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "CoVoST2",
+      "score": 0.392,
+      "is_self_reported": true,
+      "analysis_method": "Automatic speech translation (BLEU score) across 21 languages",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    },
+    {
+      "dataset_name": "EgoSchema",
+      "score": 0.715,
+      "is_self_reported": true,
+      "analysis_method": "Video analysis across multiple domains",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
+    }
+  ]
+}
