@@ -1,144 +1,143 @@
 {
-    "canonical_model_id": null,
-    "fine_tuned_from_model_id": null,
-    "name": "Llama 3.2 3B Instruct",
-    "description": "Llama 3.2 3B Instruct is a large language model that supports a context length of 128K tokens and are state-of-the-art in their class for on-device use cases like summarization, instruction following, and rewriting tasks running locally at the edge.",
-    "release_date": "2024-09-25",
-    "input_context_size": 128000,
-    "output_context_size": 128000,
-    "license": "Llama 3.2 Community License",
-    "multimodal": false,
-    "web_hydrated": false,
-    "knowledge_cutoff": "2023-12",
-    "api_ref_link": "https://github.com/meta-llama/llama-models",
-    "playground_link": "https://llama.meta.com/llama-downloads",
-    "paper_link": null,
-    "scorecard_blog_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
-    "repo_link": "https://github.com/meta-llama/llama-models",
-    "weights_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-    "param_count": 3210000000,
-    "training_tokens": 9000000000000,
-    "qualitative_metrics": [
-      {
-        "dataset_name": "MMLU",
-        "score": 0.634,
-        "is_self_reported": true,
-        "analysis_method": "5-shot, macro_avg/acc",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "Open-rewrite eval",
-        "score": 0.401,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, micro_avg/rougeL",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "TLDR9+ (test)",
-        "score": 0.19,
-        "is_self_reported": true,
-        "analysis_method": "1-shot, rougeL",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "IFEval",
-        "score": 0.774,
-        "is_self_reported": true,
-        "analysis_method": "Avg(Prompt/Instruction acc Loose/Strict)",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "GSM8K (CoT)",
-        "score": 0.777,
-        "is_self_reported": true,
-        "analysis_method": "8-shot, em_maj1@1",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "MATH (CoT)",
-        "score": 0.48,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, final_em",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "ARC-C",
-        "score": 0.786,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, acc",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "GPQA",
-        "score": 0.328,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, acc",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "Hellaswag",
-        "score": 0.698,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, acc",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "BFCL V2",
-        "score": 0.67,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, acc",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "Nexus",
-        "score": 0.343,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, macro_avg/acc",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "InfiniteBench/En.QA",
-        "score": 0.198,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, longbook_qa/f1",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "InfiniteBench/En.MC",
-        "score": 0.633,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, longbook_choice/acc",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "NIH/Multi-needle",
-        "score": 0.847,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, recall",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      },
-      {
-        "dataset_name": "MGSM (CoT)",
-        "score": 0.582,
-        "is_self_reported": true,
-        "analysis_method": "0-shot, em",
-        "date_recorded": "2024-09-25",
-        "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-      }
-    ]
-  }
-  
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Llama 3.2 3B Instruct",
+  "description": "Llama 3.2 3B Instruct is a large language model that supports a context length of 128K tokens and are state-of-the-art in their class for on-device use cases like summarization, instruction following, and rewriting tasks running locally at the edge.",
+  "release_date": "2024-09-25",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Llama 3.2 Community License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-12",
+  "api_ref_link": "https://github.com/meta-llama/llama-models",
+  "playground_link": "https://llama.meta.com/llama-downloads",
+  "paper_link": null,
+  "scorecard_blog_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+  "repo_link": "https://github.com/meta-llama/llama-models",
+  "weights_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+  "param_count": 3210000000,
+  "training_tokens": 9000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.634,
+      "is_self_reported": true,
+      "analysis_method": "5-shot, macro_avg/acc",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "Open-rewrite",
+      "score": 0.401,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, micro_avg/rougeL",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "TLDR9+ (test)",
+      "score": 0.19,
+      "is_self_reported": true,
+      "analysis_method": "1-shot, rougeL",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.774,
+      "is_self_reported": true,
+      "analysis_method": "Avg(Prompt/Instruction acc Loose/Strict)",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.777,
+      "is_self_reported": true,
+      "analysis_method": "8-shot, em_maj1@1",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.48,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, final_em",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "ARC-C",
+      "score": 0.786,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, acc",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.328,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, acc",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.698,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, acc",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "BFCL V2",
+      "score": 0.67,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, acc",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "Nexus",
+      "score": 0.343,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, macro_avg/acc",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "InfiniteBench/En.QA",
+      "score": 0.198,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, longbook_qa/f1",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "InfiniteBench/En.MC",
+      "score": 0.633,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, longbook_choice/acc",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "NIH/Multi-needle",
+      "score": 0.847,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, recall",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.582,
+      "is_self_reported": true,
+      "analysis_method": "CoT, em",
+      "date_recorded": "2024-09-25",
+      "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
+    }
+  ]
+}
