@@ -81,6 +81,14 @@
       "throughput": 37,
       "latency": 0.65,
       "updated_at": "2024-12-18"
+    },
+    {
+      "model_id": "llama-3.2-3b-instruct",
+      "price_per_input_token": 0.000000015,
+      "price_per_output_token": 0.000000025,
+      "throughput": 171.5,
+      "latency": 0.24,
+      "updated_at": "2025-1-2"
     }
   ]
 }
