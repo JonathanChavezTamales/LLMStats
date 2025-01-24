@@ -70,7 +70,7 @@
     {
       "model_id": "o1-preview",
       "price_per_input_token": 0.000015,
-      "price_per_output_token": 0.0000075,
+      "price_per_output_token": 0.00006,
       "throughput": 66,
       "latency": 16.2,
       "updated_at": "2024-11-24"
@@ -78,7 +78,7 @@
     {
       "model_id": "o1-2024-12-17",
       "price_per_input_token": 0.000015,
-      "price_per_output_token": 0.0000075,
+      "price_per_output_token": 0.00006,
       "throughput": 66,
       "latency": 16.2,
       "updated_at": "2024-11-24"

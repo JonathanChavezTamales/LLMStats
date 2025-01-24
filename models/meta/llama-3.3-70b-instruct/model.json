@@ -28,7 +28,7 @@
       "source_link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md"
     },
     {
-      "dataset_name": "MMLU Pro",
+      "dataset_name": "MMLU-Pro",
       "score": 0.689,
       "is_self_reported": true,
       "analysis_method": "0-shot CoT",

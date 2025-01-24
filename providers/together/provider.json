@@ -73,6 +73,14 @@
       "throughput": 65,
       "latency": 0.65,
       "updated_at": "2024-12-18"
+    },
+    {
+      "model_id": "deepseek-r1",
+      "price_per_input_token": 0.000007,
+      "price_per_output_token": 0.000007,
+      "throughput": 4,
+      "latency": 0.6,
+      "updated_at": "2025-01-24"
     }
   ]
 }

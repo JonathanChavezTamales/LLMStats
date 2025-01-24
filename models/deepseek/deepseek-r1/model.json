@@ -1,0 +1,184 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "deepseek-v3",
+  "name": "DeepSeek-R1",
+  "description": "DeepSeek-R1 is the first-generation reasoning model built atop DeepSeek-V3 (671B total parameters, 37B activated per token). It incorporates large-scale reinforcement learning (RL) to enhance its chain-of-thought and reasoning capabilities, delivering strong performance in math, code, and multi-step reasoning tasks.",
+  "release_date": "2025-01-20",
+  "input_context_size": 131072,
+  "output_context_size": 131072,
+  "license": "MIT License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://api-docs.deepseek.com/news/news250120",
+  "playground_link": "https://chat.deepseek.com",
+  "paper_link": "https://arxiv.org/abs/2501.12948",
+  "scorecard_blog_link": null,
+  "repo_link": "https://github.com/deepseek-ai/DeepSeek-R1",
+  "weights_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+  "param_count": 671000000000,
+  "training_tokens": 14800000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.908,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.798,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.659,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "CLUEWSC",
+      "score": 0.928,
+      "is_self_reported": false,
+      "analysis_method": "Exact Match",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "MMLU-Redux",
+      "score": 0.929,
+      "is_self_reported": false,
+      "analysis_method": "Exact Match",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.84,
+      "is_self_reported": false,
+      "analysis_method": "Exact Match",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.922,
+      "is_self_reported": false,
+      "analysis_method": "3-shot F1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.833,
+      "is_self_reported": false,
+      "analysis_method": "Prompt Strict",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.715,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1 Diamond",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.301,
+      "is_self_reported": false,
+      "analysis_method": "Correct",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "FRAMES",
+      "score": 0.825,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "AlpacaEval2.0",
+      "score": 0.876,
+      "is_self_reported": false,
+      "analysis_method": "LC-winrate",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "ArenaHard",
+      "score": 0.923,
+      "is_self_reported": false,
+      "analysis_method": "GPT-4-1106",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "Codeforces",
+      "score": 0.963,
+      "is_self_reported": false,
+      "analysis_method": "Percentile",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+
+    {
+      "dataset_name": "SWE Verified",
+      "score": 0.492,
+      "is_self_reported": false,
+      "analysis_method": "Resolved",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "Aider-Polyglot",
+      "score": 0.533,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.973,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "CNMO 2024",
+      "score": 0.788,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "C-Eval",
+      "score": 0.918,
+      "is_self_reported": false,
+      "analysis_method": "Exact Match",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "dataset_name": "C-SimpleQA",
+      "score": 0.637,
+      "is_self_reported": false,
+      "analysis_method": "Correct",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    }
+  ]
+}

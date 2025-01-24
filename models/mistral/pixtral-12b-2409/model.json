@@ -84,7 +84,7 @@
       "source_link": "https://mistral.ai/news/pixtral-12b/"
     },
     {
-      "dataset_name": "Text IF-Eval",
+      "dataset_name": "IFEval",
       "score": 0.613,
       "is_self_reported": true,
       "analysis_method": "Text Instruction Following Score",

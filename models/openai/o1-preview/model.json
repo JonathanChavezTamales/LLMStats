@@ -5,7 +5,7 @@
   "description": "A research preview model focused on mathematical and logical reasoning capabilities, demonstrating improved performance on tasks requiring step-by-step reasoning, mathematical problem-solving, and code generation. The model shows enhanced capabilities in formal reasoning while maintaining strong general capabilities.",
   "release_date": "2024-09-12",
   "input_context_size": 128000,
-  "output_context_size": 4096,
+  "output_context_size": 32768,
   "license": "Proprietary",
   "multimodal": false,
   "web_hydrated": false,

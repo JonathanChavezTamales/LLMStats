@@ -36,7 +36,7 @@
       "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
     },
     {
-      "dataset_name": "MMLU-redux",
+      "dataset_name": "MMLU-Redux",
       "score": 0.8,
       "is_self_reported": true,
       "analysis_method": "MMLU-redux benchmark evaluation",

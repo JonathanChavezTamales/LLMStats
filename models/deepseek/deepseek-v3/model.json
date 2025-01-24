@@ -52,7 +52,7 @@
       "source_link": "https://github.com/deepseek-ai/DeepSeek-V3"
     },
     {
-      "dataset_name": "IF-Eval",
+      "dataset_name": "IFEval",
       "score": 0.861,
       "is_self_reported": false,
       "analysis_method": "Prompt Strict",
