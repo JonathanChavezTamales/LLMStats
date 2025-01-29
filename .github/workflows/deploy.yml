@@ -32,7 +32,7 @@ jobs:
         run: "npm install"
 
       - name: Build step
-        run: "npm run"
+        run: "node ."
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
