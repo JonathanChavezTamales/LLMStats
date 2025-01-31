@@ -108,7 +108,7 @@
       "source_link": "https://github.com/MoonshotAI/Kimi-k1.5"
     },
     {
-      "dataset_name": "IF-Eval (Prompt Strict)",
+      "dataset_name": "IF-Eval",
       "score": 0.872,
       "is_self_reported": false,
       "analysis_method": "Exact Match",
