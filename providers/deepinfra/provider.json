@@ -97,6 +97,14 @@
       "throughput": 0.9,
       "latency": 0.3,
       "updated_at": "2025-01-24"
+    },
+    {
+      "model_id": "mistral-small-3",
+      "price_per_input_token": 0.00000007,
+      "price_per_output_token": 0.00000014,
+      "throughput": 49,
+      "latency": 0.2,
+      "updated_at": "2025-01-30"
     }
   ]
 }

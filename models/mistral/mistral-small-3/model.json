@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Mistral Small 3",
+  "description": "Mistral Small 3 is a 24B-parameter LLM licensed under Apache-2.0. It focuses on low-latency, high-efficiency instruction following, maintaining performance comparable to larger models. It provides quick, accurate responses for conversational agents, function calling, and domain-specific fine-tuning. Suitable for local inference when quantized, it rivals models 2–3× its size while using significantly fewer compute resources.",
+  "release_date": "2025-01-30",
+  "input_context_size": 32000,
+  "output_context_size": 32000,
+  "license": "Apache-2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.mistral.ai/api/",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/mistral-small-3/",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+  "param_count": 24000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.663,
+      "is_self_reported": true,
+      "analysis_method": "5 shot COT",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.848,
+      "is_self_reported": true,
+      "analysis_method": "5 shot COT",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.453,
+      "is_self_reported": true,
+      "analysis_method": "5 shot COT",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.706,
+      "is_self_reported": true,
+      "analysis_method": "instruct",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+    },
+    {
+      "dataset_name": "MT-Bench",
+      "score": 0.835,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+    },
+    {
+      "dataset_name": "Wildbench",
+      "score": 0.522,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+    },
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.876,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.829,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+    }
+  ]
+}
