@@ -1,9 +1,9 @@
 {
-  "canonical_model_id": "o3",
+  "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
   "name": "o3-mini",
   "description": "A smaller variant of O3, expected to offer enhanced multimodal capabilities, improved reasoning, and more efficient resource utilization compared to previous models while maintaining strong performance on core tasks.",
-  "release_date": "2024-12-20",
+  "release_date": "2025-01-30",
   "input_context_size": 128000,
   "output_context_size": 4096,
   "license": "Proprietary",
@@ -28,19 +28,11 @@
       "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
     },
     {
-      "dataset_name": "Livebench",
-      "score": 0.697,
-      "is_self_reported": true,
-      "analysis_method": "test set evaluation",
-      "date_recorded": "2024-12-20",
-      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
-    },
-    {
       "dataset_name": "AIME 2024",
       "score": 0.873,
       "is_self_reported": true,
       "analysis_method": "test set evaluation",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
@@ -48,7 +40,7 @@
       "score": 0.797,
       "is_self_reported": true,
       "analysis_method": "diamond",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
@@ -56,7 +48,7 @@
       "score": 0.092,
       "is_self_reported": true,
       "analysis_method": "pass @ 1",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
@@ -64,7 +56,7 @@
       "score": 0.493,
       "is_self_reported": true,
       "analysis_method": "verified",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
@@ -72,7 +64,7 @@
       "score": 0.846,
       "is_self_reported": true,
       "analysis_method": "o3-mini high",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
@@ -80,7 +72,7 @@
       "score": 0.869,
       "is_self_reported": true,
       "analysis_method": "o3-mini high",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
@@ -88,7 +80,7 @@
       "score": 0.979,
       "is_self_reported": true,
       "analysis_method": "o3-mini high",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
@@ -96,7 +88,7 @@
       "score": 0.92,
       "is_self_reported": true,
       "analysis_method": "o3-mini high",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
@@ -104,7 +96,7 @@
       "score": 0.138,
       "is_self_reported": true,
       "analysis_method": "o3-mini high",
-      "date_recorded": "2025-01-02",
+      "date_recorded": "2025-01-30",
       "source_link": "https://openai.com/index/openai-o3-mini/"
     }
   ]

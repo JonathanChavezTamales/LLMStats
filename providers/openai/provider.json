@@ -90,6 +90,14 @@
       "throughput": 115,
       "latency": 5.2,
       "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "o3-mini",
+      "price_per_input_token": 0.0000011,
+      "price_per_output_token": 0.0000044,
+      "throughput": 115,
+      "latency": 5.2,
+      "updated_at": "2024-11-24"
     }
   ]
 }

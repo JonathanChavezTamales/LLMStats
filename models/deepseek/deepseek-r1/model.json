@@ -123,14 +123,6 @@
       "date_recorded": "2025-01-20",
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    {
-      "dataset_name": "Codeforces",
-      "score": 0.963,
-      "is_self_reported": false,
-      "analysis_method": "Percentile",
-      "date_recorded": "2025-01-20",
-      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
-    },
 
     {
       "dataset_name": "SWE Verified",
