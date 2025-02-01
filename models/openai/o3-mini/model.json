@@ -7,13 +7,13 @@
   "input_context_size": 128000,
   "output_context_size": 4096,
   "license": "Proprietary",
-  "multimodal": true,
+  "multimodal": false,
   "web_hydrated": false,
   "knowledge_cutoff": "2024-06",
   "api_ref_link": "https://platform.openai.com/docs/models",
   "playground_link": null,
-  "paper_link": null,
-  "scorecard_blog_link": null,
+  "paper_link": "https://cdn.openai.com/o3-mini-system-card.pdf",
+  "scorecard_blog_link": "https://openai.com/index/openai-o3-mini/",
   "repo_link": "https://github.com/openai",
   "weights_link": null,
   "param_count": null,
@@ -21,7 +21,7 @@
   "qualitative_metrics": [
     {
       "dataset_name": "Codeforces",
-      "score": 0.424,
+      "score": 0.79,
       "is_self_reported": true,
       "analysis_method": "elo divided by max elo",
       "date_recorded": "2024-12-20",
@@ -34,6 +34,78 @@
       "analysis_method": "test set evaluation",
       "date_recorded": "2024-12-20",
       "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.873,
+      "is_self_reported": true,
+      "analysis_method": "test set evaluation",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.797,
+      "is_self_reported": true,
+      "analysis_method": "diamond",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "dataset_name": "FrontierMath",
+      "score": 0.092,
+      "is_self_reported": true,
+      "analysis_method": "pass @ 1",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "dataset_name": "SWE-bench",
+      "score": 0.493,
+      "is_self_reported": true,
+      "analysis_method": "verified",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "dataset_name": "Livebench",
+      "score": 0.846,
+      "is_self_reported": true,
+      "analysis_method": "o3-mini high",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.869,
+      "is_self_reported": true,
+      "analysis_method": "o3-mini high",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.979,
+      "is_self_reported": true,
+      "analysis_method": "o3-mini high",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.92,
+      "is_self_reported": true,
+      "analysis_method": "o3-mini high",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.138,
+      "is_self_reported": true,
+      "analysis_method": "o3-mini high",
+      "date_recorded": "2025-01-02",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
     }
   ]
 }
