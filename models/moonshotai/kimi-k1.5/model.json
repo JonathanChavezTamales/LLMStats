@@ -5,7 +5,7 @@
   "description": "Kimi 1.5 is a next-generation multimodal large language model developed by Moonshot AI. It incorporates advanced reinforcement learning (RL) and scalable multimodal reasoning, delivering state-of-the-art performance in math, code, vision, and long-context reasoning tasks.",
   "release_date": "2025-01-20",
   "input_context_size": 128000,
-  "output_context_size": null,
+  "output_context_size": 128000,
   "license": "Proprietary",
   "multimodal": true,
   "web_hydrated": true,
@@ -16,7 +16,7 @@
   "scorecard_blog_link": null,
   "repo_link": "https://github.com/MoonshotAI/Kimi-k1.5",
   "weights_link": null,
-  "param_count": 100000000000,
+  "param_count": null,
   "training_tokens": null,
   "qualitative_metrics": [
     {
@@ -36,7 +36,7 @@
       "source_link": "https://github.com/MoonshotAI/Kimi-k1.5"
     },
     {
-      "dataset_name": "MATH500",
+      "dataset_name": "MATH-500",
       "score": 0.962,
       "is_self_reported": false,
       "analysis_method": "Exact Match",
@@ -72,22 +72,6 @@
       "score": 0.7,
       "is_self_reported": false,
       "analysis_method": "Pass@1",
-      "date_recorded": "2025-01-20",
-      "source_link": "https://github.com/MoonshotAI/Kimi-k1.5"
-    },
-    {
-      "dataset_name": "AIME 2024 Short-CoT",
-      "score": 0.608,
-      "is_self_reported": false,
-      "analysis_method": "Pass@1",
-      "date_recorded": "2025-01-20",
-      "source_link": "https://github.com/MoonshotAI/Kimi-k1.5"
-    },
-    {
-      "dataset_name": "MATH500 Short-CoT",
-      "score": 0.946,
-      "is_self_reported": false,
-      "analysis_method": "Exact Match",
       "date_recorded": "2025-01-20",
       "source_link": "https://github.com/MoonshotAI/Kimi-k1.5"
     },
