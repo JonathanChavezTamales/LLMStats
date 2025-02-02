@@ -105,6 +105,14 @@
       "throughput": 49,
       "latency": 0.2,
       "updated_at": "2025-01-30"
+    },
+    {
+      "model_id": "phi-4",
+      "price_per_input_token": 0.00000007,
+      "price_per_output_token": 0.00000014,
+      "throughput": 33,
+      "latency": 0.2,
+      "updated_at": "2025-01-30"
     }
   ]
 }

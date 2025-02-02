@@ -1,0 +1,127 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Phi-4",
+  "description": "phi-4 is a state-of-the-art open model built to excel at advanced reasoning, coding, and knowledge tasks. It leverages a blend of synthetic data, filtered web data, academic texts, and supervised fine-tuning for precision, alignment, and safety.",
+  "release_date": "2024-12-12",
+  "input_context_size": 16000,
+  "output_context_size": 16000,
+  "license": "MIT",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-06-01",
+  "api_ref_link": "https://huggingface.co/microsoft/phi-4",
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/pdf/2412.08905",
+  "scorecard_blog_link": "https://techcommunity.microsoft.com/blog/aiplatformblog/introducing-phi-4-microsoft%E2%80%99s-newest-small-language-model-specializing-in-comple/4357090",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/microsoft/phi-4",
+  "param_count": 14700000000,
+  "training_tokens": 9800000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.848,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.561,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.804,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.826,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.806,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.03,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.755,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.704,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "HumanEval+",
+      "score": 0.828,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "ArenaHard",
+      "score": 0.754,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "LiveBench",
+      "score": 0.476,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.63,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    },
+    {
+      "dataset_name": "PhiBench",
+      "score": 0.562,
+      "is_self_reported": true,
+      "analysis_method": "simple-evals",
+      "date_recorded": "2024-12-01",
+      "source_link": "https://arxiv.org/pdf/2412.08905"
+    }
+  ]
+}
