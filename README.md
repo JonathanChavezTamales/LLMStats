@@ -1,7 +1,7 @@
 <img width="1208" alt="image" src="https://github.com/user-attachments/assets/835f1e1b-73e6-405a-b7ad-096d5f5f567a" />
 
 
-# LLM Stats
+# LLM-Stats.com
 
 
 [![GitHub stars](https://img.shields.io/github/stars/JonathanChavezTamales/LLMStats?style=social)](https://github.com/JonathanChavezTamales/LLMStats/stargazers)
@@ -9,6 +9,12 @@
 [![Issues](https://img.shields.io/github/issues/JonathanChavezTamales/LLMStats)](https://github.com/JonathanChavezTamales/llm-stats/issues)
 
 A community-driven repository of LLM data and benchmarks. Compare and explore language models through our interactive dashboard at [llm-stats.com](https://llm-stats.com).
+
+## Found an issue or have a feature request?
+
+[Open an issue here](https://github.com/JonathanChavezTamales/LLMStats/issues). Thank you!
+
+# Data
 
 ## 🔍 What's Inside
 
@@ -28,9 +34,6 @@ We welcome community contributions to keep our data accurate and up-to-date:
    - Browse [`models/`](models/) and [`providers/`](providers/) directories
    - Submit a PR following our [contribution guidelines](CONTRIBUTING.md)
    - Check [`schemas/`](schemas/) for data formats
-
-2. **Report Issues with llm-stats.com**
-   - Have a feature request or found a bug? [Open an issue](https://github.com/JonathanChavezTamales/LLMStats/issues)
 
 ## 📈 Data Quality
 
