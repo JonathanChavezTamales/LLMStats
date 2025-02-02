@@ -1,0 +1,279 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Phi-3.5-MoE-instruct",
+  "description": "Phi-3.5-MoE-instruct is a mixture-of-experts model with ~42B total parameters (6.6B active) and a 128K context window. It excels at reasoning, math, coding, and multilingual tasks, outperforming larger dense models in many benchmarks. It underwent a thorough safety post-training process (SFT + DPO) and is licensed under MIT. This model is ideal for scenarios where efficiency and high performance are both required, particularly in multi-lingual or reasoning-intensive tasks.",
+  "release_date": "2024-08-23",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "MIT",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-10",
+  "api_ref_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct",
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/abs/2404.14219",
+  "scorecard_blog_link": "https://techcommunity.microsoft.com/blog/azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/4225280",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct",
+  "param_count": 60000000000,
+  "training_tokens": 4900000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.379,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "BigBench Hard CoT",
+      "score": 0.791,
+      "is_self_reported": true,
+      "analysis_method": "0-shot chain-of-thought",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.789,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.543,
+      "is_self_reported": true,
+      "analysis_method": "0-shot chain-of-thought",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "ARC Challenge",
+      "score": 0.91,
+      "is_self_reported": true,
+      "analysis_method": "10-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "BoolQ",
+      "score": 0.846,
+      "is_self_reported": true,
+      "analysis_method": "2-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.368,
+      "is_self_reported": true,
+      "analysis_method": "0-shot chain-of-thought",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.838,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "OpenBookQA",
+      "score": 0.896,
+      "is_self_reported": true,
+      "analysis_method": "10-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "PIQA",
+      "score": 0.886,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "Social IQA",
+      "score": 0.78,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "TruthfulQA",
+      "score": 0.775,
+      "is_self_reported": true,
+      "analysis_method": "10-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "WinoGrande",
+      "score": 0.813,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "Multilingual MMLU",
+      "score": 0.699,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.587,
+      "is_self_reported": true,
+      "analysis_method": "0-shot chain-of-thought",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.887,
+      "is_self_reported": true,
+      "analysis_method": "8-shot chain-of-thought",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.595,
+      "is_self_reported": true,
+      "analysis_method": "0-shot chain-of-thought",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "Qasper",
+      "score": 0.4,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "SQuALITY",
+      "score": 0.241,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.707,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.808,
+      "is_self_reported": true,
+      "analysis_method": "3-shot",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "RULER",
+      "score": 0.871,
+      "is_self_reported": true,
+      "analysis_method": "long context (128K) evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "RepoQA",
+      "score": 0.85,
+      "is_self_reported": true,
+      "analysis_method": "average",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "Multilingual MMLU-Pro",
+      "score": 0.453,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MEGA MLQA",
+      "score": 0.653,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MEGA TyDi QA",
+      "score": 0.671,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MEGA UDPOS",
+      "score": 0.604,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MEGA XCOPA",
+      "score": 0.766,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "MEGA XStoryCloze",
+      "score": 0.828,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "GovReport",
+      "score": 0.264,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "QMSum",
+      "score": 0.199,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    },
+    {
+      "dataset_name": "SummScreenFD",
+      "score": 0.169,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
+    }
+  ]
+}

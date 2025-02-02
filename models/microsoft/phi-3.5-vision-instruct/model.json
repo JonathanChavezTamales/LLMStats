@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Phi-3.5-vision-instruct",
+  "description": "Phi-3.5-vision-instruct is a 4.2B-parameter open multimodal model with up to 128K context tokens. It emphasizes multi-frame image understanding and reasoning, boosting performance on single-image benchmarks while enabling multi-image comparison, summarization, and even video analysis. The model underwent safety post-training for improved instruction-following, alignment, and robust handling of visual and text inputs, and is released under the MIT license.",
+  "release_date": "2024-08-23",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "MIT",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-10",
+  "api_ref_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct",
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/abs/2404.14219",
+  "scorecard_blog_link": "https://techcommunity.microsoft.com/blog/azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/4225280",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct",
+  "param_count": 4200000000,
+  "training_tokens": 500000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMMU",
+      "score": 0.43,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    },
+    {
+      "dataset_name": "MMBench",
+      "score": 0.819,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    },
+    {
+      "dataset_name": "ScienceQA",
+      "score": 0.913,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.439,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    },
+    {
+      "dataset_name": "InterGPS",
+      "score": 0.363,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.781,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.818,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    },
+    {
+      "dataset_name": "TextVQA",
+      "score": 0.72,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    },
+    {
+      "dataset_name": "POPE",
+      "score": 0.861,
+      "is_self_reported": true,
+      "analysis_method": "standard evaluation",
+      "date_recorded": "2024-08-23",
+      "source_link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    }
+  ]
+}
