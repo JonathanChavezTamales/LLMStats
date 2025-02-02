@@ -1,0 +1,47 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini 2.0 Flash Thinking",
+  "description": "Gemini 2.0 Flash Thinking is a enhanced reasoning model, capable of showing its thoughts to improve performance and explainability. Combining speed and performance, Gemini 2.0 Flash Thinking also excels in science and math, showing its thinking to solve complex problems.",
+  "release_date": "2025-01-21",
+  "input_context_size": 1000000,
+  "output_context_size": 65536,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-08-01",
+  "api_ref_link": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-2.0-flash-thinking-experimental",
+  "playground_link": "https://ai.google.dev/studio",
+  "paper_link": null,
+  "scorecard_blog_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "AIME2024",
+      "score": 0.733,
+      "is_self_reported": true,
+      "analysis_method": "Enhanced reasoning on competition-level math prompts",
+      "date_recorded": "2025-01-21",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models/gemini#evaluation"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.742,
+      "is_self_reported": true,
+      "analysis_method": "Challenging science questions requiring chain-of-thought reasoning",
+      "date_recorded": "2025-01-21",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models/gemini#evaluation"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.754,
+      "is_self_reported": true,
+      "analysis_method": "Image-text QA across various domains",
+      "date_recorded": "2025-01-21",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models/gemini#evaluation"
+    }
+  ]
+}
