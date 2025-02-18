@@ -1,0 +1,55 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Grok-3",
+  "description": "Grok 3, launched by xAI on February 17, 2025, is an advanced AI model with significantly enhanced capabilities compared to Grok 2, boasting an order of magnitude increase in performance. Trained on a vast dataset that includes legal documents among others, and utilizing a massive compute infrastructure with around 200,000 GPUs in a Memphis data center, Grok 3's training used ten times more compute than its predecessor. It features specialized models like Grok 3 Reasoning and Grok 3 Mini Reasoning for complex problem-solving, and it excels in benchmarks like AIME for mathematics and GPQA for PhD-level science.",
+  "release_date": "2025-02-17",
+  "input_context_size": 128000,
+  "output_context_size": 8000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "knowledge_cutoff": "2025-02",
+  "api_ref_link": "https://x.ai/api",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.85,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-02-17",
+      "source_link": "https://x.com/xai/status/1891699715298730482"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.79,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-02-17",
+      "source_link": "https://x.com/xai/status/1891699715298730482"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.93,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-02-17",
+      "source_link": "https://x.com/xai/status/1891699715298730482"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.93,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-02-17",
+      "source_link": "https://x.com/xai/status/1891699715298730482"
+    }
+  ]
+}

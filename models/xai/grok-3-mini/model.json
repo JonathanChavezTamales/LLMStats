@@ -1,0 +1,55 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Grok-3 Mini",
+  "description": "Grok 3 Mini is a streamlined version of xAI's Grok 3 AI model, designed for quicker response times while maintaining utility. It's tailored for users who require speed over the comprehensive capabilities of the full Grok 3 model, making it suitable for tasks where rapid information retrieval is key. Grok 3 Mini still leverages the advanced training and data that Grok 3 was built on but offers a lighter, more efficient version for everyday use.",
+  "release_date": "2025-02-17",
+  "input_context_size": 128000,
+  "output_context_size": 8000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "knowledge_cutoff": "2025-02",
+  "api_ref_link": "https://x.ai/api",
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.84,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-02-17",
+      "source_link": "https://x.com/xai/status/1891699715298730482"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.8,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-02-17",
+      "source_link": "https://x.com/xai/status/1891699715298730482"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.96,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-02-17",
+      "source_link": "https://x.com/xai/status/1891699715298730482"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.9,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-02-17",
+      "source_link": "https://x.com/xai/status/1891699715298730482"
+    }
+  ]
+}
