@@ -81,7 +81,7 @@
       "throughput": 115,
       "latency": 5.2,
       "updated_at": "2024-11-24"
-    }
+    },
     {
       "model_id": "phi-3.5-mini-instruct",
       "price_per_input_token": 0.0000001,
