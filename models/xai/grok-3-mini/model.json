@@ -21,35 +21,35 @@
   "qualitative_metrics": [
     {
       "dataset_name": "GPQA",
-      "score": 0.84,
+      "score": 0.846,
       "is_self_reported": true,
       "analysis_method": "accuracy",
-      "date_recorded": "2025-02-17",
-      "source_link": "https://x.com/xai/status/1891699715298730482"
+      "date_recorded": "2025-02-24",
+      "source_link": "https://x.ai/blog/grok-3"
     },
     {
       "dataset_name": "LiveCodeBench",
       "score": 0.8,
       "is_self_reported": true,
       "analysis_method": "accuracy",
-      "date_recorded": "2025-02-17",
-      "source_link": "https://x.com/xai/status/1891699715298730482"
+      "date_recorded": "2025-02-24",
+      "source_link": "https://x.ai/blog/grok-3"
     },
     {
       "dataset_name": "AIME 2024",
-      "score": 0.96,
+      "score": 0.958,
       "is_self_reported": true,
       "analysis_method": "accuracy",
-      "date_recorded": "2025-02-17",
-      "source_link": "https://x.com/xai/status/1891699715298730482"
+      "date_recorded": "2025-02-24",
+      "source_link": "https://x.ai/blog/grok-3"
     },
     {
       "dataset_name": "AIME 2025",
-      "score": 0.9,
+      "score": 0.903,
       "is_self_reported": true,
       "analysis_method": "accuracy",
-      "date_recorded": "2025-02-17",
-      "source_link": "https://x.com/xai/status/1891699715298730482"
+      "date_recorded": "2025-02-24",
+      "source_link": "https://x.ai/blog/grok-3"
     }
   ]
 }

@@ -69,11 +69,11 @@
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.757,
+      "score": 0.78,
       "is_self_reported": true,
       "analysis_method": "accuracy",
-      "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "date_recorded": "2025-02-25",
+      "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
       "dataset_name": "MMMU",
@@ -116,7 +116,7 @@
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
     },
     {
-      "dataset_name": "SWE-bench",
+      "dataset_name": "SWE-bench Verified",
       "score": 0.489,
       "is_self_reported": true,
       "analysis_method": "verified",
@@ -125,11 +125,11 @@
     },
     {
       "dataset_name": "LiveBench",
-      "score": 0.766,
+      "score": 0.67,
       "is_self_reported": true,
       "analysis_method": "coding",
       "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/o1-and-new-tools-for-developers/"
+      "source_link": "https://openai.com/index/openai-o3-mini//"
     },
     {
       "dataset_name": "MGSM",
@@ -160,6 +160,14 @@
       "score": 0.542,
       "is_self_reported": true,
       "analysis_method": "agents",
+      "date_recorded": "2024-03-13",
+      "source_link": "https://openai.com/index/o1-and-new-tools-for-developers/"
+    },
+    {
+      "dataset_name": "FrontierMath",
+      "score": 0.055,
+      "is_self_reported": true,
+      "analysis_method": "pass@1",
       "date_recorded": "2024-03-13",
       "source_link": "https://openai.com/index/o1-and-new-tools-for-developers/"
     }

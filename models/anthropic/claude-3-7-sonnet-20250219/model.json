@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Claude 3.7 Sonnet",
+  "description": "The most intelligent Claude model and the first hybrid reasoning model on the market. Claude 3.7 Sonnet can produce near-instant responses or extended, step-by-step thinking that is made visible to the user. Shows particularly strong improvements in coding and front-end web development.",
+  "release_date": "2025-02-24",
+  "input_context_size": 200000,
+  "output_context_size": 128000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-10",
+  "api_ref_link": "https://docs.anthropic.com/en/docs/about-claude/models/all-models",
+  "playground_link": "https://claude.ai",
+  "paper_link": null,
+  "scorecard_blog_link": "https://www.anthropic.com/news/claude-3-7-sonnet",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.703,
+      "is_self_reported": true,
+      "analysis_method": "With multiple parallel attempts and advanced scaffolding",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "TAU-bench Retail",
+      "score": 0.812,
+      "is_self_reported": true,
+      "analysis_method": "With prompt addendum to better utilize planning",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "TAU-bench Airline",
+      "score": 0.584,
+      "is_self_reported": true,
+      "analysis_method": "With prompt addendum to better utilize planning",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.848,
+      "is_self_reported": true,
+      "analysis_method": "Diamond",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "MMMLU",
+      "score": 0.861,
+      "is_self_reported": true,
+      "analysis_method": "",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.75,
+      "is_self_reported": true,
+      "analysis_method": "",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.932,
+      "is_self_reported": true,
+      "analysis_method": "",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.962,
+      "is_self_reported": true,
+      "analysis_method": "",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.8,
+      "is_self_reported": true,
+      "analysis_method": "",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    }
+  ]
+}

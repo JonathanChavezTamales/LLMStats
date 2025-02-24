@@ -125,7 +125,7 @@
     },
 
     {
-      "dataset_name": "SWE Verified",
+      "dataset_name": "SWE-bench Verified",
       "score": 0.492,
       "is_self_reported": false,
       "analysis_method": "Resolved",
