@@ -52,7 +52,7 @@
       "source_link": "https://openai.com/index/openai-o3-mini/"
     },
     {
-      "dataset_name": "SWE-bench",
+      "dataset_name": "SWE-bench Verified",
       "score": 0.493,
       "is_self_reported": true,
       "analysis_method": "verified",
