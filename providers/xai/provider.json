@@ -1,0 +1,14 @@
+{
+  "name": "xAI",
+  "website": "https://docs.x.ai",
+  "providermodels": [
+    {
+      "model_id": "grok-2",
+      "price_per_input_token": 0.000002,
+      "price_per_output_token": 0.00001,
+      "throughput": 85,
+      "latency": 0.7,
+      "updated_at": "2025-02-25"
+    }
+  ]
+}
