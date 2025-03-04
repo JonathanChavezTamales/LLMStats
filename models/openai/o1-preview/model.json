@@ -60,7 +60,7 @@
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
     },
     {
-      "dataset_name": "SWE-bench",
+      "dataset_name": "SWE-bench Verified",
       "score": 0.413,
       "is_self_reported": true,
       "analysis_method": "Verified",

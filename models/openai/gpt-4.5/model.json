@@ -1,0 +1,103 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "GPT-4.5",
+  "description": "GPT-4.5 is OpenAI's most advanced model, offering improved reasoning, coding, and creative capabilities with faster performance and longer context handling than GPT-4. It features enhanced instruction following, reduced hallucinations, and better factual accuracy.",
+  "release_date": "2025-02-27",
+  "input_context_size": 128000,
+  "output_context_size": 4096,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-10",
+  "api_ref_link": "https://platform.openai.com/docs/models/gpt-4-5#gpt-4-5",
+  "playground_link": "https://platform.openai.com/playground",
+  "paper_link": null,
+  "scorecard_blog_link": "https://openai.com/index/introducing-gpt-4-5/",
+  "repo_link": "https://github.com/openai",
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.625,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.9,
+      "is_self_reported": true,
+      "analysis_method": "Multiple-choice accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.97,
+      "is_self_reported": true,
+      "analysis_method": "Answer accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.88,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.714,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.367,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "MMMLU",
+      "score": 0.851,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.744,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "SWE-Lancer Diamond",
+      "score": 0.326,
+      "is_self_reported": true,
+      "analysis_method": "Success rate ($186,125 equivalent)",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.38,
+      "is_self_reported": true,
+      "analysis_method": "Success rate",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    }
+  ]
+}

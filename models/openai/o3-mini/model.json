@@ -93,11 +93,11 @@
     },
     {
       "dataset_name": "SimpleQA",
-      "score": 0.138,
+      "score": 0.15,
       "is_self_reported": true,
-      "analysis_method": "o3-mini high",
-      "date_recorded": "2025-01-30",
-      "source_link": "https://openai.com/index/openai-o3-mini/"
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
     }
   ]
 }

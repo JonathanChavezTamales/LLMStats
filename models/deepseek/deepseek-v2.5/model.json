@@ -84,7 +84,7 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "dataset_name": "SWE-verified",
+      "dataset_name": "SWE-bench Verified",
       "score": 0.168,
       "is_self_reported": true,
       "analysis_method": "Score",

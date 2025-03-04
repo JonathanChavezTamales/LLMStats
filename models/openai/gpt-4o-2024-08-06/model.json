@@ -114,6 +114,14 @@
       "analysis_method": "test set evaluation",
       "date_recorded": "2024-05-08",
       "source_link": "https://openai.com/index/hello-gpt-4o/"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.382,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-03-04",
+      "source_link": "https://openai.com/index/introducing-gpt-4-5/"
     }
   ]
 }
