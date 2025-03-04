@@ -52,8 +52,8 @@
     },
     {
       "model_id": "claude-3-5-haiku-20241022",
-      "price_per_input_token": 0.0000001,
-      "price_per_output_token": 0.0000005,
+      "price_per_input_token": 0.0000008,
+      "price_per_output_token": 0.000004,
       "throughput": 42,
       "latency": 0.4,
       "updated_at": "2024-03-20"
