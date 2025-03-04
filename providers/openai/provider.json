@@ -98,6 +98,14 @@
       "throughput": 115,
       "latency": 5.2,
       "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "gpt-4.5",
+      "price_per_input_token": 0.000075,
+      "price_per_output_token": 0.00015,
+      "throughput": 50,
+      "latency": 20.0,
+      "updated_at": "2025-03-04"
     }
   ]
 }
