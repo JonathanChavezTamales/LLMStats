@@ -35,6 +35,14 @@
       "updated_at": "2024-03-20"
     },
     {
+      "model_id": "gemini-2.0-flash",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000007,
+      "throughput": 183,
+      "latency": 0.4,
+      "updated_at": "2025-03-06"
+    },
+    {
       "model_id": "jamba-1.5-large",
       "price_per_input_token": 0.000002,
       "price_per_output_token": 0.000008,
