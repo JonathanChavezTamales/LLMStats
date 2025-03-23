@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemma 3 1B",
+  "description": "The Gemma 3 1B model is a lightweight, 1-billion-parameter language model by Google, optimized for efficiency on resource-limited devices. At 529MB, it processes text at 2,585 tokens/second with a context window of 128,000 tokens. It supports 35+ languages but handles text-only input, unlike larger multimodal Gemma models. This balance of speed and efficiency makes it ideal for fast text processing on mobile and low-power devices.",
+  "release_date": "2025-03-12",
+  "input_context_size": 32000,
+  "output_context_size": 8192,
+  "license": "gemma",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://huggingface.co/google/gemma-3-1b-it",
+  "playground_link": "https://huggingface.co/chat/models/google/gemma-3-1b-it",
+  "paper_link": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf",
+  "scorecard_blog_link": "https://huggingface.co/blog/gemma3",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/google/gemma-3-1b-it",
+  "param_count": 1000000000,
+  "training_tokens": 2000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.623,
+      "is_self_reported": true,
+      "analysis_method": "10-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "PIQA",
+      "score": 0.738,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "SocialIQA",
+      "score": 0.489,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "BoolQ",
+      "score": 0.632,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "Winogrande",
+      "score": 0.582,
+      "is_self_reported": true,
+      "analysis_method": "partial score evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "ARC-e",
+      "score": 0.730,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "ARC-c",
+      "score": 0.384,
+      "is_self_reported": true,
+      "analysis_method": "25-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "TriviaQA",
+      "score": 0.398,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "Natural Questions",
+      "score": 0.0948,
+      "is_self_reported": true,
+      "analysis_method": "5-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    }
+  ]
+}
