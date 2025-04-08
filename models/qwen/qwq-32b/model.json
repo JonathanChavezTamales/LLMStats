@@ -20,6 +20,22 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
+      "dataset_name": "GPQA",
+      "score": 0.652,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-03-06",
+      "source_link": "https://qwen-ai.com/qwq-32b/"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.906,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2025-03-06",
+      "source_link": "https://qwen-ai.com/qwq-32b/"
+    },
+    {
       "dataset_name": "AIME24",
       "score": 0.795,
       "is_self_reported": true,
