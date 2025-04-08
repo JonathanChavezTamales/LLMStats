@@ -20,7 +20,7 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
-      "dataset_name": "Humanity's Last Exam",
+      "dataset_name": "Humanity's-Last-Exam",
       "score": 0.188,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
@@ -28,39 +28,39 @@
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "GPQA diamond",
+      "dataset_name": "GPQA-Diamond",
       "score": 0.84,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "Pass@1",
       "date_recorded": "2025-03-26",
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "AIME 2025",
+      "dataset_name": "AIME-2025",
       "score": 0.867,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "Pass@1",
       "date_recorded": "2025-03-26",
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "AIME 2024",
+      "dataset_name": "AIME-2024",
       "score": 0.92,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "Pass@1",
       "date_recorded": "2025-03-26",
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "LiveCodeBench v5",
+      "dataset_name": "LiveCodeBench-v5",
       "score": 0.704,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "Pass@1",
       "date_recorded": "2025-03-26",
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "Aider Polyglot",
+      "dataset_name": "Aider-Polyglot",
       "score": 0.729,
       "is_self_reported": false,
       "analysis_method": "Accuracy",
@@ -68,7 +68,7 @@
       "source_link": "https://aider.chat/docs/leaderboards/"
     },
     {
-      "dataset_name": "SWE-bench Verified",
+      "dataset_name": "SWE-bench-verified",
       "score": 0.638,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
@@ -87,12 +87,12 @@
       "dataset_name": "MMMU",
       "score": 0.817,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "Pass@1",
       "date_recorded": "2025-03-26",
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "Vibe-Eval (Reka)",
+      "dataset_name": "Vibe-Eval-Reka",
       "score": 0.694,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
@@ -103,12 +103,12 @@
       "dataset_name": "MRCR",
       "score": 0.945,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "128k-average",
       "date_recorded": "2025-03-26",
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "Global MMLU (Lite)",
+      "dataset_name": "Global-MMLU-Lite",
       "score": 0.898,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
