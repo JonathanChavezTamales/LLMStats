@@ -28,7 +28,7 @@
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "GPQA-Diamond",
+      "dataset_name": "GPQA",
       "score": 0.84,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
