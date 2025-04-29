@@ -113,6 +113,30 @@
       "throughput": 33,
       "latency": 0.2,
       "updated_at": "2025-01-30"
+    },
+    {
+      "model_id": "gemma-3-4b-it",
+      "price_per_input_token": 0.00000002,
+      "price_per_output_token": 0.00000004,
+      "throughput": 33,
+      "latency": 0.2,
+      "updated_at": "2025-03-13"
+    },
+    {
+      "model_id": "gemma-3-12b-it",
+      "price_per_input_token": 0.00000005,
+      "price_per_output_token": 0.0000001,
+      "throughput": 33,
+      "latency": 0.2,
+      "updated_at": "2025-03-13"
+    },
+    {
+      "model_id": "gemma-3-27b-it",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000002,
+      "throughput": 33,
+      "latency": 0.2,
+      "updated_at": "2025-03-13"
     }
   ]
 }

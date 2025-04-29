@@ -1,0 +1,14 @@
+{
+  "name": "Novita",
+  "website": "https://novita.ai/",
+  "providermodels": [
+    {
+      "model_id": "gemma-3-27b-it",
+      "price_per_input_token": 0.000000119,
+      "price_per_output_token": 0.0000002,
+      "throughput": 33,
+      "latency": 0.2,
+      "updated_at": "2025-03-13"
+    }
+  ]
+}
