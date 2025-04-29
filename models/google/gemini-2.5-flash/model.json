@@ -1,0 +1,111 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini 2.5 Flash",
+  "description": "A thinking model designed for a balance between price and performance. It builds upon Gemini 2.0 Flash with upgraded reasoning, hybrid thinking control, multimodal capabilities (text, image, video, audio input), and a 1M token input context window.",
+  "release_date": "2025-04-17",
+  "input_context_size": 1048576,
+  "output_context_size": 65536,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "knowledge_cutoff": "2025-01-31",
+  "api_ref_link": "https://ai.google.dev/gemini-api/docs/models?hl=en#gemini-2.5-flash-preview-04-17",
+  "playground_link": "https://aistudio.google.com/?model=gemini-2.5-flash-preview-04-17",
+  "paper_link": null,
+  "scorecard_blog_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Humanity's-Last-Exam",
+      "score": 0.121,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.783,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "AIME-2025",
+      "score": 0.78,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "AIME-2024",
+      "score": 0.88,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "LiveCodeBench-v5",
+      "score": 0.635,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "Aider-Polyglot",
+      "score": 0.442,
+      "is_self_reported": true,
+      "analysis_method": "Diff-Fenced",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.297,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.767,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "Vibe-Eval-Reka",
+      "score": 0.62,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "MRCR",
+      "score": 0.846,
+      "is_self_reported": true,
+      "analysis_method": "128k-average",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "Global-MMLU-Lite",
+      "score": 0.884,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    }
+  ]
+}

@@ -3,6 +3,22 @@
   "website": "https://ai.google.dev",
   "providermodels": [
     {
+      "model_id": "gemini-2.5-flash",
+      "price_per_input_token": 0.00000015,
+      "price_per_output_token": 0.0000006,
+      "throughput": 85,
+      "latency": 0.7,
+      "updated_at": "2025-03-28"
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "price_per_input_token": 0.0000025,
+      "price_per_output_token": 0.00001,
+      "throughput": 85,
+      "latency": 0.7,
+      "updated_at": "2025-03-28"
+    },
+    {
       "model_id": "gemini-1.5-pro",
       "price_per_input_token": 0.0000025,
       "price_per_output_token": 0.00001,
