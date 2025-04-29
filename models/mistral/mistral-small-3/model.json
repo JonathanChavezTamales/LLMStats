@@ -9,7 +9,7 @@
   "license": "Apache-2.0",
   "multimodal": false,
   "web_hydrated": false,
-  "knowledge_cutoff": null,
+  "knowledge_cutoff": "2023-10-01",
   "api_ref_link": "https://docs.mistral.ai/api/",
   "playground_link": null,
   "paper_link": null,
