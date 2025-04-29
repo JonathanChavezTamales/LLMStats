@@ -1,27 +1,27 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Gemma 3 1B",
-  "description": "The Gemma 3 1B model is a lightweight, 1-billion-parameter language model by Google, optimized for efficiency on resource-limited devices. At 529MB, it processes text at 2,585 tokens/second with a context window of 128,000 tokens. It supports 35+ languages but handles text-only input, unlike larger multimodal Gemma models. This balance of speed and efficiency makes it ideal for fast text processing on mobile and low-power devices.",
+  "name": "Gemma 3 12B",
+  "description": "Gemma 3 12B is a 12-billion-parameter vision-language model from Google, handling text and image input and generating text output. It features a 128K context window, multilingual support, and open weights. Suitable for question answering, summarization, reasoning, and image understanding tasks.",
   "release_date": "2025-03-12",
-  "input_context_size": 32000,
-  "output_context_size": 8192,
+  "input_context_size": 131072,
+  "output_context_size": 131072,
   "license": "gemma",
-  "multimodal": false,
+  "multimodal": true,
   "web_hydrated": false,
-  "knowledge_cutoff": null,
-  "api_ref_link": "https://huggingface.co/google/gemma-3-1b-it",
-  "playground_link": "https://huggingface.co/chat/models/google/gemma-3-1b-it",
+  "knowledge_cutoff": "2024-08",
+  "api_ref_link": null,
+  "playground_link": null,
   "paper_link": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf",
   "scorecard_blog_link": "https://huggingface.co/blog/gemma3",
   "repo_link": null,
-  "weights_link": "https://huggingface.co/google/gemma-3-1b-it",
-  "param_count": 1000000000,
-  "training_tokens": 2000000000000,
+  "weights_link": "https://huggingface.co/google/gemma-3-12b-it",
+  "param_count": 12000000000,
+  "training_tokens": 12000000000000,
   "qualitative_metrics": [
     {
       "dataset_name": "GPQA",
-      "score": 0.192,
+      "score": 0.409,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation diamond",
       "date_recorded": "2025-03-12",
@@ -29,7 +29,7 @@
     },
     {
       "dataset_name": "SimpleQA",
-      "score": 0.022,
+      "score": 0.063,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -37,7 +37,7 @@
     },
     {
       "dataset_name": "FACTS Grounding",
-      "score": 0.364,
+      "score": 0.758,
       "is_self_reported": true,
       "analysis_method": "- evaluation",
       "date_recorded": "2025-03-12",
@@ -45,7 +45,7 @@
     },
     {
       "dataset_name": "BIG-Bench Hard",
-      "score": 0.391,
+      "score": 0.857,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -53,7 +53,7 @@
     },
     {
       "dataset_name": "BIG-Bench Extra Hard",
-      "score": 0.072,
+      "score": 0.163,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -61,7 +61,7 @@
     },
     {
       "dataset_name": "IFEval",
-      "score": 0.802,
+      "score": 0.889,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -69,7 +69,7 @@
     },
     {
       "dataset_name": "MMLU (Pro)",
-      "score": 0.147,
+      "score": 0.606,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -77,7 +77,7 @@
     },
     {
       "dataset_name": "LiveCodeBench",
-      "score": 0.019,
+      "score": 0.246,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -85,7 +85,7 @@
     },
     {
       "dataset_name": "Bird-SQL (dev)",
-      "score": 0.064,
+      "score": 0.479,
       "is_self_reported": true,
       "analysis_method": "- evaluation",
       "date_recorded": "2025-03-12",
@@ -93,7 +93,7 @@
     },
     {
       "dataset_name": "Math",
-      "score": 0.48,
+      "score": 0.838,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -101,7 +101,7 @@
     },
     {
       "dataset_name": "HiddenMath",
-      "score": 0.158,
+      "score": 0.545,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -109,7 +109,7 @@
     },
     {
       "dataset_name": "MBPP",
-      "score": 0.352,
+      "score": 0.73,
       "is_self_reported": true,
       "analysis_method": "3-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -117,7 +117,7 @@
     },
     {
       "dataset_name": "HumanEval",
-      "score": 0.415,
+      "score": 0.854,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -125,7 +125,7 @@
     },
     {
       "dataset_name": "Natural2Code",
-      "score": 0.56,
+      "score": 0.807,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -133,7 +133,7 @@
     },
     {
       "dataset_name": "GSM8K",
-      "score": 0.628,
+      "score": 0.944,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -141,7 +141,7 @@
     },
     {
       "dataset_name": "Global-MMLU-Lite",
-      "score": 0.342,
+      "score": 0.695,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -149,7 +149,7 @@
     },
     {
       "dataset_name": "ECLeKTic",
-      "score": 0.014,
+      "score": 0.103,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
       "date_recorded": "2025-03-12",
@@ -157,9 +157,73 @@
     },
     {
       "dataset_name": "WMT24++",
-      "score": 0.359,
+      "score": 0.516,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "MMMU (val)",
+      "score": 0.596,
+      "is_self_reported": true,
+      "analysis_method": "multimodal evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.871,
+      "is_self_reported": true,
+      "analysis_method": "multimodal evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "InfoVQA",
+      "score": 0.649,
+      "is_self_reported": true,
+      "analysis_method": "multimodal evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "TextVQA",
+      "score": 0.677,
+      "is_self_reported": true,
+      "analysis_method": "multimodal evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.842,
+      "is_self_reported": true,
+      "analysis_method": "multimodal evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.757,
+      "is_self_reported": true,
+      "analysis_method": "multimodal evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "VQAv2 (val)",
+      "score": 0.716,
+      "is_self_reported": true,
+      "analysis_method": "multimodal evaluation",
+      "date_recorded": "2025-03-12",
+      "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
+    },
+    {
+      "dataset_name": "MathVista (testmini)",
+      "score": 0.629,
+      "is_self_reported": true,
+      "analysis_method": "multimodal evaluation",
       "date_recorded": "2025-03-12",
       "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
     }
