@@ -1,0 +1,63 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "DeepSeek-V3 0324",
+  "description": "A powerful Mixture-of-Experts (MoE) language model with 671B total parameters (37B activated per token). Features Multi-head Latent Attention (MLA), auxiliary-loss-free load balancing, and multi-token prediction training. Pre-trained on 14.8T tokens with strong performance in reasoning, math, and code tasks.",
+  "release_date": "2025-03-25",
+  "input_context_size": 131072,
+  "output_context_size": 131072,
+  "license": "MIT + Model License (Commercial use allowed)",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://platform.deepseek.com",
+  "playground_link": "https://chat.deepseek.com",
+  "paper_link": "https://arxiv.org/abs/2412.19437",
+  "scorecard_blog_link": null,
+  "repo_link": "https://github.com/deepseek-ai/DeepSeek-V3",
+  "weights_link": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+  "param_count": 671000000000,
+  "training_tokens": 14800000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.812,
+      "is_self_reported": true,
+      "analysis_method": "Exact Match",
+      "date_recorded": "2025-03-25",
+      "source_link": "https://api-docs.deepseek.com/news/news250325"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.684,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-03-25",
+      "source_link": "https://api-docs.deepseek.com/news/news250325"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.94,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-03-25",
+      "source_link": "https://api-docs.deepseek.com/news/news250325"
+    },
+    {
+      "dataset_name": "AIME-2024",
+      "score": 0.594,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-03-25",
+      "source_link": "https://api-docs.deepseek.com/news/news250325"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.492,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-03-25",
+      "source_link": "https://api-docs.deepseek.com/news/news250325"
+    }
+  ]
+}
