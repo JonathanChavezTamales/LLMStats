@@ -124,7 +124,7 @@
       "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
     },
     {
-      "dataset_name": "Multilingual MMLU",
+      "dataset_name": "MMMLU",
       "score": 0.699,
       "is_self_reported": true,
       "analysis_method": "5-shot evaluation",
@@ -204,7 +204,7 @@
       "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
     },
     {
-      "dataset_name": "Multilingual MMLU-Pro",
+      "dataset_name": "MMMLU-Pro",
       "score": 0.453,
       "is_self_reported": true,
       "analysis_method": "standard evaluation",

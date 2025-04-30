@@ -114,6 +114,22 @@
       "throughput": 100,
       "latency": 10.0,
       "updated_at": "2025-04-14"
+    },
+    {
+      "model_id": "gpt-4.1-mini-2025-04-14",
+      "price_per_input_token": 0.0000004,
+      "price_per_output_token": 0.0000016,
+      "throughput": 150,
+      "latency": 5.0,
+      "updated_at": "2025-04-14"
+    },
+    {
+      "model_id": "gpt-4.1-nano-2025-04-14",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000004,
+      "throughput": 200,
+      "latency": 2.0,
+      "updated_at": "2025-04-14"
     }
   ]
 }
