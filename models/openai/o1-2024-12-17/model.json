@@ -59,14 +59,7 @@
       "date_recorded": "2024-11-20",
       "source_link": "https://openai.com/index/gpt-4-1/"
     },
-    {
-      "dataset_name": "Codeforces",
-      "score": 0.47,
-      "is_self_reported": true,
-      "analysis_method": "elo divided by max elo",
-      "date_recorded": "2024-12-20",
-      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
-    },
+
     {
       "dataset_name": "GPQA",
       "score": 0.78,

@@ -20,14 +20,6 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
-      "dataset_name": "Codeforces",
-      "score": 0.79,
-      "is_self_reported": true,
-      "analysis_method": "elo divided by max elo",
-      "date_recorded": "2024-12-20",
-      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
-    },
-    {
       "dataset_name": "AIME 2024",
       "score": 0.873,
       "is_self_reported": true,

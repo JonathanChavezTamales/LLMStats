@@ -28,14 +28,6 @@
       "source_link": "https://openai.com/index/introducing-chatgpt-pro/"
     },
     {
-      "dataset_name": "Codeforces",
-      "score": 0.9,
-      "is_self_reported": true,
-      "analysis_method": "Pass@1 percentile",
-      "date_recorded": "2024-03",
-      "source_link": "https://openai.com/index/introducing-chatgpt-pro/"
-    },
-    {
       "dataset_name": "GPQA",
       "score": 0.79,
       "is_self_reported": true,

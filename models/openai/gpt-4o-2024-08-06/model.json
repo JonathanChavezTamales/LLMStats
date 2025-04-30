@@ -27,14 +27,7 @@
       "date_recorded": "2024-11-20",
       "source_link": "https://openai.com/index/gpt-4-1/"
     },
-    {
-      "dataset_name": "Codeforces",
-      "score": 0.11,
-      "is_self_reported": true,
-      "analysis_method": "percentile ranking",
-      "date_recorded": "2024-05-08",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
-    },
+
     {
       "dataset_name": "GPQA",
       "score": 0.46,

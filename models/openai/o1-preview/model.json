@@ -82,14 +82,6 @@
       "analysis_method": "Factuality",
       "date_recorded": "2024-03-13",
       "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
-    },
-    {
-      "dataset_name": "Codeforces",
-      "score": 0.3145,
-      "is_self_reported": true,
-      "analysis_method": "elo divided by max elo",
-      "date_recorded": "2024-12-20",
-      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
     }
   ]
 }

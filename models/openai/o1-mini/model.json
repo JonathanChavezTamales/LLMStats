@@ -27,14 +27,7 @@
       "date_recorded": "2024-10-10",
       "source_link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
     },
-    {
-      "dataset_name": "Codeforces",
-      "score": 0.4125,
-      "is_self_reported": true,
-      "analysis_method": "elo divided by max elo",
-      "date_recorded": "2024-12-20",
-      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
-    },
+
     {
       "dataset_name": "HumanEval",
       "score": 0.924,

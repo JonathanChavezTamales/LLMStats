@@ -1,8 +1,8 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "o3",
-  "description": "OpenAI's most powerful reasoning model. o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following. Use it to think through multi-step problems that involve analysis across text, code, and images.",
+  "name": "o4-mini",
+  "description": "o4-mini is OpenAI's latest small o-series model, optimized for fast, effective reasoning with exceptionally efficient performance in coding and visual tasks. It is faster and more affordable than o3.",
   "release_date": "2025-04-16",
   "input_context_size": 200000,
   "output_context_size": 100000,
@@ -10,18 +10,26 @@
   "multimodal": true,
   "web_hydrated": false,
   "knowledge_cutoff": "2024-05-31",
-  "api_ref_link": "https://platform.openai.com/docs/models/o3",
+  "api_ref_link": "https://platform.openai.com/docs/models/o4-mini",
   "playground_link": null,
   "paper_link": "https://cdn.openai.com/pdf/2221c875-02dc-4789-800b-e7758f3722c1/o3-and-o4-mini-system-card.pdf",
   "scorecard_blog_link": null,
-  "repo_link": null,
+  "repo_link": "https://github.com/openai",
   "weights_link": null,
   "param_count": null,
   "training_tokens": null,
   "qualitative_metrics": [
     {
       "dataset_name": "AIME 2024",
-      "score": 0.916,
+      "score": 0.934,
+      "is_self_reported": true,
+      "analysis_method": "accuracy (no tools)",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.927,
       "is_self_reported": true,
       "analysis_method": "accuracy (no tools)",
       "date_recorded": "2025-04-16",
@@ -29,39 +37,23 @@
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.833,
+      "score": 0.814,
       "is_self_reported": true,
       "analysis_method": "diamond accuracy (no tools)",
       "date_recorded": "2025-04-16",
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
-      "dataset_name": "Frontier Math",
-      "score": 0.252,
+      "dataset_name": "Humanity's Last Exam",
+      "score": 0.177,
       "is_self_reported": true,
-      "analysis_method": "accuracy",
-      "date_recorded": "2024-03-13",
-      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
-    },
-    {
-      "dataset_name": "ARC-AGI",
-      "score": 0.88,
-      "is_self_reported": true,
-      "analysis_method": "test set evaluation",
-      "date_recorded": "2024-12-20",
-      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
-    },
-    {
-      "dataset_name": "AIME 2025",
-      "score": 0.984,
-      "is_self_reported": true,
-      "analysis_method": "pass@1 (with python tool)",
+      "analysis_method": "accuracy (no tools)",
       "date_recorded": "2025-04-16",
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
       "dataset_name": "MMMU",
-      "score": 0.829,
+      "score": 0.816,
       "is_self_reported": true,
       "analysis_method": "accuracy",
       "date_recorded": "2025-04-16",
@@ -69,7 +61,7 @@
     },
     {
       "dataset_name": "MathVista",
-      "score": 0.868,
+      "score": 0.843,
       "is_self_reported": true,
       "analysis_method": "accuracy",
       "date_recorded": "2025-04-16",
@@ -77,31 +69,40 @@
     },
     {
       "dataset_name": "CharXiv-Reasoning",
-      "score": 0.786,
+      "score": 0.72,
       "is_self_reported": true,
       "analysis_method": "accuracy",
       "date_recorded": "2025-04-16",
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
+
     {
       "dataset_name": "SWE-Bench Verified",
-      "score": 0.691,
+      "score": 0.681,
       "is_self_reported": true,
       "analysis_method": "accuracy",
       "date_recorded": "2025-04-16",
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
-      "dataset_name": "Aider Polyglot",
-      "score": 0.813,
+      "dataset_name": "Aider-Polyglot",
+      "score": 0.689,
       "is_self_reported": true,
-      "analysis_method": "accuracy (whole)",
+      "analysis_method": "accuracy (whole, o4-mini-high)",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
+    },
+    {
+      "dataset_name": "Aider-Polyglot Edit",
+      "score": 0.582,
+      "is_self_reported": true,
+      "analysis_method": "accuracy (diff, o4-mini-high)",
       "date_recorded": "2025-04-16",
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
       "dataset_name": "Scale MultiChallenge",
-      "score": 0.565,
+      "score": 0.43,
       "is_self_reported": true,
       "analysis_method": "accuracy",
       "date_recorded": "2025-04-16",
@@ -109,25 +110,25 @@
     },
     {
       "dataset_name": "BrowseComp",
-      "score": 0.497,
+      "score": 0.515,
       "is_self_reported": true,
       "analysis_method": "accuracy (with python + browsing)",
       "date_recorded": "2025-04-16",
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
-      "dataset_name": "Tau-bench",
-      "score": 0.63,
+      "dataset_name": "TAU-bench Airline",
+      "score": 0.492,
       "is_self_reported": true,
-      "analysis_method": "accuracy (avg Airline/Retail)",
+      "analysis_method": "accuracy (o4-mini-high)",
       "date_recorded": "2025-04-16",
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
-      "dataset_name": "Humanity's Last Exam",
-      "score": 0.2032,
+      "dataset_name": "TAU-bench Retail",
+      "score": 0.718,
       "is_self_reported": true,
-      "analysis_method": "accuracy (no tools)",
+      "analysis_method": "accuracy (o4-mini-high)",
       "date_recorded": "2025-04-16",
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     }
