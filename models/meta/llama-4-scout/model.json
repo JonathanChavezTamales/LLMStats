@@ -2,7 +2,7 @@
     "canonical_model_id": null,
     "fine_tuned_from_model_id": "Llama 4 Behemoth",
     "name": "Llama 4 Scout",
-    "description": "Llama 4 Scout is a natively multimodal model capable of processing both text and images. It features a 17 billion active parameter mixture-of-experts (MoE) architecture with 16 experts, supporting a wide range of multimodal tasks such as conversational interaction, image analysis, and code generation. The model includes a 10 million token context window and provides support for 12 languages.",
+    "description": "Llama 4 Scout is a natively multimodal model capable of processing both text and images. It features a 17 billion active parameter mixture-of-experts (MoE) architecture with 16 experts, supporting a wide range of multimodal tasks such as conversational interaction, image analysis, and code generation. The model includes a 10 million token context window.",
     "release_date": "2025-04-05",
     "input_context_size": 10000000,
     "output_context_size": null,
