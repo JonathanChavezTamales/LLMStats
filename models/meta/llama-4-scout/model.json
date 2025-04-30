@@ -5,7 +5,7 @@
   "description": "Llama 4 Scout is a natively multimodal model capable of processing both text and images. It features a 17 billion active parameter mixture-of-experts (MoE) architecture with 16 experts, supporting a wide range of multimodal tasks such as conversational interaction, image analysis, and code generation. The model includes a 10 million token context window.",
   "release_date": "2025-04-05",
   "input_context_size": 10000000,
-  "output_context_size": null,
+  "output_context_size": 1000000,
   "license": "Llama 4 Community License Agreement",
   "multimodal": true,
   "web_hydrated": false,
@@ -17,7 +17,6 @@
   "repo_link": "https://github.com/meta-llama/llama-models/tree/main/models/llama4",
   "weights_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
   "param_count": 109000000000,
-  "active_param_count": 17000000000,
   "training_tokens": 40000000000000,
   "qualitative_metrics": [
     {
