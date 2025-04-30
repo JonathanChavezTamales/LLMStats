@@ -9,7 +9,7 @@
   "license": "Llama 3.1 Community License",
   "multimodal": false,
   "web_hydrated": false,
-  "knowledge_cutoff": "2023-12",
+  "knowledge_cutoff": "2023-12-01",
   "api_ref_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct",
   "playground_link": null,
   "paper_link": "https://arxiv.org/abs/2410.01257",

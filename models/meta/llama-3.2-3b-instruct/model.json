@@ -92,7 +92,7 @@
       "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
     },
     {
-      "dataset_name": "BFCL V2",
+      "dataset_name": "BFCL v2",
       "score": 0.67,
       "is_self_reported": true,
       "analysis_method": "0-shot, acc",
