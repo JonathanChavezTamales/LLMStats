@@ -68,7 +68,7 @@
       "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Mini"
     },
     {
-      "dataset_name": "GSM-8K",
+      "dataset_name": "GSM8K",
       "score": 0.758,
       "is_self_reported": true,
       "analysis_method": "Accuracy",

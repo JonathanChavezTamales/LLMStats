@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Mistral Small 24B Base",
+  "description": "Mistral Small 3 is competitive with larger models such as Llama 3.3 70B or Qwen 32B, and is an excellent open replacement for opaque proprietary models like GPT4o-mini. Mistral Small 3 is on par with Llama 3.3 70B instruct, while being more than 3x faster on the same hardware.",
+  "release_date": "2025-01-30",
+  "input_context_size": 32000,
+  "output_context_size": 32000,
+  "license": "Apache-2.0",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": null,
+  "playground_link": "https://console.mistral.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/mistral-small-3",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501",
+  "param_count": 23600000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.8073,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.5437,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.3437,
+      "is_self_reported": true,
+      "analysis_method": "5-shot, CoT",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    },
+    {
+      "dataset_name": "TriviaQA",
+      "score": 0.8032,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    },
+    {
+      "dataset_name": "ARC-C",
+      "score": 0.9129,
+      "is_self_reported": true,
+      "analysis_method": "0-shot",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.6964,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.8073,
+      "is_self_reported": true,
+      "analysis_method": "5-shot, maj@1",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.4598,
+      "is_self_reported": true,
+      "analysis_method": "5-shot, MaJ",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    },
+    {
+      "dataset_name": "AGIEval",
+      "score": 0.658,
+      "is_self_reported": true,
+      "analysis_method": "-",
+      "date_recorded": "2025-01-30",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
+    }
+  ]
+}
