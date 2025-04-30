@@ -130,6 +130,14 @@
       "throughput": 200,
       "latency": 2.0,
       "updated_at": "2025-04-14"
+    },
+    {
+      "model_id": "o3-2025-04-16",
+      "price_per_input_token": 0.00001,
+      "price_per_output_token": 0.00004,
+      "throughput": 50,
+      "latency": 20.0,
+      "updated_at": "2025-04-16"
     }
   ]
 }

@@ -5,11 +5,11 @@
   "description": "A smaller variant of O3, expected to offer enhanced multimodal capabilities, improved reasoning, and more efficient resource utilization compared to previous models while maintaining strong performance on core tasks.",
   "release_date": "2025-01-30",
   "input_context_size": 200000,
-  "output_context_size": 200000,
+  "output_context_size": 100000,
   "license": "Proprietary",
   "multimodal": false,
   "web_hydrated": false,
-  "knowledge_cutoff": "2024-06",
+  "knowledge_cutoff": "2023-09-30",
   "api_ref_link": "https://platform.openai.com/docs/models",
   "playground_link": null,
   "paper_link": "https://cdn.openai.com/o3-mini-system-card.pdf",
@@ -37,11 +37,11 @@
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.797,
+      "score": 0.772,
       "is_self_reported": true,
       "analysis_method": "diamond",
-      "date_recorded": "2025-01-30",
-      "source_link": "https://openai.com/index/openai-o3-mini/"
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "FrontierMath",
@@ -98,6 +98,142 @@
       "analysis_method": "accuracy",
       "date_recorded": "2025-03-04",
       "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "Multilingual MMLU",
+      "score": 0.807,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "SWE-Lancer",
+      "score": 0.18,
+      "is_self_reported": true,
+      "analysis_method": "percentage score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "SWE-Lancer (IC-Diamond subset)",
+      "score": 0.074,
+      "is_self_reported": true,
+      "analysis_method": "percentage score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Aider's polyglot: whole",
+      "score": 0.667,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Aider's polyglot: diff",
+      "score": 0.604,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Internal API instruction following (hard)",
+      "score": 0.5,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MultiChallenge",
+      "score": 0.399,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MultiChallenge (o3-mini grader)",
+      "score": 0.502,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "COLLIE",
+      "score": 0.987,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.939,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Multi-IF",
+      "score": 0.795,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "OpenAI-MRCR: 2 needle 128k",
+      "score": 0.187,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Graphwalks bfs <128k",
+      "score": 0.51,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Graphwalks parents <128k",
+      "score": 0.583,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "ComplexFuncBench",
+      "score": 0.176,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Taubench airline",
+      "score": 0.324,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Taubench retail",
+      "score": 0.576,
+      "is_self_reported": true,
+      "analysis_method": "benchmark score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     }
   ]
 }

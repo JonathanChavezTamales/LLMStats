@@ -21,11 +21,11 @@
   "qualitative_metrics": [
     {
       "dataset_name": "AIME 2024",
-      "score": 0.134,
+      "score": 0.131,
       "is_self_reported": true,
-      "analysis_method": "consistency at 64 samples",
-      "date_recorded": "2024-05-08",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "Codeforces",
@@ -37,35 +37,35 @@
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.536,
+      "score": 0.46,
       "is_self_reported": true,
-      "analysis_method": "pass at 1 attempt",
-      "date_recorded": "2024-05-08",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "MMLU",
-      "score": 0.88,
+      "score": 0.857,
       "is_self_reported": true,
-      "analysis_method": "pass at 1 attempt",
-      "date_recorded": "2024-05-08",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "MMMU",
-      "score": 0.691,
+      "score": 0.687,
       "is_self_reported": true,
-      "analysis_method": "pass at 1 attempt on validation set",
-      "date_recorded": "2024-05-08",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "MathVista",
-      "score": 0.638,
+      "score": 0.614,
       "is_self_reported": true,
-      "analysis_method": "pass at 1 attempt on testmini set",
-      "date_recorded": "2024-05-08",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "MMLU-Pro",
@@ -122,6 +122,158 @@
       "analysis_method": "accuracy",
       "date_recorded": "2025-03-04",
       "source_link": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "dataset_name": "MMMLU",
+      "score": 0.814,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.332,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "SWE-Lancer",
+      "score": 0.326,
+      "is_self_reported": true,
+      "analysis_method": "percentage score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "SWE-Lancer (IC-Diamond subset)",
+      "score": 0.124,
+      "is_self_reported": true,
+      "analysis_method": "percentage score",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Aider-Polyglot",
+      "score": 0.307,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Aider-Polyglot Edit",
+      "score": 0.182,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Internal API instruction following (hard)",
+      "score": 0.292,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MultiChallenge (o3-mini grader)",
+      "score": 0.399,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "COLLIE",
+      "score": 0.502,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.81,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Multi-IF",
+      "score": 0.609,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "OpenAI-MRCR: 2 needle 128k",
+      "score": 0.319,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Graphwalks bfs <128k",
+      "score": 0.417,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Graphwalks parents <128k",
+      "score": 0.354,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "CharXiv-R",
+      "score": 0.527,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "CharXiv-D",
+      "score": 0.853,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "ComplexFuncBench",
+      "score": 0.665,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "TAU-bench Airline",
+      "score": 0.428,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "TAU-bench Retail",
+      "score": 0.603,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     }
   ]
 }
