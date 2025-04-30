@@ -1,8 +1,6 @@
 <img width="1208" alt="image" src="https://github.com/user-attachments/assets/835f1e1b-73e6-405a-b7ad-096d5f5f567a" />
 
-
 # LLM-Stats.com
-
 
 [![GitHub stars](https://img.shields.io/github/stars/JonathanChavezTamales/LLMStats?style=social)](https://github.com/JonathanChavezTamales/LLMStats/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -46,9 +44,9 @@ Accuracy is our priority. To ensure reliable information:
 
 There's no guarantee that the data is 100% accurate, but we do our best to ensure it's as accurate as possible.
 
-<!-- ## 🌟 Community
-- Join our [Discord](https://discord.gg/llmstats) for discussions
--->
+## 🌟 Community
+
+- Join our [Discord](https://discord.gg/RxGUBvE42d) for discussions
 
 ---
 
