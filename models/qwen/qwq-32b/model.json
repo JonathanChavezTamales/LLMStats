@@ -36,7 +36,7 @@
       "source_link": "https://qwen-ai.com/qwq-32b/"
     },
     {
-      "dataset_name": "AIME24",
+      "dataset_name": "AIME 2024",
       "score": 0.795,
       "is_self_reported": true,
       "analysis_method": "accuracy",

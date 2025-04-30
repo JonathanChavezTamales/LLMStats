@@ -148,7 +148,7 @@
       "source_link": "https://github.com/deepseek-ai/DeepSeek-V3"
     },
     {
-      "dataset_name": "AIME-2024",
+      "dataset_name": "AIME 2024",
       "score": 0.392,
       "is_self_reported": false,
       "analysis_method": "Pass@1",

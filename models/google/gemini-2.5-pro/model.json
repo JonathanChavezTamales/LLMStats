@@ -36,7 +36,7 @@
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "AIME-2025",
+      "dataset_name": "AIME 2025",
       "score": 0.867,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
@@ -44,7 +44,7 @@
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "AIME-2024",
+      "dataset_name": "AIME 2024",
       "score": 0.92,
       "is_self_reported": true,
       "analysis_method": "Pass@1",

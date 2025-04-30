@@ -44,7 +44,7 @@
       "source_link": "https://api-docs.deepseek.com/news/news250325"
     },
     {
-      "dataset_name": "AIME-2024",
+      "dataset_name": "AIME 2024",
       "score": 0.594,
       "is_self_reported": true,
       "analysis_method": "Pass@1",

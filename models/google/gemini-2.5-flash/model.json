@@ -36,7 +36,7 @@
       "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
     },
     {
-      "dataset_name": "AIME-2025",
+      "dataset_name": "AIME 2025",
       "score": 0.78,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
@@ -44,7 +44,7 @@
       "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
     },
     {
-      "dataset_name": "AIME-2024",
+      "dataset_name": "AIME 2024",
       "score": 0.88,
       "is_self_reported": true,
       "analysis_method": "Pass@1",

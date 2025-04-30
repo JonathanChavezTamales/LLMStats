@@ -20,7 +20,7 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
-      "dataset_name": "AIME2024",
+      "dataset_name": "AIME 2024",
       "score": 0.733,
       "is_self_reported": true,
       "analysis_method": "Enhanced reasoning on competition-level math prompts",

@@ -28,7 +28,7 @@
       "source_link": "https://qwenlm.github.io/blog/qwq-32b-preview/"
     },
     {
-      "dataset_name": "AIME",
+      "dataset_name": "AIME 2024",
       "score": 0.5,
       "is_self_reported": true,
       "analysis_method": "accuracy",
