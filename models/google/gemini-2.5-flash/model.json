@@ -52,7 +52,7 @@
       "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
     },
     {
-      "dataset_name": "LiveCodeBench-v5",
+      "dataset_name": "LiveCodeBench v5",
       "score": 0.635,
       "is_self_reported": true,
       "analysis_method": "Pass@1",

@@ -52,7 +52,7 @@
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "LiveCodeBench-v5",
+      "dataset_name": "LiveCodeBench v5",
       "score": 0.704,
       "is_self_reported": true,
       "analysis_method": "Pass@1",

@@ -19,6 +19,14 @@
       "updated_at": "2025-03-28"
     },
     {
+      "model_id": "gemini-2.0-flash-lite",
+      "price_per_input_token": 0.000000075,
+      "price_per_output_token": 0.0000003,
+      "throughput": 85,
+      "latency": 0.7,
+      "updated_at": "2025-04-29"
+    },
+    {
       "model_id": "gemini-1.5-pro",
       "price_per_input_token": 0.0000025,
       "price_per_output_token": 0.00001,
