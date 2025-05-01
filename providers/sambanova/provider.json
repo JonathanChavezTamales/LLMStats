@@ -12,14 +12,6 @@
     },
     {
       "model_id": "llama-3.1-70b-instruct",
-      "price_per_input_token": 0.0000006,
-      "price_per_output_token": 0.0000012,
-      "throughput": 296,
-      "latency": 0.5,
-      "updated_at": "2024-11-24"
-    },
-    {
-      "model_id": "llama-3.1-70b-instruct",
       "price_per_input_token": 0.000005,
       "price_per_output_token": 0.00001,
       "throughput": 74,
@@ -42,6 +34,14 @@
       "throughput": 1096,
       "latency": 0.65,
       "updated_at": "2024-12-18"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "price_per_input_token": 0.00000063,
+      "price_per_output_token": 0.0000018,
+      "throughput": 638.7,
+      "latency": 2.04,
+      "updated_at": "2025-04-05"
     }
   ]
 }

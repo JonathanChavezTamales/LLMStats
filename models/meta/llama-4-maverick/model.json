@@ -1,6 +1,6 @@
 {
   "canonical_model_id": null,
-  "fine_tuned_from_model_id": "Llama 4 Behemoth",
+  "fine_tuned_from_model_id": null,
   "name": "Llama 4 Maverick",
   "description": "Llama 4 Maverick is a natively multimodal model capable of processing both text and images. It features a 17 billion active parameter mixture-of-experts (MoE) architecture with 128 experts, supporting a wide range of multimodal tasks such as conversational interaction, image analysis, and code generation. The model includes a 1 million token context window.",
   "release_date": "2025-04-05",
@@ -37,7 +37,7 @@
     },
     {
       "dataset_name": "ChartQA",
-      "score": 0.90,
+      "score": 0.9,
       "is_self_reported": true,
       "analysis_method": "0-shot CoT",
       "date_recorded": "2025-04-05",
@@ -57,7 +57,7 @@
       "is_self_reported": true,
       "analysis_method": "0-shot CoT",
       "date_recorded": "2025-04-05",
-      "source_link": "https://ai.meta.com/blog/lla-4-multimodal-intelligence/"
+      "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
     },
     {
       "dataset_name": "MMLU-Pro",
@@ -74,6 +74,54 @@
       "analysis_method": "0-shot CoT",
       "date_recorded": "2025-04-05",
       "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "dataset_name": "MMMU Pro",
+      "score": 0.596,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.923,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.855,
+      "is_self_reported": true,
+      "analysis_method": "5-shot macro_avg/acc_char",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.612,
+      "is_self_reported": true,
+      "analysis_method": "4-shot em_maj1@1",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.776,
+      "is_self_reported": true,
+      "analysis_method": "3-shot pass@1",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "TydiQA",
+      "score": 0.317,
+      "is_self_reported": true,
+      "analysis_method": "1-shot average/f1",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
     }
   ]
 }
