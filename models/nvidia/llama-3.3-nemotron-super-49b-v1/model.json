@@ -60,7 +60,7 @@
       "source_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard"
     },
     {
-      "dataset_name": "MBPP 0-shot",
+      "dataset_name": "MBPP",
       "score": 0.913,
       "is_self_reported": true,
       "analysis_method": "Pass@1, Reasoning On",

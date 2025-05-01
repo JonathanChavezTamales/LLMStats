@@ -116,7 +116,7 @@
       "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-base"
     },
     {
-      "dataset_name": "AIME24",
+      "dataset_name": "AIME 2024",
       "score": 0.812,
       "is_self_reported": true,
       "analysis_method": "Not specified",
@@ -132,7 +132,7 @@
       "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-base"
     },
     {
-      "dataset_name": "ARC Challenge",
+      "dataset_name": "ARC-C",
       "score": 0.5084,
       "is_self_reported": true,
       "analysis_method": "Score",
@@ -140,7 +140,7 @@
       "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-base"
     },
     {
-      "dataset_name": "Hellaswag",
+      "dataset_name": "HellaSwag",
       "score": 0.801,
       "is_self_reported": true,
       "analysis_method": "Score",

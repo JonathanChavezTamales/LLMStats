@@ -172,7 +172,7 @@
       "source_link": "https://arxiv.org/abs/2206.04615"
     },
     {
-      "dataset_name": "Hellaswag",
+      "dataset_name": "HellaSwag",
       "score": 0.865,
       "is_self_reported": true,
       "analysis_method": "Accuracy (10-shot)",

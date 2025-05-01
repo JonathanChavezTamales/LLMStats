@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Mistral Small 3",
+  "name": "Mistral Small 3 24B Instruct",
   "description": "Mistral Small 3 is a 24B-parameter LLM licensed under Apache-2.0. It focuses on low-latency, high-efficiency instruction following, maintaining performance comparable to larger models. It provides quick, accurate responses for conversational agents, function calling, and domain-specific fine-tuning. Suitable for local inference when quantized, it rivals models 2–3× its size while using significantly fewer compute resources.",
   "release_date": "2025-01-30",
   "input_context_size": 32000,

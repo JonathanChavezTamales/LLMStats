@@ -68,7 +68,7 @@
       "updated_at": "2024-11-24"
     },
     {
-      "model_id": "mistral-small-3",
+      "model_id": "mistral-small-24b-instruct-2501",
       "price_per_input_token": 0.0000001,
       "price_per_output_token": 0.0000003,
       "throughput": 134,

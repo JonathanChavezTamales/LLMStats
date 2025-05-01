@@ -28,7 +28,7 @@
       "source_link": "https://developer.nvidia.com/blog/advancing-the-accuracy-efficiency-frontier-with-llama-3-1-nemotron-51b/"
     },
     {
-      "dataset_name": "ARC Challenge",
+      "dataset_name": "ARC-C",
       "score": 0.692,
       "is_self_reported": true,
       "analysis_method": "Standard evaluation",

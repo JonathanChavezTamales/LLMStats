@@ -84,7 +84,7 @@
       "source_link": "https://www.anthropic.com/news/claude-3-family"
     },
     {
-      "dataset_name": "ARC Challenge",
+      "dataset_name": "ARC-C",
       "score": 0.932,
       "is_self_reported": true,
       "analysis_method": "25-shot",

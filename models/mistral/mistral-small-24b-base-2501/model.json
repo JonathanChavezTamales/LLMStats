@@ -1,7 +1,7 @@
 {
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
-  "name": "Mistral Small 24B Base",
+  "name": "Mistral Small 3 24B Base",
   "description": "Mistral Small 3 is competitive with larger models such as Llama 3.3 70B or Qwen 32B, and is an excellent open replacement for opaque proprietary models like GPT4o-mini. Mistral Small 3 is on par with Llama 3.3 70B instruct, while being more than 3x faster on the same hardware.",
   "release_date": "2025-01-30",
   "input_context_size": 32000,
@@ -9,7 +9,7 @@
   "license": "Apache-2.0",
   "multimodal": true,
   "web_hydrated": false,
-  "knowledge_cutoff": null,
+  "knowledge_cutoff": "2023-10-01",
   "api_ref_link": null,
   "playground_link": "https://console.mistral.ai/",
   "paper_link": null,

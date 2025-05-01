@@ -28,7 +28,7 @@
       "source_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1/modelcard"
     },
     {
-      "dataset_name": "AIME25",
+      "dataset_name": "AIME 2025",
       "score": 0.725,
       "is_self_reported": true,
       "analysis_method": "Pass@1, Reasoning",
@@ -61,7 +61,7 @@
     },
     {
       "dataset_name": "MATH-500",
-      "score": 0.9700,
+      "score": 0.97,
       "is_self_reported": true,
       "analysis_method": "Pass@1, Reasoning",
       "date_recorded": "2025-04-07",
