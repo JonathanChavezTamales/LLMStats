@@ -20,10 +20,10 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
-      "dataset_name": "Arena-Hard",
+      "dataset_name": "Arena Hard",
       "score": 0.5756,
       "is_self_reported": true,
-      "analysis_method": "Arena-Hard benchmark evaluation",
+      "analysis_method": "Arena Hard benchmark evaluation",
       "date_recorded": "2025-04-16",
       "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
     },

@@ -92,7 +92,7 @@
       "source_link": "https://arxiv.org/pdf/2412.08905"
     },
     {
-      "dataset_name": "ArenaHard",
+      "dataset_name": "Arena Hard",
       "score": 0.754,
       "is_self_reported": true,
       "analysis_method": "simple-evals",

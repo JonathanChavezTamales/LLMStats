@@ -20,7 +20,7 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
-      "dataset_name": "Arena-Hard",
+      "dataset_name": "Arena Hard",
       "score": 0.883,
       "is_self_reported": true,
       "analysis_method": "Score, Reasoning Off",

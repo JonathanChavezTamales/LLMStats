@@ -84,10 +84,10 @@
       "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
     },
     {
-      "dataset_name": "Arena-Hard",
+      "dataset_name": "Arena Hard",
       "score": 0.52,
       "is_self_reported": true,
-      "analysis_method": "Arena-Hard benchmark evaluation",
+      "analysis_method": "Arena Hard benchmark evaluation",
       "date_recorded": "2024-09-19",
       "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
     },

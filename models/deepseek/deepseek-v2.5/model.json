@@ -28,7 +28,7 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5"
     },
     {
-      "dataset_name": "ArenaHard",
+      "dataset_name": "Arena Hard",
       "score": 0.762,
       "is_self_reported": true,
       "analysis_method": "Score",
