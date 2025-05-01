@@ -20,7 +20,7 @@
   "training_tokens": null,
   "qualitative_metrics": [
     {
-      "dataset_name": "Humanity's-Last-Exam",
+      "dataset_name": "Humanity's Last-Exam",
       "score": 0.188,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
