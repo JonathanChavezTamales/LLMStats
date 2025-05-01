@@ -68,7 +68,7 @@
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
-      "dataset_name": "CharXiv-Reasoning",
+      "dataset_name": "CharXiv-R",
       "score": 0.72,
       "is_self_reported": true,
       "analysis_method": "accuracy",

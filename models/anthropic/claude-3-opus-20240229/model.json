@@ -76,7 +76,7 @@
       "source_link": "https://www.anthropic.com/news/claude-3-family"
     },
     {
-      "dataset_name": "BIG-Bench-Hard",
+      "dataset_name": "BIG-Bench Hard",
       "score": 0.868,
       "is_self_reported": true,
       "analysis_method": "3-shot CoT",

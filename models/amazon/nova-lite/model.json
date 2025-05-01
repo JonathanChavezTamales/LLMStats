@@ -118,7 +118,7 @@
       "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
     },
     {
-      "dataset_name": "Doc VQA",
+      "dataset_name": "DocVQA",
       "score": 0.924,
       "is_self_reported": true,
       "analysis_method": "ANLS",
@@ -126,7 +126,7 @@
       "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
     },
     {
-      "dataset_name": "Text VQA",
+      "dataset_name": "TextVQA",
       "score": 0.802,
       "is_self_reported": true,
       "analysis_method": "weighted accuracy",
@@ -142,7 +142,7 @@
       "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
     },
     {
-      "dataset_name": "Ego Schema",
+      "dataset_name": "EgoSchema",
       "score": 0.714,
       "is_self_reported": true,
       "analysis_method": "accuracy",

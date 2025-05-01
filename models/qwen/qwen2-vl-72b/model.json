@@ -52,7 +52,7 @@
       "source_link": "https://github.com/QwenLM/Qwen2"
     },
     {
-      "dataset_name": "ChartQAtest",
+      "dataset_name": "ChartQA",
       "score": 0.883,
       "is_self_reported": true,
       "analysis_method": "score",
@@ -60,7 +60,7 @@
       "source_link": "https://github.com/QwenLM/Qwen2"
     },
     {
-      "dataset_name": "TextVQAval",
+      "dataset_name": "TextVQA",
       "score": 0.855,
       "is_self_reported": true,
       "analysis_method": "score",
@@ -132,7 +132,7 @@
       "source_link": "https://github.com/QwenLM/Qwen2"
     },
     {
-      "dataset_name": "EgoSchema_test",
+      "dataset_name": "EgoSchema",
       "score": 0.779,
       "is_self_reported": true,
       "analysis_method": "score",

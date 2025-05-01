@@ -116,7 +116,7 @@
       "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
-      "dataset_name": "Aider's polyglot: whole",
+      "dataset_name": "Aider-Polyglot",
       "score": 0.667,
       "is_self_reported": true,
       "analysis_method": "benchmark score",
@@ -124,7 +124,7 @@
       "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
-      "dataset_name": "Aider's polyglot: diff",
+      "dataset_name": "Aider-Polyglot Edit",
       "score": 0.604,
       "is_self_reported": true,
       "analysis_method": "benchmark score",
@@ -212,7 +212,7 @@
       "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
-      "dataset_name": "Taubench airline",
+      "dataset_name": "TAU-Bench Airline",
       "score": 0.324,
       "is_self_reported": true,
       "analysis_method": "benchmark score",
@@ -220,7 +220,7 @@
       "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
-      "dataset_name": "Taubench retail",
+      "dataset_name": "TAU-Bench Retail",
       "score": 0.576,
       "is_self_reported": true,
       "analysis_method": "benchmark score",

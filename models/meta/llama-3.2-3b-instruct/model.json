@@ -68,7 +68,7 @@
       "source_link": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
     },
     {
-      "dataset_name": "ARC-C",
+      "dataset_name": "ARC Challenge",
       "score": 0.786,
       "is_self_reported": true,
       "analysis_method": "0-shot, acc",

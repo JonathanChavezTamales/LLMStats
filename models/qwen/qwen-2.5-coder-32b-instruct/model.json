@@ -60,7 +60,7 @@
       "source_link": "https://arxiv.org/abs/2409.12186"
     },
     {
-      "dataset_name": "ARC-C",
+      "dataset_name": "ARC Challenge",
       "score": 0.705,
       "is_self_reported": true,
       "analysis_method": "accuracy",

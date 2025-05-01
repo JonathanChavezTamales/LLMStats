@@ -9,6 +9,22 @@
       "throughput": 85,
       "latency": 0.7,
       "updated_at": "2025-02-25"
+    },
+    {
+      "model_id": "grok-3",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000015,
+      "throughput": 100,
+      "latency": 0.7,
+      "updated_at": "2025-04-29"
+    },
+    {
+      "model_id": "grok-3-mini",
+      "price_per_input_token": 0.0000003,
+      "price_per_output_token": 0.0000005,
+      "throughput": 100,
+      "latency": 0.7,
+      "updated_at": "2025-04-29"
     }
   ]
 }

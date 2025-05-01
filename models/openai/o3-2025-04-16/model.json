@@ -76,7 +76,7 @@
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
-      "dataset_name": "CharXiv-Reasoning",
+      "dataset_name": "CharXiv-R",
       "score": 0.786,
       "is_self_reported": true,
       "analysis_method": "accuracy",
@@ -92,7 +92,7 @@
       "source_link": "https://openai.com/index/introducing-o3-and-o4-mini/"
     },
     {
-      "dataset_name": "Aider Polyglot",
+      "dataset_name": "Aider-Polyglot",
       "score": 0.813,
       "is_self_reported": true,
       "analysis_method": "accuracy (whole)",

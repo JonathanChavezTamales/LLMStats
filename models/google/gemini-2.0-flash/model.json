@@ -36,7 +36,7 @@
       "source_link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
     },
     {
-      "dataset_name": "Bird-SQL",
+      "dataset_name": "Bird-SQL (dev)",
       "score": 0.569,
       "is_self_reported": true,
       "analysis_method": "Natural language to SQL conversion evaluation",

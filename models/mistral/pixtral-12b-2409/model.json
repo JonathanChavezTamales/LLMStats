@@ -100,7 +100,7 @@
       "source_link": "https://mistral.ai/news/pixtral-12b/"
     },
     {
-      "dataset_name": "Math",
+      "dataset_name": "MATH",
       "score": 0.481,
       "is_self_reported": true,
       "analysis_method": "Pass@1",

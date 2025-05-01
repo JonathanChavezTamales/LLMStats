@@ -23,7 +23,7 @@
       "dataset_name": "Arena Hard",
       "score": 0.5756,
       "is_self_reported": true,
-      "analysis_method": "Arena Hard benchmark evaluation",
+      "analysis_method": "Arena Hard",
       "date_recorded": "2025-04-16",
       "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-base"
     },
@@ -60,7 +60,7 @@
       "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-base"
     },
     {
-      "dataset_name": "BigBenchHard",
+      "dataset_name": "BIG-Bench Hard",
       "score": 0.6913,
       "is_self_reported": true,
       "analysis_method": "OLMES (Added regex for more efficient answer extraction)",
@@ -132,7 +132,7 @@
       "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-base"
     },
     {
-      "dataset_name": "ARC-C",
+      "dataset_name": "ARC Challenge",
       "score": 0.5084,
       "is_self_reported": true,
       "analysis_method": "Score",

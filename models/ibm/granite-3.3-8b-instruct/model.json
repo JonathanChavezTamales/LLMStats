@@ -60,7 +60,7 @@
       "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
     },
     {
-      "dataset_name": "BigBenchHard",
+      "dataset_name": "BIG-Bench Hard",
       "score": 0.6913,
       "is_self_reported": true,
       "analysis_method": "OLMES (Added regex for more efficient answer extraction)",

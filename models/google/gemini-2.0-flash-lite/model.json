@@ -116,7 +116,7 @@
       "source_link": "https://ai.google.dev/gemini-api/docs/models"
     },
     {
-      "dataset_name": "EgoSchema_test",
+      "dataset_name": "EgoSchema",
       "score": 0.672,
       "is_self_reported": true,
       "analysis_method": "Video analysis across multiple domains",
