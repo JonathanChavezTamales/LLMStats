@@ -20,7 +20,7 @@
   "training_tokens": 36000000000000,
   "qualitative_metrics": [
     {
-      "dataset_name": "ArenaHard",
+      "dataset_name": "Arena Hard",
       "score": 0.956,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
@@ -47,7 +47,7 @@
       "dataset_name": "LiveCodeBench",
       "score": 0.707,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "v5",
       "date_recorded": "2025-04-29",
       "source_link": "https://qwenlm.github.io/blog/qwen3/"
     },
@@ -55,7 +55,7 @@
       "dataset_name": "CodeForces",
       "score": 2056,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "ELO Rating",
       "date_recorded": "2025-04-29",
       "source_link": "https://qwenlm.github.io/blog/qwen3/"
     },
@@ -63,7 +63,7 @@
       "dataset_name": "Aider",
       "score": 0.618,
       "is_self_reported": true,
-      "analysis_method": "Accuracy",
+      "analysis_method": "Pass@2",
       "date_recorded": "2025-04-29",
       "source_link": "https://qwenlm.github.io/blog/qwen3/"
     },
@@ -79,7 +79,7 @@
       "dataset_name": "BFCL",
       "score": 0.708,
       "is_self_reported": true,
-      "analysis_method": "FC-Format",
+      "analysis_method": "v3",
       "date_recorded": "2025-04-29",
       "source_link": "https://qwenlm.github.io/blog/qwen3/"
     },

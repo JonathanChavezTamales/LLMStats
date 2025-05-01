@@ -1,0 +1,71 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Llama 3.1 Nemotron Ultra 253B v1",
+  "description": "A 253B parameter derivative of Meta Llama 3.1 405B Instruct, developed by NVIDIA using Neural Architecture Search (NAS) and vertical compression. It underwent multi-phase post-training (SFT for Math, Code, Reasoning, Chat, Tool Calling; RL with GRPO) to enhance reasoning and instruction-following. Optimized for accuracy/efficiency tradeoff on NVIDIA GPUs. Supports 128k context.",
+  "release_date": "2025-04-07",
+  "input_context_size": 131072,
+  "output_context_size": 131072,
+  "license": "Llama 3.1 Community License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-12-01",
+  "api_ref_link": null,
+  "playground_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1",
+  "paper_link": "https://arxiv.org/abs/2502.00203",
+  "scorecard_blog_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1/modelcard",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
+  "param_count": 253000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "GPQA",
+      "score": 0.7601,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1, Reasoning",
+      "date_recorded": "2025-04-07",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1/modelcard"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.725,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1, Reasoning",
+      "date_recorded": "2025-04-07",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1/modelcard"
+    },
+    {
+      "dataset_name": "BFCL v2",
+      "score": 0.741,
+      "is_self_reported": true,
+      "analysis_method": "Score, Reasoning",
+      "date_recorded": "2025-04-07",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1/modelcard"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.6631,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1, Reasoning",
+      "date_recorded": "2025-04-07",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1/modelcard"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.8945,
+      "is_self_reported": true,
+      "analysis_method": "Strict Accuracy, Reasoning",
+      "date_recorded": "2025-04-07",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1/modelcard"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.97,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1, Reasoning",
+      "date_recorded": "2025-04-07",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1/modelcard"
+    }
+  ]
+}

@@ -3,6 +3,14 @@
   "website": "https://mistral.ai",
   "providermodels": [
     {
+      "model_id": "mistral-small-3.1-24b-base-2503",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000003,
+      "throughput": 137.1,
+      "latency": 0.23,
+      "updated_at": "2025-04-30"
+    },
+    {
       "model_id": "mistral-large-2-2407",
       "price_per_input_token": 0.000002,
       "price_per_output_token": 0.000006,
@@ -32,7 +40,7 @@
       "price_per_input_token": 0.0000001,
       "price_per_output_token": 0.0000001,
       "throughput": 0.1,
-      "latency": 0.5,
+      "latency": 0.18,
       "updated_at": "2024-11-24"
     },
     {
@@ -60,7 +68,7 @@
       "updated_at": "2024-11-24"
     },
     {
-      "model_id": "mistral-small-3",
+      "model_id": "mistral-small-24b-instruct-2501",
       "price_per_input_token": 0.0000001,
       "price_per_output_token": 0.0000003,
       "throughput": 134,

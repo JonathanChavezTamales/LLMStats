@@ -1,0 +1,135 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Granite 3.3 8B Instruct",
+  "description": "Granite 3.3 models feature enhanced reasoning capabilities and support for Fill-in-the-Middle (FIM) code completion. They are built on a foundation of open-source instruction datasets with permissive licenses, alongside internally curated synthetic datasets tailored for long-context problem-solving. These models preserve the key strengths of previous Granite versions, including support for a 128K context length, strong performance in retrieval-augmented generation (RAG) and function calling, and controls for response length and originality. Granite 3.3 also delivers competitive results across general, enterprise, and safety benchmarks. Released as open source, the models are available under the Apache 2.0 license.",
+  "release_date": "2025-04-16",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Apache 2.0",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-04-01",
+  "api_ref_link": "https://www.ibm.com/granite/docs/",
+  "playground_link": "https://www.ibm.com/granite/playground/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct",
+  "repo_link": "https://github.com/ibm-granite/granite-3.3-language-models",
+  "weights_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct",
+  "param_count": 8000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.5756,
+      "is_self_reported": true,
+      "analysis_method": "Arena Hard benchmark evaluation",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "AlpacaEval 2.0",
+      "score": 0.6268,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.6554,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "PopQA",
+      "score": 0.2617,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "TruthfulQA",
+      "score": 0.6686,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "BIG-Bench Hard",
+      "score": 0.6913,
+      "is_self_reported": true,
+      "analysis_method": "OLMES (Added regex for more efficient answer extraction)",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.5936,
+      "is_self_reported": true,
+      "analysis_method": "OLMES (Modified implementation)",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.8089,
+      "is_self_reported": true,
+      "analysis_method": "OLMES",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.8973,
+      "is_self_reported": true,
+      "analysis_method": "OLMES",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "HumanEval+",
+      "score": 0.8609,
+      "is_self_reported": true,
+      "analysis_method": "OLMES",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.7482,
+      "is_self_reported": true,
+      "analysis_method": "OLMES",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "AttaQ",
+      "score": 0.885,
+      "is_self_reported": true,
+      "analysis_method": "Not specified (OLMES)",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.812,
+      "is_self_reported": true,
+      "analysis_method": "Not specified",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.6902,
+      "is_self_reported": true,
+      "analysis_method": "Not specified",
+      "date_recorded": "2025-04-16",
+      "source_link": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Mistral Small 3.1 24B Instruct",
+  "description": "Building upon Mistral Small 3 (2501), Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance. With 24 billion parameters, this model achieves top-tier capabilities in both text and vision tasks.",
+  "release_date": "2025-03-17",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Apache-2.0",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": null,
+  "playground_link": "https://console.mistral.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://mistral.ai/news/mistral-small-3-1",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+  "param_count": 24000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.8062,
+      "is_self_reported": true,
+      "analysis_method": "Internal evaluation",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.6676,
+      "is_self_reported": true,
+      "analysis_method": "5-shot CoT",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.693,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "TriviaQA",
+      "score": 0.805,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.4442,
+      "is_self_reported": true,
+      "analysis_method": "Main, 5-shot CoT",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.4596,
+      "is_self_reported": true,
+      "analysis_method": "Diamond, 5-shot CoT",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.5927,
+      "is_self_reported": true,
+      "analysis_method": "CoT accuracy",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.7471,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.8841,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.1043,
+      "is_self_reported": true,
+      "analysis_method": "TotalAcc, Correct",
+      "date_recorded": "2025-03-17",
+      "source_link": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Llama-3.3 Nemotron Super 49B v1",
+  "description": "Llama-3.3-Nemotron-Super-49B-v1 is a large language model (LLM) derived from Meta Llama-3.3-70B-Instruct. It's post-trained for reasoning, chat, RAG, and tool calling, offering a balance between accuracy and efficiency (optimized for single H100). It underwent multi-phase post-training including SFT and RL (RLOO, RPO).",
+  "release_date": "2025-03-18",
+  "input_context_size": 131072,
+  "output_context_size": 131072,
+  "license": "Llama 3.1 Community License",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2023-12-31",
+  "api_ref_link": null,
+  "playground_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1",
+  "paper_link": "https://arxiv.org/abs/2502.00203",
+  "scorecard_blog_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1",
+  "param_count": 49900000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.883,
+      "is_self_reported": true,
+      "analysis_method": "Score, Reasoning Off",
+      "date_recorded": "2025-03-18",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard"
+    },
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.966,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1, Reasoning On",
+      "date_recorded": "2025-03-18",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.584,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1, Reasoning On",
+      "date_recorded": "2025-03-18",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.6667,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1, Reasoning On",
+      "date_recorded": "2025-03-18",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard"
+    },
+    {
+      "dataset_name": "BFCL v2",
+      "score": 0.737,
+      "is_self_reported": true,
+      "analysis_method": "Score, Reasoning On",
+      "date_recorded": "2025-03-18",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.913,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1, Reasoning On",
+      "date_recorded": "2025-03-18",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard"
+    },
+    {
+      "dataset_name": "MT-Bench",
+      "score": 0.917,
+      "is_self_reported": true,
+      "analysis_method": "Score, Reasoning On",
+      "date_recorded": "2025-03-18",
+      "source_link": "https://build.nvidia.com/nvidia/llama-3_3-nemotron-super-49b-v1/modelcard"
+    }
+  ]
+}

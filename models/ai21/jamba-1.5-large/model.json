@@ -60,7 +60,7 @@
       "source_link": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
     },
     {
-      "dataset_name": "ARC Challenge",
+      "dataset_name": "ARC-C",
       "score": 0.93,
       "is_self_reported": true,
       "analysis_method": "Accuracy",

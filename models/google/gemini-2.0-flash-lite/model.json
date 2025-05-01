@@ -1,0 +1,127 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini 2.0 Flash-Lite",
+  "description": "A Gemini 2.0 Flash model optimized for cost efficiency and low latency",
+  "release_date": "2025-02-05",
+  "input_context_size": 1048576,
+  "output_context_size": 8192,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-06-01",
+  "api_ref_link": "https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-lite",
+  "playground_link": "https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite",
+  "paper_link": null,
+  "scorecard_blog_link": "https://developers.googleblog.com/en/gemini-2-family-expands",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.716,
+      "is_self_reported": true,
+      "analysis_method": "Chain-of-Thought accuracy",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://developers.googleblog.com/en/gemini-2-family-expands/"
+    },
+    {
+      "dataset_name": "LiveCodeBench v5",
+      "score": 0.289,
+      "is_self_reported": true,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "Bird-SQL (dev)",
+      "score": 0.574,
+      "is_self_reported": true,
+      "analysis_method": "- evaluation",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.515,
+      "is_self_reported": true,
+      "analysis_method": "Diamond",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "SimpleQA",
+      "score": 0.217,
+      "is_self_reported": true,
+      "analysis_method": "Factuality",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "FACTS Grounding",
+      "score": 0.836,
+      "is_self_reported": true,
+      "analysis_method": "- evaluation",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "Global-MMLU-Lite",
+      "score": 0.782,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.868,
+      "is_self_reported": true,
+      "analysis_method": "standard",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "HiddenMath",
+      "score": 0.553,
+      "is_self_reported": true,
+      "analysis_method": "0-shot evaluation",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "MRCR 1M",
+      "score": 0.58,
+      "is_self_reported": true,
+      "analysis_method": "Long-context comprehension accuracy",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.68,
+      "is_self_reported": true,
+      "analysis_method": "Multi-discipline college-level multimodal understanding and reasoning problems",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "CoVoST2",
+      "score": 0.384,
+      "is_self_reported": true,
+      "analysis_method": "Automatic speech translation (BLEU score) across 21 languages",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "dataset_name": "EgoSchema",
+      "score": 0.672,
+      "is_self_reported": true,
+      "analysis_method": "Video analysis across multiple domains",
+      "date_recorded": "2025-02-05",
+      "source_link": "https://ai.google.dev/gemini-api/docs/models"
+    }
+  ]
+}

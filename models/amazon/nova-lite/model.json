@@ -22,7 +22,7 @@
       "source_link": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"
     },
     {
-      "dataset_name": "ARC Challenge",
+      "dataset_name": "ARC-C",
       "score": 0.924,
       "is_self_reported": true,
       "analysis_method": "0-shot chain-of-thought",

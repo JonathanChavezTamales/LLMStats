@@ -116,7 +116,7 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
     {
-      "dataset_name": "ArenaHard",
+      "dataset_name": "Arena Hard",
       "score": 0.923,
       "is_self_reported": false,
       "analysis_method": "GPT-4-1106",
