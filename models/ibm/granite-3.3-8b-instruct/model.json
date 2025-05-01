@@ -9,7 +9,7 @@
   "license": "Apache 2.0",
   "multimodal": true,
   "web_hydrated": false,
-  "knowledge_cutoff": null,
+  "knowledge_cutoff": "2024-04-01",
   "api_ref_link": "https://www.ibm.com/granite/docs/",
   "playground_link": "https://www.ibm.com/granite/playground/",
   "paper_link": null,
