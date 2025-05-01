@@ -9,7 +9,7 @@
   "license": "Proprietary",
   "multimodal": true,
   "web_hydrated": false,
-  "knowledge_cutoff": "2025-08-01",
+  "knowledge_cutoff": "2024-06-01",
   "api_ref_link": "https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-lite",
   "playground_link": "https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite",
   "paper_link": null,
