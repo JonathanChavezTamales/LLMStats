@@ -53,20 +53,13 @@
     },
     {
       "dataset_name": "AIME 2024",
-      "score": 0.833,
+      "score": 0.743,
       "is_self_reported": true,
       "analysis_method": "accuracy",
-      "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
-    {
-      "dataset_name": "Codeforces",
-      "score": 0.47,
-      "is_self_reported": true,
-      "analysis_method": "elo divided by max elo",
-      "date_recorded": "2024-12-20",
-      "source_link": "https://www.youtube.com/live/SKBG1sqdyIU?si=lWccKHt8bnttuYta"
-    },
+
     {
       "dataset_name": "GPQA",
       "score": 0.78,
@@ -77,19 +70,19 @@
     },
     {
       "dataset_name": "MMMU",
-      "score": 0.773,
+      "score": 0.776,
       "is_self_reported": true,
       "analysis_method": "pass@1",
-      "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "MathVista",
-      "score": 0.71,
+      "score": 0.718,
       "is_self_reported": true,
       "analysis_method": "pass@1",
-      "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/learning-to-reason-with-llms/"
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "GPQA Biology",
@@ -117,11 +110,11 @@
     },
     {
       "dataset_name": "SWE-bench Verified",
-      "score": 0.489,
+      "score": 0.41,
       "is_self_reported": true,
       "analysis_method": "verified",
-      "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/o1-and-new-tools-for-developers/"
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "LiveBench",
@@ -149,19 +142,19 @@
     },
     {
       "dataset_name": "TAU-bench Retail",
-      "score": 0.735,
+      "score": 0.708,
       "is_self_reported": true,
       "analysis_method": "agents",
-      "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/o1-and-new-tools-for-developers/"
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "TAU-bench Airline",
-      "score": 0.542,
+      "score": 0.5,
       "is_self_reported": true,
       "analysis_method": "agents",
-      "date_recorded": "2024-03-13",
-      "source_link": "https://openai.com/index/o1-and-new-tools-for-developers/"
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     },
     {
       "dataset_name": "FrontierMath",
@@ -170,6 +163,14 @@
       "analysis_method": "pass@1",
       "date_recorded": "2024-03-13",
       "source_link": "https://openai.com/index/o1-and-new-tools-for-developers/"
+    },
+    {
+      "dataset_name": "MMMLU",
+      "score": 0.877,
+      "is_self_reported": true,
+      "analysis_method": "accuracy",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     }
   ]
 }

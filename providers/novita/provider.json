@@ -9,6 +9,22 @@
       "throughput": 33,
       "latency": 0.2,
       "updated_at": "2025-03-13"
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "price_per_input_token": 0.00000017,
+      "price_per_output_token": 0.00000085,
+      "throughput": 69.42,
+      "latency": 0.62,
+      "updated_at": "2025-04-05"
+    },
+    {
+      "model_id": "llama-4-scout",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000005,
+      "throughput": 69.82,
+      "latency": 0.85,
+      "updated_at": "2025-04-05"
     }
   ]
 }

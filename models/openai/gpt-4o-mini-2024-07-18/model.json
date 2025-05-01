@@ -82,6 +82,14 @@
       "analysis_method": "Accuracy",
       "date_recorded": "2024-07-18",
       "source_link": "https://openai.com/blog/gpt-4o-mini-announcement"
+    },
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.087,
+      "is_self_reported": true,
+      "analysis_method": "Pass Rate",
+      "date_recorded": "2024-11-20",
+      "source_link": "https://openai.com/index/gpt-4-1/"
     }
   ]
 }

@@ -1,0 +1,103 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Qwen3 235B A22B",
+  "description": "Qwen3 235B A22B is a large language model developed by Alibaba, featuring a Mixture-of-Experts (MoE) architecture with 235 billion total parameters and 22 billion activated parameters. It achieves competitive results in benchmark evaluations of coding, math, general capabilities, and more, compared to other top-tier models.",
+  "release_date": "2025-04-29",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Apache 2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://qwenlm.github.io/blog/qwen3/",
+  "playground_link": "https://chat.qwen.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": "https://github.com/QwenLM/Qwen3",
+  "weights_link": "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+  "param_count": 235000000000,
+  "training_tokens": 36000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "ArenaHard",
+      "score": 0.956,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "AIME24",
+      "score": 0.857,
+      "is_self_reported": true,
+      "analysis_method": "Pass@64",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "AIME25",
+      "score": 0.815,
+      "is_self_reported": true,
+      "analysis_method": "Pass@64",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.707,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "CodeForces",
+      "score": 2056,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "Aider",
+      "score": 0.618,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "LiveBench",
+      "score": 0.771,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "BFCL",
+      "score": 0.708,
+      "is_self_reported": true,
+      "analysis_method": "FC-Format",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MultilF",
+      "score": 0.719,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.7,
+      "is_self_reported": false,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-reasoning"
+    }
+  ]
+}

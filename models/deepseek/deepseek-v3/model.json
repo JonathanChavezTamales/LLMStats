@@ -115,14 +115,7 @@
       "date_recorded": "2024-12-25",
       "source_link": "https://github.com/deepseek-ai/DeepSeek-V3"
     },
-    {
-      "dataset_name": "Codeforces",
-      "score": 0.516,
-      "is_self_reported": false,
-      "analysis_method": "Percentile",
-      "date_recorded": "2024-12-25",
-      "source_link": "https://github.com/deepseek-ai/DeepSeek-V3"
-    },
+
     {
       "dataset_name": "SWE-bench Verified",
       "score": 0.42,

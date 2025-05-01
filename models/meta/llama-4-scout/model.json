@@ -1,0 +1,119 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Llama 4 Scout",
+  "description": "Llama 4 Scout is a natively multimodal model capable of processing both text and images. It features a 17 billion activated parameter (109B total) mixture-of-experts (MoE) architecture with 16 experts, supporting a wide range of multimodal tasks such as conversational interaction, image analysis, and code generation. The model includes a 10 million token context window.",
+  "release_date": "2025-04-05",
+  "input_context_size": 10000000,
+  "output_context_size": 10000000,
+  "license": "Llama 4 Community License Agreement",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-08",
+  "api_ref_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+  "playground_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+  "paper_link": null,
+  "scorecard_blog_link": null,
+  "repo_link": "https://github.com/meta-llama/llama-models/tree/main/models/llama4",
+  "weights_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+  "param_count": 109000000000,
+  "training_tokens": 40000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMMU",
+      "score": 0.694,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.707,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.888,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.944,
+      "is_self_reported": true,
+      "analysis_method": "0-shot (ANLS)",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.328,
+      "is_self_reported": true,
+      "analysis_method": "0-shot CoT",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.743,
+      "is_self_reported": true,
+      "analysis_method": "0-shot (macro_avg/acc)",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.572,
+      "is_self_reported": true,
+      "analysis_method": "0-shot (accuracy)",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.906,
+      "is_self_reported": true,
+      "analysis_method": "0-shot (average/em)",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.796,
+      "is_self_reported": true,
+      "analysis_method": "5-shot macro_avg/acc_char",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.503,
+      "is_self_reported": true,
+      "analysis_method": "4-shot em_maj1@1",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.678,
+      "is_self_reported": true,
+      "analysis_method": "3-shot pass@1",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "dataset_name": "TydiQA",
+      "score": 0.315,
+      "is_self_reported": true,
+      "analysis_method": "1-shot average/f1",
+      "date_recorded": "2025-04-05",
+      "source_link": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+    }
+  ]
+}

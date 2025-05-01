@@ -123,14 +123,6 @@
       "updated_at": "2024-03-20"
     },
     {
-      "model_id": "claude-3-opus-20240229",
-      "price_per_input_token": 0.00000025,
-      "price_per_output_token": 0.00000125,
-      "throughput": 42,
-      "latency": 0.4,
-      "updated_at": "2024-03-20"
-    },
-    {
       "model_id": "llama-3.1-405b-instruct",
       "price_per_input_token": 0.000005,
       "price_per_output_token": 0.000016,

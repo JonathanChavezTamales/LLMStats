@@ -1,0 +1,223 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "GPT-4.1 nano",
+  "description": "GPT-4.1 nano is OpenAI's fastest and cheapest model available in the GPT-4.1 family. It delivers exceptional performance at a small size with its 1 million token context window. Ideal for tasks like classification or autocompletion.",
+  "release_date": "2025-04-14",
+  "input_context_size": 1047576,
+  "output_context_size": 32768,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-05-31",
+  "api_ref_link": "https://platform.openai.com/docs/models/gpt-4.1-nano",
+  "playground_link": "https://platform.openai.com/playground?mode=chat&model=gpt-4.1-nano",
+  "paper_link": null,
+  "scorecard_blog_link": "https://openai.com/index/gpt-4-1/",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.294,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.503,
+      "is_self_reported": true,
+      "analysis_method": "Diamond",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.801,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MMMLU",
+      "score": 0.669,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Aider-Polyglot",
+      "score": 0.098,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Aider-Polyglot Edit",
+      "score": 0.062,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Internal API instruction following (hard)",
+      "score": 0.316,
+      "is_self_reported": true,
+      "analysis_method": "Internal benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MultiChallenge",
+      "score": 0.15,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark (GPT-4o grader)",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MultiChallenge (o3-mini grader)",
+      "score": 0.311,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark (o3-mini grader, see footnote [3])",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "COLLIE",
+      "score": 0.425,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.745,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Multi-IF",
+      "score": 0.572,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "OpenAI-MRCR: 2 needle 128k",
+      "score": 0.366,
+      "is_self_reported": true,
+      "analysis_method": "Internal benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "OpenAI-MRCR: 2 needle 1M",
+      "score": 0.12,
+      "is_self_reported": true,
+      "analysis_method": "Internal benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Graphwalks BFS <128k",
+      "score": 0.25,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Graphwalks BFS >128k",
+      "score": 0.029,
+      "is_self_reported": true,
+      "analysis_method": "Internal benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Graphwalks parents <128k",
+      "score": 0.094,
+      "is_self_reported": true,
+      "analysis_method": "Internal benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "Graphwalks parents >128k",
+      "score": 0.056,
+      "is_self_reported": true,
+      "analysis_method": "Internal benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.554,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.562,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "CharXiv-R",
+      "score": 0.405,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "CharXiv-D",
+      "score": 0.739,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "ComplexFuncBench",
+      "score": 0.057,
+      "is_self_reported": true,
+      "analysis_method": "Standard benchmark",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "TAU-bench Airline",
+      "score": 0.14,
+      "is_self_reported": true,
+      "analysis_method": "Avg 5 runs, no custom tools/prompting (footnote [4])",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "dataset_name": "TAU-bench Retail",
+      "score": 0.226,
+      "is_self_reported": true,
+      "analysis_method": "Avg 5 runs, no custom tools/prompting (footnote [4], GPT-4o user model)",
+      "date_recorded": "2025-04-14",
+      "source_link": "https://openai.com/index/gpt-4-1/"
+    }
+  ]
+}
