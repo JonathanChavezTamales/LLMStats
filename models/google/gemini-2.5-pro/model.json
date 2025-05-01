@@ -68,7 +68,7 @@
       "source_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
     },
     {
-      "dataset_name": "SWE-bench-verified",
+      "dataset_name": "SWE-bench Verified",
       "score": 0.638,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
