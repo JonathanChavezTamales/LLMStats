@@ -28,7 +28,7 @@
       "source_link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct"
     },
     {
-      "dataset_name": "BigBench Hard CoT",
+      "dataset_name": "BIG-Bench Hard CoT",
       "score": 0.791,
       "is_self_reported": true,
       "analysis_method": "0-shot chain-of-thought",

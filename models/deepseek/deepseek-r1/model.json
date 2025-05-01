@@ -108,7 +108,7 @@
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
     {
-      "dataset_name": "AlpacaEval2.0",
+      "dataset_name": "AlpacaEval 2.0",
       "score": 0.876,
       "is_self_reported": false,
       "analysis_method": "LC-winrate",

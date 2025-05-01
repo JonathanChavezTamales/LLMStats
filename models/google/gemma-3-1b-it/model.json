@@ -68,7 +68,7 @@
       "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
     },
     {
-      "dataset_name": "MMLU (Pro)",
+      "dataset_name": "MMLU-Pro",
       "score": 0.147,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",
@@ -92,7 +92,7 @@
       "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
     },
     {
-      "dataset_name": "Math",
+      "dataset_name": "MATH",
       "score": 0.48,
       "is_self_reported": true,
       "analysis_method": "0-shot evaluation",

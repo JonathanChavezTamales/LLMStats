@@ -28,7 +28,7 @@
       "source_link": "https://qwenlm.github.io/blog/qwen3/"
     },
     {
-      "dataset_name": "AIME24",
+      "dataset_name": "AIME 2024",
       "score": 0.857,
       "is_self_reported": true,
       "analysis_method": "Pass@64",
@@ -36,7 +36,7 @@
       "source_link": "https://qwenlm.github.io/blog/qwen3/"
     },
     {
-      "dataset_name": "AIME25",
+      "dataset_name": "AIME 2025",
       "score": 0.815,
       "is_self_reported": true,
       "analysis_method": "Pass@64",

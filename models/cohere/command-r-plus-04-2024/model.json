@@ -44,7 +44,7 @@
       "source_link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
     },
     {
-      "dataset_name": "Truthful QA",
+      "dataset_name": "TruthfulQA",
       "score": 0.563,
       "is_self_reported": false,
       "analysis_method": "Standardized Evaluation",

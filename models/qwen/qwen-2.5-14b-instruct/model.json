@@ -52,7 +52,7 @@
       "source_link": "https://qwenlm.github.io/blog/qwen2.5-llm/"
     },
     {
-      "dataset_name": "ARC-C",
+      "dataset_name": "ARC Challenge",
       "score": 0.673,
       "is_self_reported": true,
       "analysis_method": "ARC-C benchmark evaluation",

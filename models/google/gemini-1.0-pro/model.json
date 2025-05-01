@@ -44,7 +44,7 @@
       "source_link": "https://example.com/benchmark-image"
     },
     {
-      "dataset_name": "BigBench",
+      "dataset_name": "BIG-Bench",
       "score": 0.75,
       "is_self_reported": false,
       "analysis_method": "Accuracy",

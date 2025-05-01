@@ -77,7 +77,7 @@
       "source_link": "https://github.com/MoonshotAI/Kimi-k1.5"
     },
     {
-      "dataset_name": "C-EVAL",
+      "dataset_name": "C-Eval",
       "score": 0.883,
       "is_self_reported": false,
       "analysis_method": "Exact Match",
@@ -85,7 +85,7 @@
       "source_link": "https://github.com/MoonshotAI/Kimi-k1.5"
     },
     {
-      "dataset_name": "IF-Eval",
+      "dataset_name": "IFEval",
       "score": 0.872,
       "is_self_reported": false,
       "analysis_method": "Exact Match",

@@ -68,7 +68,7 @@
       "source_link": "https://arxiv.org/pdf/2403.05530"
     },
     {
-      "dataset_name": "BigBench-Hard",
+      "dataset_name": "BIG-Bench Hard",
       "score": 0.892,
       "is_self_reported": true,
       "analysis_method": "3-shot",
@@ -84,7 +84,7 @@
       "source_link": "https://arxiv.org/pdf/2403.05530"
     },
     {
-      "dataset_name": "Hellaswag",
+      "dataset_name": "HellaSwag",
       "score": 0.933,
       "is_self_reported": true,
       "analysis_method": "10-shot",

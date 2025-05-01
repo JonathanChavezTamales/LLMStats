@@ -28,7 +28,7 @@
       "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
     },
     {
-      "dataset_name": "Text VQA",
+      "dataset_name": "TextVQA",
       "score": 0.735,
       "is_self_reported": true,
       "analysis_method": "Internal Evaluation",
@@ -68,7 +68,7 @@
       "source_link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
     },
     {
-      "dataset_name": "AI2 Diagram",
+      "dataset_name": "AI2D",
       "score": 0.923,
       "is_self_reported": true,
       "analysis_method": "Internal Evaluation",

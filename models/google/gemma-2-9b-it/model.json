@@ -76,7 +76,7 @@
       "source_link": "https://huggingface.co/blog/gemma2"
     },
     {
-      "dataset_name": "ARC-c",
+      "dataset_name": "ARC Challenge",
       "score": 0.684,
       "is_self_reported": true,
       "analysis_method": "25-shot evaluation",
