@@ -9,7 +9,7 @@
   "license": "Proprietary",
   "multimodal": true,
   "web_hydrated": true,
-  "knowledge_cutoff": "2025-02",
+  "knowledge_cutoff": "2024-11-17",
   "api_ref_link": "https://x.ai/api",
   "playground_link": null,
   "paper_link": null,

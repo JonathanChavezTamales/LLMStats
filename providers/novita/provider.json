@@ -25,6 +25,30 @@
       "throughput": 69.82,
       "latency": 0.85,
       "updated_at": "2025-04-05"
+    },
+    {
+      "model_id": "qwen3-235b-a22b",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000008,
+      "throughput": 38.51,
+      "latency": 1.02,
+      "updated_at": "2025-04-29"
+    },
+    {
+      "model_id": "qwen3-32b",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.00000045,
+      "throughput": 32.43,
+      "latency": 0.93,
+      "updated_at": "2025-05-23"
+    },
+    {
+      "model_id": "qwen3-30b-a3b",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.00000045,
+      "throughput": 88.84,
+      "latency": 0.73,
+      "updated_at": "2025-05-23"
     }
   ]
 }

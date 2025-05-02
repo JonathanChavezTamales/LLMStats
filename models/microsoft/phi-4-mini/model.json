@@ -9,7 +9,7 @@
   "license": "MIT",
   "multimodal": false,
   "web_hydrated": false,
-  "knowledge_cutoff": "2025-06-01",
+  "knowledge_cutoff": "2024-06-01",
   "api_ref_link": null,
   "playground_link": null,
   "paper_link": "https://arxiv.org/pdf/2503.01743",

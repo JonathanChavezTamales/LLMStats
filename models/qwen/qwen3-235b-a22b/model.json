@@ -64,7 +64,7 @@
       "score": 0.771,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2025-04-29",
+      "date_recorded": "2024-11-25",
       "source_link": "https://qwenlm.github.io/blog/qwen3/"
     },
     {
@@ -85,11 +85,123 @@
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.7,
-      "is_self_reported": false,
+      "score": 0.4747,
+      "is_self_reported": true,
       "analysis_method": "Accuracy",
       "date_recorded": "2025-04-29",
-      "source_link": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-reasoning"
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.8781,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MMLU-Redux",
+      "score": 0.874,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.6818,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "SuperGPQA",
+      "score": 0.4406,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "BBH",
+      "score": 0.8887,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.9439,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.7184,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.8353,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MMMLU",
+      "score": 0.867,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "INCLUDE",
+      "score": 0.7346,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "EvalPlus",
+      "score": 77.6,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MultiPL-E",
+      "score": 65.94,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 81.4,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "CRUX-O",
+      "score": 79.0,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
     }
   ]
 }

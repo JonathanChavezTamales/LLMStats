@@ -169,6 +169,38 @@
       "throughput": 37,
       "latency": 0.65,
       "updated_at": "2025-04-05"
+    },
+    {
+      "model_id": "phi-4-multimodal-instruct",
+      "price_per_input_token": 0.00000005,
+      "price_per_output_token": 0.0000001,
+      "throughput": 25,
+      "latency": 0.5,
+      "updated_at": "2025-05-01"
+    },
+    {
+      "model_id": "qwen3-235b-a22b",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000006,
+      "throughput": 21.74,
+      "latency": 1.23,
+      "updated_at": "2025-04-29"
+    },
+    {
+      "model_id": "qwen3-32b",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000003,
+      "throughput": 26.95,
+      "latency": 1.19,
+      "updated_at": "2025-05-23"
+    },
+    {
+      "model_id": "qwen3-30b-a3b",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000003,
+      "throughput": 82.57,
+      "latency": 0.84,
+      "updated_at": "2025-05-23"
     }
   ]
 }

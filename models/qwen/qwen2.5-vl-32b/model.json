@@ -1,0 +1,247 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Qwen2.5 VL 32B Instruct",
+  "description": "Qwen2.5-VL is a vision-language model from the Qwen family. Key enhancements include visual understanding (objects, text, charts, layouts), visual agent capabilities (tool use, computer/phone control), long video comprehension with event pinpointing, visual localization (bounding boxes/points), and structured output generation.",
+  "release_date": "2025-02-28",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "Apache 2.0",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": null,
+  "playground_link": "https://chat.qwen.ai/",
+  "paper_link": "https://arxiv.org/pdf/2502.13923",
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen2.5-vl/",
+  "repo_link": "https://github.com/QwenLM/Qwen2.5-VL",
+  "weights_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct",
+  "param_count": 33500000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMMU",
+      "score": 0.7,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MMMU-Pro",
+      "score": 0.495,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MMStar",
+      "score": 0.695,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MathVista-Mini",
+      "score": 0.747,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MathVision",
+      "score": 0.384,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-VL"
+    },
+    {
+      "dataset_name": "OCRBench-V2 (en)",
+      "score": 0.572,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "OCRBench-V2 (zh)",
+      "score": 0.591,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "CC-OCR",
+      "score": 0.771,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.948,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "InfoVQA",
+      "score": 0.834,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "LVBench",
+      "score": 0.49,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "CharadesSTA",
+      "score": 0.542,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "VideoMME w/o sub.",
+      "score": 0.705,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "VideoMME w sub.",
+      "score": 0.779,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MMBench-Video",
+      "score": 0.0193,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-VL"
+    },
+    {
+      "dataset_name": "AITZ_EM",
+      "score": 0.831,
+      "is_self_reported": true,
+      "analysis_method": "EM",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "Android Control High_EM",
+      "score": 0.696,
+      "is_self_reported": true,
+      "analysis_method": "EM",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "Android Control Low_EM",
+      "score": 0.933,
+      "is_self_reported": true,
+      "analysis_method": "EM",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "ScreenSpot",
+      "score": 0.885,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "ScreenSpot Pro",
+      "score": 0.394,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "AndroidWorld_SR",
+      "score": 0.22,
+      "is_self_reported": true,
+      "analysis_method": "SR",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "OSWorld",
+      "score": 0.0592,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.784,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.688,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.822,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "GPQA-diamond",
+      "score": 0.46,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.84,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.915,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-02-28",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "license": "MIT",
   "multimodal": false,
   "web_hydrated": false,
-  "knowledge_cutoff": "2025-04-01",
+  "knowledge_cutoff": "2025-03-01",
   "api_ref_link": "https://learn.microsoft.com/en-us/windows/ai/apis/phi-silica?tabs=csharp0,csharp1,csharp2,csharp3",
   "playground_link": null,
   "paper_link": "https://arxiv.org/abs/2504.21318",

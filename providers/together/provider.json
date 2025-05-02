@@ -97,6 +97,14 @@
       "throughput": 106.9,
       "latency": 0.54,
       "updated_at": "2025-04-05"
+    },
+    {
+      "model_id": "qwen3-235b-a22b",
+      "price_per_input_token": 0.0000002,
+      "price_per_output_token": 0.0000006,
+      "throughput": 23.74,
+      "latency": 0.79,
+      "updated_at": "2025-04-29"
     }
   ]
 }

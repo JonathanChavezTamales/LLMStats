@@ -1,0 +1,95 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Qwen3 32B",
+  "description": "Qwen3-32B is a large language model from Alibaba's Qwen3 series. It features 32.8 billion parameters, a 128k token context window, support for 119 languages, and hybrid thinking modes allowing switching between deep reasoning and fast responses. It demonstrates strong performance in reasoning, instruction-following, and agent capabilities.",
+  "release_date": "2025-04-29",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Apache 2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": null,
+  "playground_link": "https://chat.qwen.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen3/",
+  "repo_link": "https://github.com/QwenLM/Qwen3",
+  "weights_link": "https://huggingface.co/Qwen/Qwen3-32B",
+  "param_count": 32800000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.938,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.814,
+      "is_self_reported": true,
+      "analysis_method": "Pass@64",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.729,
+      "is_self_reported": true,
+      "analysis_method": "Pass@64",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.657,
+      "is_self_reported": true,
+      "analysis_method": "v5",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "CodeForces",
+      "score": 1977,
+      "is_self_reported": true,
+      "analysis_method": "Elo Rating",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "Aider",
+      "score": 0.502,
+      "is_self_reported": true,
+      "analysis_method": "Pass@2",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "LiveBench",
+      "score": 0.749,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-25",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "BFCL",
+      "score": 0.703,
+      "is_self_reported": true,
+      "analysis_method": "v3",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MultiLF",
+      "score": 0.73,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    }
+  ]
+}
