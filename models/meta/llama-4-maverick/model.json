@@ -76,7 +76,7 @@
       "source_link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
     },
     {
-      "dataset_name": "MMMU Pro",
+      "dataset_name": "MMMU-Pro",
       "score": 0.596,
       "is_self_reported": true,
       "analysis_method": "0-shot CoT",

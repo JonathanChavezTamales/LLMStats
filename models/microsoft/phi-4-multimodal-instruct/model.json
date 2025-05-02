@@ -1,0 +1,143 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Phi-4-multimodal-instruct",
+  "description": "Phi-4-multimodal-instruct is a lightweight (5.57B parameters) open multimodal foundation model that leverages research and datasets from Phi-3.5 and 4.0. It processes text, image, and audio inputs to generate text outputs, supporting a 128K token context length. Enhanced via SFT, DPO, and RLHF for instruction following and safety.",
+  "release_date": "2025-02-01",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "MIT",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-06-01",
+  "api_ref_link": null,
+  "playground_link": "https://ai.azure.com/explore/models?selectedCollection=phi&tid=72f988bf-86f1-41af-91ab-2d7cd011db47",
+  "paper_link": "https://arxiv.org/abs/2503.01743",
+  "scorecard_blog_link": "https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
+  "param_count": 5600000000,
+  "training_tokens": 5000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMBench",
+      "score": 0.867,
+      "is_self_reported": true,
+      "analysis_method": "dev-en",
+      "date_recorded": "2024-11-21",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.551,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2024-11-21",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "MMMU-Pro",
+      "score": 0.385,
+      "is_self_reported": true,
+      "analysis_method": "std/vision",
+      "date_recorded": "2024-11-21",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "ScienceQA Visual",
+      "score": 0.975,
+      "is_self_reported": true,
+      "analysis_method": "img-test",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.624,
+      "is_self_reported": true,
+      "analysis_method": "testmini",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "InterGPS",
+      "score": 0.486,
+      "is_self_reported": true,
+      "analysis_method": "testmini",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.823,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.814,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.932,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "InfoVQA",
+      "score": 0.727,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "TextVQA",
+      "score": 0.756,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "OCR Bench",
+      "score": 0.844,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "POPE",
+      "score": 0.856,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "BLINK",
+      "score": 0.613,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    },
+    {
+      "dataset_name": "Video MME",
+      "score": 0.55,
+      "is_self_reported": true,
+      "analysis_method": "16 frames",
+      "date_recorded": "2025-01-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
+    }
+  ]
+}

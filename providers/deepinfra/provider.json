@@ -153,6 +153,14 @@
       "throughput": 76.1,
       "latency": 0.31,
       "updated_at": "2025-04-05"
+    },
+    {
+      "model_id": "phi-4-multimodal-instruct",
+      "price_per_input_token": 0.00000005,
+      "price_per_output_token": 0.0000001,
+      "throughput": 25,
+      "latency": 0.5,
+      "updated_at": "2025-05-01"
     }
   ]
 }
