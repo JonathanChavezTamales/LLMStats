@@ -52,14 +52,6 @@
       "source_link": "https://qwenlm.github.io/blog/qwen3/"
     },
     {
-      "dataset_name": "CodeForces",
-      "score": 2056,
-      "is_self_reported": true,
-      "analysis_method": "ELO Rating",
-      "date_recorded": "2025-04-29",
-      "source_link": "https://qwenlm.github.io/blog/qwen3/"
-    },
-    {
       "dataset_name": "Aider",
       "score": 0.618,
       "is_self_reported": true,

@@ -58,14 +58,6 @@
       "analysis_method": "Pass@1",
       "date_recorded": "2025-01-20",
       "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
-    },
-    {
-      "dataset_name": "CodeForces",
-      "score": 1205,
-      "is_self_reported": false,
-      "analysis_method": "Rating",
-      "date_recorded": "2025-01-20",
-      "source_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
     }
   ]
 }

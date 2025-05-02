@@ -1,0 +1,64 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": "deepseek-v3",
+  "name": "DeepSeek R1 Zero",
+  "description": "DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning. With RL, DeepSeek-R1-Zero naturally emerged with numerous powerful and interesting reasoning behaviors. However, DeepSeek-R1-Zero encounters challenges such as endless repetition, poor readability, and language mixing. To address these issues and further enhance reasoning performance, we introduce DeepSeek-R1, which incorporates cold-start data before RL. DeepSeek-R1 achieves performance comparable to OpenAI-o1 across math, code, and reasoning tasks.",
+  "release_date": "2025-01-20",
+  "input_context_size": 131072,
+  "output_context_size": 131072,
+  "license": "MIT",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://api-docs.deepseek.com/news/news250120",
+  "playground_link": "https://chat.deepseek.com",
+  "paper_link": "https://arxiv.org/abs/2501.12948",
+  "scorecard_blog_link": null,
+  "repo_link": "https://github.com/deepseek-ai/DeepSeek-R1",
+  "weights_link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+  "param_count": 671000000000,
+  "training_tokens": 14800000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.71,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://arxiv.org/abs/2501.12948"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.867,
+      "is_self_reported": false,
+      "analysis_method": "Cons@64",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://arxiv.org/abs/2501.12948"
+    },
+
+    {
+      "dataset_name": "MATH-500",
+      "score": 0.959,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://arxiv.org/abs/2501.12948"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.5,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://arxiv.org/abs/2501.12948"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.733,
+      "is_self_reported": false,
+      "analysis_method": "Pass@1 Diamond",
+      "date_recorded": "2025-01-20",
+      "source_link": "https://arxiv.org/abs/2501.12948"
+    }
+  ]
+}
