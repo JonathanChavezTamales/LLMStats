@@ -110,9 +110,9 @@
       "model_id": "qwen3-30b-a3b",
       "price_per_input_token": 0.0000009,
       "price_per_output_token": 0.0000009,
-      "throughput": 124.0,
+      "throughput": 122.4,
       "latency": 0.66,
-      "updated_at": "2025-04-29"
+      "updated_at": "2025-05-23"
     }
   ]
 }
