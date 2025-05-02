@@ -1,0 +1,143 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "DeepSeek VL2",
+  "description": "An advanced series of large Mixture-of-Experts (MoE) Vision-Language Models that significantly improves upon its predecessor, DeepSeek-VL. DeepSeek-VL2 demonstrates superior capabilities across various tasks, including but not limited to visual question answering, optical character recognition, document/table/chart understanding, and visual grounding.",
+  "release_date": "2024-12-13",
+  "input_context_size": 129280,
+  "output_context_size": 129280,
+  "license": "deepseek",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://www.deepseek.com/",
+  "playground_link": "https://huggingface.co/deepseek-ai/deepseek-vl2",
+  "paper_link": "https://arxiv.org/pdf/2412.10302",
+  "scorecard_blog_link": null,
+  "repo_link": "https://github.com/deepseek-ai/DeepSeek-VL2?tab=readme-ov-file",
+  "weights_link": "https://huggingface.co/deepseek-ai/deepseek-vl2",
+  "param_count": 27000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMStar",
+      "score": 0.613,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.814,
+      "is_self_reported": true,
+      "analysis_method": "test",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.511,
+      "is_self_reported": true,
+      "analysis_method": "val",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "MME",
+      "score": 0.2253,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "MMBench",
+      "score": 0.831,
+      "is_self_reported": true,
+      "analysis_method": "sum",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "MMBench",
+      "score": 0.796,
+      "is_self_reported": true,
+      "analysis_method": "en test",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "MMBench-V1.1",
+      "score": 0.792,
+      "is_self_reported": true,
+      "analysis_method": "cn test",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "MMT-Bench",
+      "score": 0.636,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "RealWorldQA",
+      "score": 0.684,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.628,
+      "is_self_reported": true,
+      "analysis_method": "testmini",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.933,
+      "is_self_reported": true,
+      "analysis_method": "test",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.86,
+      "is_self_reported": true,
+      "analysis_method": "test",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "InfoVQA",
+      "score": 0.781,
+      "is_self_reported": true,
+      "analysis_method": "test",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "TextVQA",
+      "score": 0.842,
+      "is_self_reported": true,
+      "analysis_method": "val",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    },
+    {
+      "dataset_name": "OCRBench",
+      "score": 0.811,
+      "is_self_reported": true,
+      "analysis_method": "Standard Evaluation",
+      "date_recorded": "2024-12-13",
+      "source_link": "https://arxiv.org/pdf/2412.10302"
+    }
+  ]
+}
