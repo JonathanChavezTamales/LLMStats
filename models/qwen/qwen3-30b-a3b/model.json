@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Qwen3 30B A3B",
+  "description": "Qwen3-30B-A3B is a smaller Mixture-of-Experts (MoE) model from the Qwen3 series by Alibaba, with 30.5 billion total parameters and 3.3 billion activated parameters. Features hybrid thinking/non-thinking modes, support for 119 languages, and enhanced agent capabilities. It aims to outperform previous models like QwQ-32B while using significantly fewer activated parameters.",
+  "release_date": "2025-04-29",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Apache 2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://qwenlm.github.io/blog/qwen3/",
+  "playground_link": "https://chat.qwen.ai/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen3/",
+  "repo_link": "https://github.com/QwenLM/Qwen3",
+  "weights_link": "https://huggingface.co/Qwen/Qwen3-30B-A3B",
+  "param_count": 30500000000,
+  "training_tokens": 36000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.91,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.804,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.709,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.626,
+      "is_self_reported": true,
+      "analysis_method": "v5",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.658,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "LiveBench",
+      "score": 0.743,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2024-11-25",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "BFCL",
+      "score": 0.691,
+      "is_self_reported": true,
+      "analysis_method": "v3",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "dataset_name": "MultiIF",
+      "score": 0.722,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-29",
+      "source_link": "https://qwenlm.github.io/blog/qwen3/"
+    }
+  ]
+}
