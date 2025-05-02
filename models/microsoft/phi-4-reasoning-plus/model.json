@@ -1,0 +1,111 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Phi 4 Reasoning Plus",
+  "description": "Phi-4-reasoning-plus is a state-of-the-art open-weight reasoning model finetuned from Phi-4 using supervised fine-tuning and reinforcement learning. It focuses on math, science, and coding skills. This 'plus' version has higher accuracy due to additional RL training but may have higher latency.",
+  "release_date": "2025-04-30",
+  "input_context_size": 32000,
+  "output_context_size": 32000,
+  "license": "MIT",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2025-04-01",
+  "api_ref_link": "https://learn.microsoft.com/en-us/windows/ai/apis/phi-silica?tabs=csharp0,csharp1,csharp2,csharp3",
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/abs/2504.21318",
+  "scorecard_blog_link": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus",
+  "param_count": 14000000000,
+  "training_tokens": 16000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "AIME 2024",
+      "score": 0.813,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.78,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "OmniMath",
+      "score": 0.819,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.689,
+      "is_self_reported": true,
+      "analysis_method": "Diamond",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.531,
+      "is_self_reported": true,
+      "analysis_method": "8/1/24–2/1/25",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "FlenQA",
+      "score": 0.979,
+      "is_self_reported": true,
+      "analysis_method": "3K-token subset",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.849,
+      "is_self_reported": true,
+      "analysis_method": "Strict",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.79,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "HumanEval+",
+      "score": 0.923,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.76,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    },
+    {
+      "dataset_name": "PhiBench",
+      "score": 0.742,
+      "is_self_reported": true,
+      "analysis_method": "2.21",
+      "date_recorded": "2025-03-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
+    }
+  ]
+}

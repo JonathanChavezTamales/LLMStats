@@ -1,0 +1,159 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Phi 4 Mini",
+  "description": "Phi 4 Mini Instruct is a lightweight (3.8B parameters) open model built upon synthetic data and filtered web data, focusing on high-quality reasoning. It supports a 128K token context length and is enhanced for instruction adherence and safety via supervised fine-tuning and direct preference optimization.",
+  "release_date": "2025-02-01",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "MIT",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2025-06-01",
+  "api_ref_link": null,
+  "playground_link": null,
+  "paper_link": "https://arxiv.org/pdf/2503.01743",
+  "scorecard_blog_link": "https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+  "param_count": 3840000000,
+  "training_tokens": 5000000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.328,
+      "is_self_reported": true,
+      "analysis_method": "Standard evaluation",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "BigBench Hard",
+      "score": 0.704,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, CoT",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.673,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.528,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, CoT",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "ARC-C",
+      "score": 0.837,
+      "is_self_reported": true,
+      "analysis_method": "10-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "BoolQ",
+      "score": 0.812,
+      "is_self_reported": true,
+      "analysis_method": "2-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.252,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, CoT",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.691,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "OpenBookQA",
+      "score": 0.792,
+      "is_self_reported": true,
+      "analysis_method": "10-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "PIQA",
+      "score": 0.776,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "Social IQA",
+      "score": 0.725,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "TruthfulQA",
+      "score": 0.664,
+      "is_self_reported": true,
+      "analysis_method": "MC2, 10-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "Winogrande",
+      "score": 0.67,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "Multilingual MMLU",
+      "score": 0.493,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.639,
+      "is_self_reported": true,
+      "analysis_method": "5-shot",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.886,
+      "is_self_reported": true,
+      "analysis_method": "8-shot, CoT",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.64,
+      "is_self_reported": true,
+      "analysis_method": "0-shot, CoT",
+      "date_recorded": "2025-02-01",
+      "source_link": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
+    }
+  ]
+}
