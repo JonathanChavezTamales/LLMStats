@@ -9,6 +9,14 @@
       "throughput": 22,
       "latency": 0.5,
       "updated_at": "2024-11-24"
+    },
+    {
+      "model_id": "deepseek-vl2",
+      "price_per_input_token": 0.0000095,
+      "price_per_output_token": 0.0048,
+      "throughput": 22,
+      "latency": 0.5,
+      "updated_at": "2025-05-02"
     }
   ]
 }
