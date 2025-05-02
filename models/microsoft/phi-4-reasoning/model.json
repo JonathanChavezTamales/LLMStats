@@ -1,6 +1,6 @@
 {
   "canonical_model_id": null,
-  "fine_tuned_from_model_id": "microsoft/phi-4",
+  "fine_tuned_from_model_id": "phi-4",
   "name": "Phi 4 Reasoning",
   "description": "Phi-4-reasoning is a state-of-the-art open-weight reasoning model finetuned from Phi-4 using supervised fine-tuning on a dataset of chain-of-thought traces and reinforcement learning. It focuses on math, science, and coding skills.",
   "release_date": "2025-04-30",
