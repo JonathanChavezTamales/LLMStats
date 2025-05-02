@@ -153,6 +153,22 @@
       "throughput": 76.1,
       "latency": 0.31,
       "updated_at": "2025-04-05"
+    },
+    {
+      "model_id": "deepseek-r1-distill-llama-70b",
+      "price_per_input_token": 0.0000001,
+      "price_per_output_token": 0.0000004,
+      "throughput": 37,
+      "latency": 0.65,
+      "updated_at": "2025-04-05"
+    },
+    {
+      "model_id": "deepseek-r1-distill-qwen-32b",
+      "price_per_input_token": 0.00000012,
+      "price_per_output_token": 0.00000018,
+      "throughput": 37,
+      "latency": 0.65,
+      "updated_at": "2025-04-05"
     }
   ]
 }
