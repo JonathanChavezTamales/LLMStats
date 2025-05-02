@@ -13,7 +13,7 @@
   "api_ref_link": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api",
   "playground_link": null,
   "paper_link": null,
-  "scorecard_blog_link": "https://qwen2.org/qwen2-5/",
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen2.5/",
   "repo_link": "https://github.com/QwenLM/Qwen2.5",
   "weights_link": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
   "param_count": 72700000000,
