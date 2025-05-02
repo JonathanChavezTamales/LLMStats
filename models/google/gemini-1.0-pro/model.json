@@ -76,7 +76,7 @@
       "source_link": "https://example.com/benchmark-image"
     },
     {
-      "dataset_name": "Fleurs",
+      "dataset_name": "FLEURS",
       "score": 0.064,
       "is_self_reported": false,
       "analysis_method": "Accuracy",

@@ -220,7 +220,7 @@
       "source_link": "https://ai.google.dev/gemma/docs/core/model_card_3"
     },
     {
-      "dataset_name": "MathVista (testmini)",
+      "dataset_name": "MathVista-Mini",
       "score": 0.676,
       "is_self_reported": true,
       "analysis_method": "multimodal evaluation",

@@ -1,0 +1,263 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Qwen2.5 VL 72B Instruct",
+  "description": "Qwen2.5-VL is the new flagship vision-language model of Qwen, significantly improved from Qwen2-VL. It excels at recognizing objects, analyzing text/charts/layouts in images, acting as a visual agent, understanding long videos (over 1 hour) with event pinpointing, performing visual localization (bounding boxes/points), and generating structured outputs from documents.",
+  "release_date": "2025-01-26",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "tongyi-qianwen",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": null,
+  "playground_link": "https://chat.qwen.ai/",
+  "paper_link": "https://arxiv.org/pdf/2502.13923",
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen2.5-vl/",
+  "repo_link": "https://github.com/QwenLM/Qwen2.5-VL",
+  "weights_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct",
+  "param_count": 72000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMMU",
+      "score": 0.702,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MMMU-Pro",
+      "score": 0.511,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MathVista-Mini",
+      "score": 0.748,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MathVision",
+      "score": 0.381,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "Hallusion Bench",
+      "score": 0.5516,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MMBench",
+      "score": 0.88,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "AI2D",
+      "score": 0.884,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.895,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.964,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MMStar",
+      "score": 0.708,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MMVet",
+      "score": 0.7619,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "OCRBench",
+      "score": 0.885,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "OCRBench-V2 (en)",
+      "score": 0.615,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "CC-OCR",
+      "score": 0.798,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "VideoMME w/o sub.",
+      "score": 0.733,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MVBench",
+      "score": 0.704,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MMBench-Video",
+      "score": 0.0202,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-VL"
+    },
+    {
+      "dataset_name": "LVBench",
+      "score": 0.473,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "EgoSchema",
+      "score": 0.762,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "PerceptionTest",
+      "score": 0.732,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MLVU-M",
+      "score": 0.746,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "TempCompass",
+      "score": 0.748,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "ScreenSpot",
+      "score": 0.871,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "ScreenSpot Pro",
+      "score": 0.436,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "AITZ_EM",
+      "score": 0.832,
+      "is_self_reported": true,
+      "analysis_method": "EM",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "Android Control High_EM",
+      "score": 0.6736,
+      "is_self_reported": true,
+      "analysis_method": "EM",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "Android Control Low_EM",
+      "score": 0.937,
+      "is_self_reported": true,
+      "analysis_method": "EM",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "AndroidWorld_SR",
+      "score": 0.35,
+      "is_self_reported": true,
+      "analysis_method": "SR",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "MobileMiniWob++_SR",
+      "score": 0.68,
+      "is_self_reported": true,
+      "analysis_method": "SR",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "dataset_name": "OSWorld",
+      "score": 0.0883,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-01-26",
+      "source_link": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    }
+  ]
+}

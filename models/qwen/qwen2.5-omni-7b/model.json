@@ -1,0 +1,387 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Qwen2.5-Omni-7B",
+  "description": "Qwen2.5-Omni is the flagship end-to-end multimodal model in the Qwen series. It processes diverse inputs including text, images, audio, and video, delivering real-time streaming responses through text generation and natural speech synthesis using a novel Thinker-Talker architecture.",
+  "release_date": "2025-03-27",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "Apache 2.0",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": null,
+  "playground_link": "https://chat.qwen.ai/",
+  "paper_link": "https://arxiv.org/pdf/2503.20215",
+  "scorecard_blog_link": "https://qwenlm.github.io/blog/qwen2.5-omni/",
+  "repo_link": "https://github.com/QwenLM/Qwen2.5-Omni",
+  "weights_link": "https://huggingface.co/Qwen/Qwen2.5-Omni-7B",
+  "param_count": 7000000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "AI2D",
+      "score": 0.832,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "ChartQA",
+      "score": 0.853,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "CoVoST2 en-zh",
+      "score": 41.4,
+      "is_self_reported": true,
+      "analysis_method": "BLEU",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "Common Voice 15",
+      "score": 7.6,
+      "is_self_reported": true,
+      "analysis_method": "WER",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "CRPErelation",
+      "score": 0.765,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "DocVQA",
+      "score": 0.952,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "EgoSchema",
+      "score": 0.686,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "FLEURS",
+      "score": 4.1,
+      "is_self_reported": true,
+      "analysis_method": "WER",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "GiantSteps Tempo",
+      "score": 0.88,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.308,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.887,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.787,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+
+    {
+      "dataset_name": "LiveBench",
+      "score": 0.296,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MATH",
+      "score": 0.715,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MathVision",
+      "score": 0.25,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MathVista",
+      "score": 0.679,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.732,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "Meld",
+      "score": 0.57,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMAU",
+      "score": 0.656,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMAU Music",
+      "score": 0.6916,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMAU Sound",
+      "score": 0.6787,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMAU Speech",
+      "score": 0.5976,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMBench-V1.1-EN",
+      "score": 0.818,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MME-RealWorld",
+      "score": 0.616,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMLU-Pro",
+      "score": 0.47,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMLU-redux",
+      "score": 0.71,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMMU-Pro",
+      "score": 0.366,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.592,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MMStar",
+      "score": 0.64,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MM-MT-Bench",
+      "score": 6.0,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+
+    {
+      "dataset_name": "MuirBench",
+      "score": 0.592,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MultiPL-E",
+      "score": 0.658,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MusicCaps",
+      "score": 0.328,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "MVBench",
+      "score": 0.703,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "NMOS",
+      "score": 4.51,
+      "is_self_reported": true,
+      "analysis_method": "NMOS",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://qwenlm.github.io/blog/qwen2.5-omni/"
+    },
+    {
+      "dataset_name": "OCRBench_V2",
+      "score": 0.578,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "ODinW",
+      "score": 0.424,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "OmniBench",
+      "score": 0.5613,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "OmniBench Music",
+      "score": 0.5283,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "PointGrounding",
+      "score": 0.665,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "RealWorldQA",
+      "score": 0.703,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+
+    {
+      "dataset_name": "TextVQA",
+      "score": 0.844,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "Video-MMEw sub",
+      "score": 0.724,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+    {
+      "dataset_name": "VocalSound",
+      "score": 0.939,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    },
+
+    {
+      "dataset_name": "VoiceBench Avg",
+      "score": 0.7412,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-03-27",
+      "source_link": "https://github.com/QwenLM/Qwen2.5-Omni"
+    }
+  ]
+}

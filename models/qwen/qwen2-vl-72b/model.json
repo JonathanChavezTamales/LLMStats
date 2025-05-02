@@ -116,7 +116,7 @@
       "source_link": "https://github.com/QwenLM/Qwen2"
     },
     {
-      "dataset_name": "MathVista_test_mini",
+      "dataset_name": "MathVista-Mini",
       "score": 0.705,
       "is_self_reported": true,
       "analysis_method": "score",
