@@ -52,7 +52,7 @@
       "source_link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501"
     },
     {
-      "dataset_name": "ARC Challenge",
+      "dataset_name": "ARC-C",
       "score": 0.9129,
       "is_self_reported": true,
       "analysis_method": "0-shot",
