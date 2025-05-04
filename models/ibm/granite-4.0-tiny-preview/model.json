@@ -1,0 +1,119 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "IBM Granite 4.0 Tiny Preview",
+  "description": "A preliminary version of the smallest model in the upcoming Granite 4.0 family, released May 2025. It utilizes a novel hybrid Mamba-2/Transformer, fine-grained mixture of experts (MoE) architecture (7B total parameters, 1B active at inference). This preview version is partially trained (2.5T tokens) but demonstrates significant memory efficiency and performance potential, validated for at least 128K context length without positional encoding.",
+  "release_date": "2025-05-02",
+  "input_context_size": 128000,
+  "output_context_size": 128000,
+  "license": "Apache 2.0",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://www.ibm.com/granite/docs/",
+  "playground_link": "https://www.ibm.com/granite/playground/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek",
+  "repo_link": null,
+  "weights_link": "https://huggingface.co/ibm-granite/granite-4.0-tiny-preview",
+  "param_count": 7000000000,
+  "training_tokens": 2500000000000,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "MMLU",
+      "score": 0.604,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "PopQA",
+      "score": 0.229,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "TruthfulQA",
+      "score": 0.581,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "BIG-Bench Hard",
+      "score": 0.557,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.462,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "GSM8K",
+      "score": 0.701,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.824,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "HumanEval+",
+      "score": 0.783,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "IFEval",
+      "score": 0.63,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "AttaQ",
+      "score": 0.861,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://www.ibm.com/new/announcements/ibm-granite-4-0-tiny-preview-sneak-peek"
+    },
+    {
+      "dataset_name": "Arena Hard",
+      "score": 0.267,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://huggingface.co/ibm-granite/granite-4.0-tiny-preview"
+    },
+    {
+      "dataset_name": "AlpacaEval 2.0",
+      "score": 0.3516,
+      "is_self_reported": true,
+      "analysis_method": "Score",
+      "date_recorded": "2025-05-02",
+      "source_link": "https://huggingface.co/ibm-granite/granite-4.0-tiny-preview"
+    }
+  ]
+}
