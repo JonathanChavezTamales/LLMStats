@@ -9,7 +9,7 @@
   "license": "gemma",
   "multimodal": true,
   "web_hydrated": false,
-  "knowledge_cutoff": "2024-08",
+  "knowledge_cutoff": "2024-08-01",
   "api_ref_link": null,
   "playground_link": null,
   "paper_link": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf",

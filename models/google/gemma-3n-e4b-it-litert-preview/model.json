@@ -1,0 +1,255 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemma 3n E4B Instructed LiteRT Preview",
+  "description": "Gemma 3n is a generative AI model optimized for use in everyday devices, such as phones, laptops, and tablets. It features innovations like Per-Layer Embedding (PLE) parameter caching and a MatFormer model architecture for reduced compute and memory. These models handle audio, text, and visual data, though this E4B preview currently supports text and vision input. Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models, and is licensed for responsible commercial use.",
+  "release_date": "2024-07-20",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "gemma",
+  "multimodal": true,
+  "web_hydrated": false,
+  "knowledge_cutoff": "2024-06-01",
+  "api_ref_link": null,
+  "playground_link": "https://aistudio.google.com/",
+  "paper_link": null,
+  "scorecard_blog_link": "https://ai.google.dev/gemma/docs/gemma-3n",
+  "repo_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview",
+  "weights_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview",
+  "param_count": 1910000000,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "HellaSwag",
+      "score": 0.786,
+      "is_self_reported": true,
+      "analysis_method": "10-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "BoolQ",
+      "score": 0.816,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "PIQA",
+      "score": 0.81,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "SocialIQA",
+      "score": 0.5,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "TriviaQA",
+      "score": 0.702,
+      "is_self_reported": true,
+      "analysis_method": "5-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "Natural Questions",
+      "score": 0.209,
+      "is_self_reported": true,
+      "analysis_method": "5-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "ARC-c",
+      "score": 0.616,
+      "is_self_reported": true,
+      "analysis_method": "25-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "ARC-e",
+      "score": 0.816,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "WinoGrande",
+      "score": 0.717,
+      "is_self_reported": true,
+      "analysis_method": "5-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "BIG-Bench Hard",
+      "score": 0.529,
+      "is_self_reported": true,
+      "analysis_method": "few-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "DROP",
+      "score": 0.608,
+      "is_self_reported": true,
+      "analysis_method": "1-shot Token F1 score",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "MGSM",
+      "score": 0.607,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "WMT24++ (ChrF)",
+      "score": 0.501,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Character-level F-score",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "Include",
+      "score": 0.572,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "MMLU (ProX)",
+      "score": 0.199,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "OpenAI MMLU",
+      "score": 0.356,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "Global-MMLU",
+      "score": 0.603,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "ECLeKTic",
+      "score": 0.019,
+      "is_self_reported": true,
+      "analysis_method": "0-shot ECLeKTic score",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "GPQA Diamond",
+      "score": 0.237,
+      "is_self_reported": true,
+      "analysis_method": "0-shot RelaxedAccuracy/accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "LiveCodeBench v5",
+      "score": 0.257,
+      "is_self_reported": true,
+      "analysis_method": "0-shot pass@1",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "Codegolf v2.2",
+      "score": 0.168,
+      "is_self_reported": true,
+      "analysis_method": "0-shot pass@1",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.116,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "MMLU",
+      "score": 0.649,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.636,
+      "is_self_reported": true,
+      "analysis_method": "3-shot pass@1",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.75,
+      "is_self_reported": true,
+      "analysis_method": "0-shot pass@1",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.132,
+      "is_self_reported": true,
+      "analysis_method": "0-shot pass@1",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "HiddenMath",
+      "score": 0.377,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "Global-MMLU-Lite",
+      "score": 0.645,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    },
+    {
+      "dataset_name": "MMLU (Pro)",
+      "score": 0.506,
+      "is_self_reported": true,
+      "analysis_method": "0-shot Accuracy",
+      "date_recorded": "2024-07-20",
+      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
+    }
+  ]
+}
