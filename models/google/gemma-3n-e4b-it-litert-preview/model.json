@@ -68,7 +68,7 @@
       "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
     },
     {
-      "dataset_name": "ARC-c",
+      "dataset_name": "ARC-C",
       "score": 0.616,
       "is_self_reported": true,
       "analysis_method": "25-shot Accuracy",
@@ -76,7 +76,7 @@
       "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
     },
     {
-      "dataset_name": "ARC-e",
+      "dataset_name": "ARC-E",
       "score": 0.816,
       "is_self_reported": true,
       "analysis_method": "0-shot Accuracy",
@@ -116,15 +116,15 @@
       "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
     },
     {
-      "dataset_name": "WMT24++ (ChrF)",
+      "dataset_name": "WMT24++",
       "score": 0.501,
       "is_self_reported": true,
-      "analysis_method": "0-shot Character-level F-score",
+      "analysis_method": "ChrF, 0-shot Character-level F-score",
       "date_recorded": "2024-07-20",
       "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
     },
     {
-      "dataset_name": "Include",
+      "dataset_name": "INCLUDE",
       "score": 0.572,
       "is_self_reported": true,
       "analysis_method": "0-shot Accuracy",
@@ -132,16 +132,8 @@
       "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
     },
     {
-      "dataset_name": "MMLU (ProX)",
+      "dataset_name": "MMLU-ProX",
       "score": 0.199,
-      "is_self_reported": true,
-      "analysis_method": "0-shot Accuracy",
-      "date_recorded": "2024-07-20",
-      "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
-    },
-    {
-      "dataset_name": "OpenAI MMLU",
-      "score": 0.356,
       "is_self_reported": true,
       "analysis_method": "0-shot Accuracy",
       "date_recorded": "2024-07-20",
@@ -164,10 +156,10 @@
       "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
     },
     {
-      "dataset_name": "GPQA Diamond",
+      "dataset_name": "GPQA",
       "score": 0.237,
       "is_self_reported": true,
-      "analysis_method": "0-shot RelaxedAccuracy/accuracy",
+      "analysis_method": "Diamond, 0-shot RelaxedAccuracy/accuracy",
       "date_recorded": "2024-07-20",
       "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
     },
@@ -244,7 +236,7 @@
       "source_link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview"
     },
     {
-      "dataset_name": "MMLU (Pro)",
+      "dataset_name": "MMLU-Pro",
       "score": 0.506,
       "is_self_reported": true,
       "analysis_method": "0-shot Accuracy",
