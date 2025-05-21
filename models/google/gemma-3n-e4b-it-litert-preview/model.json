@@ -3,7 +3,7 @@
   "fine_tuned_from_model_id": null,
   "name": "Gemma 3n E4B Instructed LiteRT Preview",
   "description": "Gemma 3n is a generative AI model optimized for use in everyday devices, such as phones, laptops, and tablets. It features innovations like Per-Layer Embedding (PLE) parameter caching and a MatFormer model architecture for reduced compute and memory. These models handle audio, text, and visual data, though this E4B preview currently supports text and vision input. Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models, and is licensed for responsible commercial use.",
-  "release_date": "2024-07-20",
+  "release_date": "2025-05-20",
   "input_context_size": 32768,
   "output_context_size": 32768,
   "license": "gemma",
