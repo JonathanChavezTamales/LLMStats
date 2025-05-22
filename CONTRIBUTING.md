@@ -72,4 +72,4 @@ Location: `providers/[provider_name]/provider.json`
 
 Optionally you can run `node schemas/validator.js` to validate your changes against the schema. This will be run automatically on your Pull Request as well.
 
-For an example of a well-structured pull request, see [this example](https://github.com/JonathanChavezTamales/llm-stats/pull/1).
+For an example of a well-structured pull request, see [this example](https://github.com/JonathanChavezTamales/llm-leaderboard/pull/1).

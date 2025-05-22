@@ -1,0 +1,103 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Gemini Diffusion",
+  "description": "Gemini Diffusion is a state-of-the-art, experimental text diffusion model from Google DeepMind. It explores a new kind of language model designed to provide users with greater control, creativity, and speed in text generation. Instead of predicting text token-by-token, it learns to generate outputs by refining noise step-by-step, allowing for rapid iteration and error correction during generation. Key capabilities include rapid response times (reportedly 1479 tokens/sec excluding overhead), generation of more coherent text by outputting entire blocks of tokens at once, and iterative refinement for consistent outputs. It excels at tasks like editing, including in math and code contexts.",
+  "release_date": "2025-05-20",
+  "input_context_size": 32768,
+  "output_context_size": 32768,
+  "license": "Proprietary",
+  "multimodal": false,
+  "web_hydrated": false,
+  "knowledge_cutoff": null,
+  "api_ref_link": null,
+  "playground_link": null,
+  "paper_link": null,
+  "scorecard_blog_link": "https://deepmind.google/models/gemini-diffusion/",
+  "repo_link": "https://github.com/google",
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "LiveCodeBench",
+      "score": 0.309,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "BigCodeBench",
+      "score": 0.454,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "LBPP (v2)",
+      "score": 0.568,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.229,
+      "is_self_reported": true,
+      "analysis_method": "pass @1, Non-agentic evaluation (single turn edit only), max prompt length of 32K",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "HumanEval",
+      "score": 0.896,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "MBPP",
+      "score": 0.76,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "GPQA Diamond",
+      "score": 0.404,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.233,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "BIG-Bench Extra Hard",
+      "score": 0.15,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    },
+    {
+      "dataset_name": "Global MMLU (Lite)",
+      "score": 0.691,
+      "is_self_reported": true,
+      "analysis_method": "pass @1",
+      "date_recorded": "2024-07-26",
+      "source_link": "https://deepmind.google/models/gemini-diffusion/"
+    }
+  ]
+}

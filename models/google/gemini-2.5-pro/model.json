@@ -3,7 +3,7 @@
   "fine_tuned_from_model_id": null,
   "name": "Gemini 2.5 Pro",
   "description": "Our most intelligent AI model, built for the agentic era. Gemini 2.5 Pro leads on common benchmarks with enhanced reasoning, multimodal capabilities (text, image, video, audio input), and a 1M token context window.",
-  "release_date": "2025-03-28",
+  "release_date": "2025-05-20",
   "input_context_size": 1048576,
   "output_context_size": 65536,
   "license": "Proprietary",

@@ -3,7 +3,7 @@
   "fine_tuned_from_model_id": null,
   "name": "Gemini 2.5 Flash",
   "description": "A thinking model designed for a balance between price and performance. It builds upon Gemini 2.0 Flash with upgraded reasoning, hybrid thinking control, multimodal capabilities (text, image, video, audio input), and a 1M token input context window.",
-  "release_date": "2025-04-17",
+  "release_date": "2025-05-20",
   "input_context_size": 1048576,
   "output_context_size": 65536,
   "license": "Proprietary",
@@ -21,7 +21,7 @@
   "qualitative_metrics": [
     {
       "dataset_name": "Humanity's Last Exam",
-      "score": 0.121,
+      "score": 0.11,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
       "date_recorded": "2025-04-17",
@@ -29,7 +29,7 @@
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.783,
+      "score": 0.828,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
       "date_recorded": "2025-04-17",
@@ -37,7 +37,7 @@
     },
     {
       "dataset_name": "AIME 2025",
-      "score": 0.78,
+      "score": 0.72,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
       "date_recorded": "2025-04-17",
@@ -53,23 +53,47 @@
     },
     {
       "dataset_name": "LiveCodeBench v5",
-      "score": 0.635,
+      "score": 0.639,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
       "date_recorded": "2025-04-17",
       "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
     },
     {
-      "dataset_name": "Aider-Polyglot",
-      "score": 0.442,
+      "dataset_name": "Aider-Polyglot Edit",
+      "score": 0.567,
       "is_self_reported": true,
       "analysis_method": "Diff-Fenced",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025"
+    },
+    {
+      "dataset_name": "Aider-Polyglot",
+      "score": 0.619,
+      "is_self_reported": true,
+      "analysis_method": "whole",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.604,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
       "date_recorded": "2025-04-17",
       "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
     },
     {
       "dataset_name": "SimpleQA",
-      "score": 0.297,
+      "score": 0.269,
+      "is_self_reported": true,
+      "analysis_method": "Accuracy",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "FACTS Grounding",
+      "score": 0.853,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
       "date_recorded": "2025-04-17",
@@ -77,7 +101,7 @@
     },
     {
       "dataset_name": "MMMU",
-      "score": 0.767,
+      "score": 0.797,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
       "date_recorded": "2025-04-17",
@@ -85,7 +109,7 @@
     },
     {
       "dataset_name": "Vibe-Eval-Reka",
-      "score": 0.62,
+      "score": 0.654,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
       "date_recorded": "2025-04-17",
@@ -93,11 +117,19 @@
     },
     {
       "dataset_name": "MRCR",
-      "score": 0.846,
+      "score": 0.74,
       "is_self_reported": true,
       "analysis_method": "128k-average",
       "date_recorded": "2025-04-17",
       "source_link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+    },
+    {
+      "dataset_name": "MRCR",
+      "score": 0.32,
+      "is_self_reported": true,
+      "analysis_method": "1M-pointwise",
+      "date_recorded": "2025-04-17",
+      "source_link": "https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025"
     },
     {
       "dataset_name": "Global-MMLU-Lite",

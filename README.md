@@ -2,16 +2,16 @@
 
 # LLM-Stats.com
 
-[![GitHub stars](https://img.shields.io/github/stars/JonathanChavezTamales/LLMStats?style=social)](https://github.com/JonathanChavezTamales/LLMStats/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/JonathanChavezTamales/llm-leaderboard?style=social)](https://github.com/JonathanChavezTamales/llm-leaderboard/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?logo=discord&logoColor=white)](https://discord.com/invite/RxGUBvE42d)
-[![Issues](https://img.shields.io/github/issues/JonathanChavezTamales/LLMStats)](https://github.com/JonathanChavezTamales/llm-stats/issues)
+[![Issues](https://img.shields.io/github/issues/JonathanChavezTamales/llm-leaderboard)](https://github.com/JonathanChavezTamales/llm-leaderboard/issues)
 
 A community-driven repository of LLM data and benchmarks. Compare and explore language models through our interactive dashboard at [llm-stats.com](https://llm-stats.com).
 
 ## Found an issue or have a feature request?
 
-[Open an issue here](https://github.com/JonathanChavezTamales/LLMStats/issues). Thank you!
+[Open an issue here](https://github.com/JonathanChavezTamales/llm-leaderboard/issues). Thank you!
 
 # Data
 
