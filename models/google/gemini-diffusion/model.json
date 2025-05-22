@@ -68,7 +68,7 @@
       "source_link": "https://deepmind.google/models/gemini-diffusion/"
     },
     {
-      "dataset_name": "GPQA Diamond",
+      "dataset_name": "GPQA",
       "score": 0.404,
       "is_self_reported": true,
       "analysis_method": "pass @1",
