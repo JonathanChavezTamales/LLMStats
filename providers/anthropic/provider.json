@@ -49,6 +49,22 @@
       "throughput": 42,
       "latency": 0.4,
       "updated_at": "2025-02-24"
+    },
+    {
+      "model_id": "claude-sonnet-4-20250514",
+      "price_per_input_token": 0.000003,
+      "price_per_output_token": 0.000015,
+      "throughput": 42,
+      "latency": 0.4,
+      "updated_at": "2025-05-22"
+    },
+    {
+      "model_id": "claude-opus-4-20250514",
+      "price_per_input_token": 0.000015,
+      "price_per_output_token": 0.000075,
+      "throughput": 100,
+      "latency": 0.5,
+      "updated_at": "2025-05-22"
     }
   ]
 }

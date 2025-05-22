@@ -1,0 +1,87 @@
+{
+  "canonical_model_id": null,
+  "fine_tuned_from_model_id": null,
+  "name": "Claude Sonnet 4",
+  "description": "Claude Sonnet 4, part of the Claude 4 family, is a significant upgrade to Claude Sonnet 3.7. It excels in coding (72.7% on SWE-bench) and reasoning, responding more precisely to instructions. Sonnet 4 offers an optimal mix of capability and practicality, with enhanced steerability, and supports extended thinking with tool use. It is available via the Anthropic API, Amazon Bedrock, and Google Cloud's Vertex AI.",
+  "release_date": "2025-05-22",
+  "input_context_size": 200000,
+  "output_context_size": 128000,
+  "license": "Proprietary",
+  "multimodal": true,
+  "web_hydrated": true,
+  "knowledge_cutoff": null,
+  "api_ref_link": "https://docs.anthropic.com/en/docs/about-claude/models/all-models",
+  "playground_link": "https://claude.ai",
+  "paper_link": null,
+  "scorecard_blog_link": "https://www.anthropic.com/news/introducing-claude-4",
+  "repo_link": null,
+  "weights_link": null,
+  "param_count": null,
+  "training_tokens": null,
+  "qualitative_metrics": [
+    {
+      "dataset_name": "SWE-bench Verified",
+      "score": 0.802,
+      "is_self_reported": true,
+      "analysis_method": "Parallel test-time compute (multiple attempts, internal scoring model selection). No extended thinking. Based on footnote 5 and SWE-bench methodology for high compute.",
+      "date_recorded": "2025-05-22",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "dataset_name": "Terminal-bench",
+      "score": 0.413,
+      "is_self_reported": true,
+      "analysis_method": "Parallel test-time compute (multiple attempts, internal scoring model selection). No extended thinking. Claude Code as agent framework. Based on footnotes 2 and 5.",
+      "date_recorded": "2025-05-22",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "dataset_name": "GPQA",
+      "score": 0.838,
+      "is_self_reported": true,
+      "analysis_method": "Diamond: Extended thinking (up to 64K tokens) with parallel test-time compute (multiple attempts, internal scoring model selection). Based on footnote 5 and blog appendix.",
+      "date_recorded": "2025-05-22",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "dataset_name": "TAU-bench Retail",
+      "score": 0.805,
+      "is_self_reported": true,
+      "analysis_method": "Extended thinking with tool use (up to 64K tokens, prompt addendum, increased max steps). Based on blog appendix and TAU-bench methodology.",
+      "date_recorded": "2025-05-22",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "dataset_name": "TAU-bench Airline",
+      "score": 0.6,
+      "is_self_reported": true,
+      "analysis_method": "Extended thinking with tool use (up to 64K tokens, prompt addendum, increased max steps). Based on blog appendix and TAU-bench methodology.",
+      "date_recorded": "2025-05-22",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "dataset_name": "MMMLU",
+      "score": 0.865,
+      "is_self_reported": true,
+      "analysis_method": "Extended thinking (up to 64K tokens). Average over 14 non-English languages. Based on blog appendix and footnote 3.",
+      "date_recorded": "2025-05-22",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "dataset_name": "MMMU",
+      "score": 0.744,
+      "is_self_reported": true,
+      "analysis_method": "Extended thinking (up to 64K tokens). Based on blog appendix.",
+      "date_recorded": "2025-05-22",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.85,
+      "is_self_reported": true,
+      "analysis_method": "Extended thinking (up to 64K tokens) with parallel test-time compute (multiple attempts, internal scoring model selection). Nucleus sampling (top_p 0.95). Based on footnotes 4, 5 and blog appendix.",
+      "date_recorded": "2025-05-22",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    }
+  ]
+}
