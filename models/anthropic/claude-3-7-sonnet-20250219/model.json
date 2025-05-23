@@ -28,6 +28,14 @@
       "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
     },
     {
+      "dataset_name": "Terminal-bench",
+      "score": 0.352,
+      "is_self_reported": true,
+      "analysis_method": "Parallel test-time compute, Claude Code agent framework (footnotes 2, 5)",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
       "dataset_name": "TAU-bench Retail",
       "score": 0.812,
       "is_self_reported": true,
@@ -55,7 +63,7 @@
       "dataset_name": "MMMLU",
       "score": 0.861,
       "is_self_reported": true,
-      "analysis_method": "",
+      "analysis_method": "Average over 14 non-English languages (footnote 3)",
       "date_recorded": "2025-02-24",
       "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
     },
@@ -63,7 +71,7 @@
       "dataset_name": "MMMU",
       "score": 0.75,
       "is_self_reported": true,
-      "analysis_method": "",
+      "analysis_method": "validation",
       "date_recorded": "2025-02-24",
       "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
     },
@@ -90,6 +98,14 @@
       "analysis_method": "",
       "date_recorded": "2025-02-24",
       "source_link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "dataset_name": "AIME 2025",
+      "score": 0.548,
+      "is_self_reported": true,
+      "analysis_method": "Parallel test-time compute (footnotes 4, 5)",
+      "date_recorded": "2025-02-24",
+      "source_link": "https://www.anthropic.com/news/claude-4"
     }
   ]
 }
