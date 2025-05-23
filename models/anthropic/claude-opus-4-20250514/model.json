@@ -2,7 +2,7 @@
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
   "name": "Claude Opus 4",
-  "description": "Claude Opus 4 is Anthropic's most powerful model and the world's best coding model, part of the Claude 4 family. It delivers sustained performance on complex, long-running tasks and agent workflows. Opus 4 excels at coding, advanced reasoning, and can use tools (like web search) during extended thinking. It supports parallel tool execution and has improved memory capabilities. It is available via the Anthropic API, Amazon Bedrock, and Google Cloud's Vertex AI.",
+  "description": "Claude Opus 4 is Anthropic's most powerful model and the world's best coding model, part of the Claude 4 family. It delivers sustained performance on complex, long-running tasks and agent workflows. Opus 4 excels at coding, advanced reasoning, and can use tools (like web search) during extended thinking. It supports parallel tool execution and has improved memory capabilities.",
   "release_date": "2025-05-22",
   "input_context_size": 200000,
   "output_context_size": 128000,

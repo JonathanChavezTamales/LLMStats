@@ -2,7 +2,7 @@
   "canonical_model_id": null,
   "fine_tuned_from_model_id": null,
   "name": "Claude Sonnet 4",
-  "description": "Claude Sonnet 4, part of the Claude 4 family, is a significant upgrade to Claude Sonnet 3.7. It excels in coding (72.7% on SWE-bench) and reasoning, responding more precisely to instructions. Sonnet 4 offers an optimal mix of capability and practicality, with enhanced steerability, and supports extended thinking with tool use. It is available via the Anthropic API, Amazon Bedrock, and Google Cloud's Vertex AI.",
+  "description": "Claude Sonnet 4, part of the Claude 4 family, is a significant upgrade to Claude Sonnet 3.7. It excels in coding (72.7% on SWE-bench) and reasoning, responding more precisely to instructions. Sonnet 4 offers an optimal mix of capability and practicality, with enhanced steerability, and supports extended thinking with tool use.",
   "release_date": "2025-05-22",
   "input_context_size": 200000,
   "output_context_size": 128000,
